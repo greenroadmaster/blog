@@ -1,0 +1,28 @@
+---
+title: "프로젝트 공간"
+author: "Byeonghui Won"
+date: "`r Sys.Date()`"
+image_preview: "https://i.ytimg.com/vi/xAD9XaPfsvU/maxresdefault.jpg"
+categories: ["말레이시아"]
+tags: ["해외생활", "프로젝트"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Our project location
+
+```{r, echo=FALSE}
+library(leaflet)
+data <- read.csv("content/docs/map/data.csv")
+#data <- data[complete.cases(data),]
+
+data$long <- as.numeric(data$long)
+data$lat <- as.numeric(data$lat)
+
+leaflet() %>% 
+  setView(lng=120, lat=24, zoom=3) %>% 
+  addTiles() %>%
+  addMarkers(data = data, lng=~long, lat=~lat, popup = ~nation)
+```
