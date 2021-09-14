@@ -1,5 +1,5 @@
 ---
-title: Top 5 Artificial Intelligent(AI) Companies
+title: Top 5 인공지능 농업회사들
 description: This is documents of Future Technology
 featuredImage: 
 toc: true
@@ -12,8 +12,15 @@ lastmod: '2021-09-13'
 draft: false
 ---
 
-향후 인구 100억 명을 먹여 살리려면 지금보다 70% 더 많은 농산물이 필요합니다. 오늘 우리는
-세계에서 AI를 사용하는 상위 5개 Agtech 회사에 대해 이야기할 것입니다.  AI가 미래의 식량 안보를 보장하는 데 얼마나 영향을 미치는지 정확히 알 수 있습니다.
+## 지금보다 70% 더 많은 농산물이 필요합니다. 
+
+식량안보를 위해서 AI를 사용하는 상위 5개 Agtech 회사에 대해 이야기 할 것입니다. 
+
+지금 인구보다 30%정도 더 늘어나겠지만 고령화 현상과 생활여건 개선등의 이유로 향후 인구 100억 명을 먹여 살리려면 지금보다 70% 더 많은 농산물이 필요합니다.  
+
+그래서 오늘 우리는 향후 70% 생산증대를 위한 대안으로, AI를 사용하는 상위 5개 Agtech 회사에 대해 이야기 할 것입니다. 
+
+AI가 미래의 식량 안보를 보장하는데 얼마나 영향을 미치는지 알아보겠습니다.
 
 ## Benson Hill
 

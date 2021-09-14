@@ -13,8 +13,6 @@ draft: false
 ---
 
 대한민국에도 전도유망한 AgriTech 스타트업이 있습니다. 
-
-
 	
 ## Tridge
 
