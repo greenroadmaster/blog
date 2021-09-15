@@ -1,0 +1,108 @@
+---
+title: "Stock Report"
+author: "Brad Boehmke"
+date: '2021-09-15'
+output: html_document
+params:
+  symbol:
+    choices:
+    - AMZN
+    - GOOG
+    - FB
+    value: AMZN
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<div id="stock-amzn" class="section level1">
+<h1>Stock: AMZN</h1>
+<div id="recommendation-sell" class="section level2">
+<h2>Recommendation: SELL</h2>
+<p>AMZN will decrease in price during the next trading period.</p>
+</div>
+<div id="price-history" class="section level2">
+<h2>Price History</h2>
+<p>The chart below is made with the <code>quantmod</code> R package, a widely used package for collecting and visualizing financial data in R. You can learn more about <code>quantmod</code> at the website <a href="rstudio.github.io/DT/">www.quantmod.com</a>.</p>
+<hr />
+<p><img src="/post/sharer/sharer_files/figure-html/unnamed-chunk-2-1.png" width="864" style="display: block; margin: auto;" /></p>
+</div>
+<div id="method" class="section level2">
+<h2>Method</h2>
+<p>This forecast was predicted with the <em>recency algorithm</em>, a simple—probably useless—method for determining stock prices. The recency algorithm predicts that the next price movement, <span class="math inline">\(M_{j}\)</span>, will be in the same direction as the most recent price movement. <span class="math inline">\(M_{i}\)</span>.</p>
+<p><span class="math display">\[M_{i}= Close_{i} - Open_{i}\]</span></p>
+<p><span class="math display">\[
+    M_{j}= 
+        \begin{cases}
+                &gt; 0,  &amp; \text{if } M_{i} &gt; 0\\
+                \leq 0, &amp; \text{if } M_{i}\leq 0
+        \end{cases}
+\]</span>
+## Raw Data</p>
+<p>The table below displays the daily price data for the stock. In the next section, we will learn how to make a concise, interactive table with the <code>DT</code> package, a new package for making searchable data tables. You can learn more about the <code>DT</code> package at the website <a href="rstudio.github.io/DT/">rstudio.github.io/DT/</a>.</p>
+<hr />
+<table>
+<caption><span id="tab:unnamed-chunk-3">Table 1: </span>Stock information for last 7 business days</caption>
+<thead>
+<tr class="header">
+<th align="right">AMZN.Open</th>
+<th align="right">AMZN.High</th>
+<th align="right">AMZN.Low</th>
+<th align="right">AMZN.Close</th>
+<th align="right">AMZN.Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">3452.00</td>
+<td align="right">3482.67</td>
+<td align="right">3436.44</td>
+<td align="right">3478.05</td>
+<td align="right">2575700</td>
+</tr>
+<tr class="even">
+<td align="right">3478.00</td>
+<td align="right">3528.09</td>
+<td align="right">3476.94</td>
+<td align="right">3509.29</td>
+<td align="right">2737900</td>
+</tr>
+<tr class="odd">
+<td align="right">3511.65</td>
+<td align="right">3545.63</td>
+<td align="right">3495.67</td>
+<td align="right">3525.50</td>
+<td align="right">3053400</td>
+</tr>
+<tr class="even">
+<td align="right">3526.02</td>
+<td align="right">3549.99</td>
+<td align="right">3480.37</td>
+<td align="right">3484.16</td>
+<td align="right">2719200</td>
+</tr>
+<tr class="odd">
+<td align="right">3501.83</td>
+<td align="right">3508.45</td>
+<td align="right">3462.91</td>
+<td align="right">3469.15</td>
+<td align="right">2393300</td>
+</tr>
+<tr class="even">
+<td align="right">3482.80</td>
+<td align="right">3497.96</td>
+<td align="right">3438.00</td>
+<td align="right">3457.17</td>
+<td align="right">2569000</td>
+</tr>
+<tr class="odd">
+<td align="right">3475.55</td>
+<td align="right">3486.81</td>
+<td align="right">3437.71</td>
+<td align="right">3450.00</td>
+<td align="right">1933900</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
