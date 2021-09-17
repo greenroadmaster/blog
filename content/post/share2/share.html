@@ -1,0 +1,422 @@
+---
+title: "Core Functions in tidyquant"
+author: "Matt Dancho"
+date: "2021-09-16"
+output: 
+  rmarkdown::html_vignette:
+    toc: true
+    toc_depth: 2
+vignette: >
+  %\VignetteIndexEntry{Core Functions in tidyquant}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<blockquote>
+<p>A few core functions with a lot of power
+# Overview</p>
+</blockquote>
+<p>The <code>tidyquant</code> package has a <strong>core functions with a lot of power</strong>. Few functions means less of a learning curve for the user, which is why there are only a handful of functions the user needs to learn to perform the vast majority of financial analysis tasks. The main functions are:</p>
+<ul>
+<li><p><strong>Get a Stock Index, <code>tq_index()</code>, or a Stock Exchange, <code>tq_exchange()</code></strong>: Returns the stock symbols and various attributes for every stock in an index or exchange. Eighteen indexes and three exchanges are available.</p></li>
+<li><p><strong>Get Quantitative Data, <code>tq_get()</code></strong>: A one-stop shop to get data from various web-sources.</p></li>
+<li><p><strong>Transmute, <code>tq_transmute()</code>, and Mutate, <code>tq_mutate()</code>, Quantitative Data</strong>: Perform and scale financial calculations completely within the <code>tidyverse</code>. These workhorse functions integrate the <code>xts</code>, <code>zoo</code>, <code>quantmod</code>, and <code>TTR</code> packages.</p></li>
+<li><p><strong>Performance analysis, <code>tq_performance()</code>, and portfolio aggregation, <code>tq_portfolio()</code></strong>: The <code>PerformanceAnalytics</code> integration enables analyzing performance of assets and portfolios. Because of the breadth of this topic, refer to <a href="TQ05-performance-analysis-with-tidyquant.html">Performance Analysis with tidyquant</a> for a tutorial on these functions.</p></li>
+</ul>
+<div id="prerequisites" class="section level1">
+<h1>Prerequisites</h1>
+<p>Load the <code>tidyquant</code> package to get started.</p>
+<pre class="r"><code># Loads tidyquant, lubridate, xts, quantmod, TTR 
+library(tidyverse)
+library(tidyquant)</code></pre>
+</div>
+<div id="retrieve-consolidated-symbol-data" class="section level1">
+<h1>1.0 Retrieve Consolidated Symbol Data</h1>
+<div id="stock-indexes" class="section level2">
+<h2>1.1 Stock Indexes</h2>
+<p>A wide range of stock index / exchange lists can be retrieved using <code>tq_index()</code>. To get a full list of the options, use <code>tq_index_options()</code>.</p>
+<pre class="r"><code>tq_index_options()</code></pre>
+<pre><code>## [1] &quot;DOW&quot;       &quot;DOWGLOBAL&quot; &quot;SP400&quot;     &quot;SP500&quot;     &quot;SP600&quot;</code></pre>
+<p>Set <code>x</code> as one of the options in the list of options above to get the desired stock index / exchange.</p>
+<pre class="r"><code>tq_index(&quot;SP500&quot;)</code></pre>
+<p>The data source is <a href="https://www.ssga.com/us/en/institutional/etfs">State Street Global Advisors - US SPDRS ETFs</a>.</p>
+</div>
+<div id="stock-exchanges" class="section level2">
+<h2>1.2 Stock Exchanges</h2>
+<p>Stock lists for three stock exchanges are available: NASDAQ, NYSE, and AMEX. If you forget, just use <code>tq_exchange_options()</code>. We can easily get the full list of stocks on the NASDAQ exchange.</p>
+<pre class="r"><code>tq_exchange(&quot;NASDAQ&quot;)</code></pre>
+</div>
+</div>
+<div id="get-quantitative-data" class="section level1">
+<h1>1.0 Get Quantitative Data</h1>
+<p>The <code>tq_get()</code> function is used to collect data by changing the <code>get</code> argument. The data sources:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Yahoo Finance</strong> - Daily stock data</li>
+<li><strong>FRED</strong> - Economic data</li>
+<li><strong>Quandl</strong> - Economic, Energy, &amp; Financial Data API</li>
+<li><strong>Tiingo</strong> - Financial API with sub-daily stock data and crypto-currency</li>
+<li><strong>Alpha Vantage</strong> - Financial API with sub-daily, ForEx, and crypto-currency data</li>
+<li><strong>Bloomberg</strong> - Financial API. Paid account is required.</li>
+</ol>
+<p>Use <code>tq_get_options()</code> to see the full list.</p>
+<pre class="r"><code>tq_get_options()</code></pre>
+<pre><code>##  [1] &quot;stock.prices&quot;       &quot;stock.prices.japan&quot; &quot;dividends&quot;         
+##  [4] &quot;splits&quot;             &quot;economic.data&quot;      &quot;quandl&quot;            
+##  [7] &quot;quandl.datatable&quot;   &quot;tiingo&quot;             &quot;tiingo.iex&quot;        
+## [10] &quot;tiingo.crypto&quot;      &quot;alphavantager&quot;      &quot;alphavantage&quot;      
+## [13] &quot;rblpapi&quot;</code></pre>
+<div id="yahoo-finance" class="section level2">
+<h2>2.1 Yahoo! Finance</h2>
+<p>The stock prices can be retrieved succinctly using <code>get = "stock.prices"</code>. This returns stock price data from Yahoo Finance.</p>
+<pre class="r"><code>aapl_prices  &lt;- tq_get(&quot;AAPL&quot;, get = &quot;stock.prices&quot;, from = &quot; 1990-01-01&quot;)
+aapl_prices </code></pre>
+<pre><code>## [1] NA</code></pre>
+<p>Yahoo Japan stock prices can be retrieved using a similar call, <code>get = "stock.prices.japan"</code>.</p>
+<pre class="r"><code>x8411T &lt;- tq_get(&quot;8411.T&quot;, get = &quot;stock.prices.japan&quot;, from = &quot;2016-01-01&quot;, to  = &quot;2016-12-31&quot;)</code></pre>
+<p>The data source is <a href="https://finance.yahoo.com/">Yahoo Finance</a> and <a href="https://finance.yahoo.co.jp/">Yahoo Finance Japan</a>.</p>
+</div>
+<div id="fred-economic-data" class="section level2">
+<h2>2.2 FRED Economic Data</h2>
+<p>A wealth of economic data can be extracted from the Federal Reserve Economic Data (FRED) database. The FRED contains over 10K data sets that are free to use. See the <a href="https://fred.stlouisfed.org/categories">FRED categories</a> to narrow down the data base and to get data codes. The <a href="https://fred.stlouisfed.org/series/DCOILWTICO">WTI Crude Oil Prices</a> are shown below.</p>
+<pre class="r"><code>wti_price_usd &lt;- tq_get(&quot;DCOILWTICO&quot;, get = &quot;economic.data&quot;)
+wti_price_usd </code></pre>
+<pre><code>## # A tibble: 2,790 x 3
+##    symbol     date       price
+##    &lt;chr&gt;      &lt;date&gt;     &lt;dbl&gt;
+##  1 DCOILWTICO 2011-01-03  91.6
+##  2 DCOILWTICO 2011-01-04  89.4
+##  3 DCOILWTICO 2011-01-05  90.3
+##  4 DCOILWTICO 2011-01-06  88.4
+##  5 DCOILWTICO 2011-01-07  88.1
+##  6 DCOILWTICO 2011-01-10  89.2
+##  7 DCOILWTICO 2011-01-11  91.1
+##  8 DCOILWTICO 2011-01-12  91.8
+##  9 DCOILWTICO 2011-01-13  91.4
+## 10 DCOILWTICO 2011-01-14  91.5
+## # ... with 2,780 more rows</code></pre>
+</div>
+<div id="quandl-api" class="section level2">
+<h2>2.3 Quandl API</h2>
+<p><a href="https://www.quandl.com/">Quandl</a> provides access to a vast number of financial and economic databases. The <code>Quandl</code> package has been integrated into <code>tidyquant</code> as follows.</p>
+<div id="authentication" class="section level3">
+<h3>Authentication</h3>
+<p>To make full use of the integration we recommend you set your api key. To do this create or sign into your Quandl account and go to your account api key page.</p>
+<pre class="r"><code>quandl_api_key(&quot;&lt;your-api-key&gt;&quot;)</code></pre>
+</div>
+<div id="search" class="section level3">
+<h3>Search</h3>
+<p>Searching Quandl from within the R console is possible with <code>quandl_search()</code>, a wrapper for <code>Quandl::Quandl.search()</code>. An example search is shown below. The only required argument is <code>query</code>. You can also visit the <a href="https://www.quandl.com/search">Quandl Search</a> webpage to search for available database codes.</p>
+<pre class="r"><code>quandl_search(query = &quot;Oil&quot;, database_code = &quot;NSE&quot;, per_page = 3)</code></pre>
+</div>
+<div id="getting-quandl-data" class="section level3">
+<h3>Getting Quandl Data</h3>
+<p>Getting data is integrated into <code>tq_get()</code>. Two get options exist to retrieve Quandl data:</p>
+<ol style="list-style-type: decimal">
+<li><code>get = "quandl"</code>: Get’s Quandl time series data. A wrapper for <code>Quandl()</code>.</li>
+<li><code>get = "quandl.datatable"</code>: Gets Quandl datatables (larger data sets that may not be time series). A wrapper for <code>Quandl.datatable()</code>.</li>
+</ol>
+<p>Getting data from Quandl can be achieved in much the same way as the other “get” options. Just pass the “codes” for the data along with desired arguments for the underlying function.</p>
+<p>The following uses <code>get = "quandl"</code> and the “WIKI” database to download daily stock prices for FB and AAPL in 2016. The output is a tidy data frame.</p>
+<pre class="r"><code>c(&quot;WIKI/FB&quot;, &quot;WIKI/AAPL&quot;) %&gt;%
+    tq_get(get  = &quot;quandl&quot;,
+           from = &quot;2016-01-01&quot;,
+           to   = &quot;2016-12-31&quot;)</code></pre>
+<p>The following time series options are available to be passed to the underlying <code>Quandl()</code> function:</p>
+<ul>
+<li><code>start_date</code> (<code>from</code>) = “yyyy-mm-dd” | <code>end_date</code> (<code>to</code>) = “yyyy-mm-dd”</li>
+<li><code>column_index</code> = numeric column number (e.g. 1)</li>
+<li><code>rows</code> = numeric row number indicating first n rows (e.g. 100)</li>
+<li><code>collapse</code> = “none”, “daily”, “weekly”, “monthly”, “quarterly”, “annual”</li>
+<li><code>transform</code> = “none”, “diff”, “rdiff”, “cumul”, “normalize”</li>
+</ul>
+<p>Here’s an example to get period returns of the adj.close (column index 11) using the <code>column_index</code>, <code>collapse</code> and <code>transform</code> arguments.</p>
+<pre class="r"><code>c(&quot;WIKI/FB&quot;, &quot;WIKI/AAPL&quot;) %&gt;%
+    tq_get(get          = &quot;quandl&quot;,
+           from         = &quot;2007-01-01&quot;,
+           to           = &quot;2016-12-31&quot;,
+           column_index = 11, 
+           collapse     = &quot;annual&quot;,      
+           transform    = &quot;rdiff&quot;)       </code></pre>
+<p>Datatables are larger data sets. These can be downloaded using <code>get = "quandl.datatable"</code>. Note that the time series arguments do not work with data tables.</p>
+<p>Here’s several examples of <a href="https://www.quandl.com/databases/ZFB/documentation/about">Zacks Fundamentals Collection B</a></p>
+<pre class="r"><code># Zacks Fundamentals Collection B (DOW 30 Available to non subscribers)
+tq_get(&quot;ZACKS/FC&quot;, get = &quot;quandl.datatable&quot;)   # Zacks Fundamentals Condensed
+tq_get(&quot;ZACKS/FR&quot;, get = &quot;quandl.datatable&quot;)   # Zacks Fundamental Ratios
+tq_get(&quot;ZACKS/MT&quot;, get = &quot;quandl.datatable&quot;)   # Zacks Master Table
+tq_get(&quot;ZACKS/MKTV&quot;, get = &quot;quandl.datatable&quot;) # Zacks Market Value Supplement
+tq_get(&quot;ZACKS/SHRS&quot;, get = &quot;quandl.datatable&quot;) # Zacks Shares Out Supplement</code></pre>
+</div>
+</div>
+<div id="tiingo-api" class="section level2">
+<h2>2.4 Tiingo API</h2>
+<p>The <a href="https://www.tiingo.com/">Tiingo API</a> is a free source for stock prices, cryptocurrencies, and intraday feeds from the IEX (Investors Exchange). This can serve as an alternate source of data to Yahoo! Finance.</p>
+<div id="authentication-1" class="section level3">
+<h3>Authentication</h3>
+<p>To make full use of the integration you need to get an API key and then set your api key. If you don’t have one already, go to <a href="https://www.tiingo.com/">Tiingo</a> account and get your FREE API key. You can then set it as follows:</p>
+<pre class="r"><code>tiingo_api_key(&#39;&lt;your-api-key&gt;&#39;)</code></pre>
+</div>
+<div id="getting-tiingo-data" class="section level3">
+<h3>Getting Tiingo Data</h3>
+<p>The <code>tidyquant</code> package provides convenient wrappers to the <code>riingo</code> package (R interface to Tiingo). Here’s how <code>tq_get()</code> maps to <code>riingo</code>:</p>
+<ul>
+<li>Tiingo Prices: <code>tq_get(get = "tiingo") = riingo::riingo_prices()</code></li>
+<li>Tiingo IEX Data: <code>tq_get(get = "tiingo.iex") = riingo::riingo_iex_prices()</code></li>
+<li>Tiingo Crypto Data: <code>tq_get(get = "tiingo.crypto") = riingo::riingo_crypto_prices()</code></li>
+</ul>
+<pre class="r"><code># Tiingo Prices (Free alternative to Yahoo Finance!)
+tq_get(c(&quot;AAPL&quot;, &quot;GOOG&quot;), get = &quot;tiingo&quot;, from = &quot;2010-01-01&quot;)
+# Sub-daily prices from IEX ----
+tq_get(c(&quot;AAPL&quot;, &quot;GOOG&quot;),
+       get = &quot;tiingo.iex&quot;,
+       from   = &quot;2020-01-01&quot;,
+       to     = &quot;2020-01-15&quot;,
+       resample_frequency = &quot;5min&quot;)
+# Tiingo Bitcoin in USD ----
+tq_get(c(&quot;btcusd&quot;),
+       get    = &quot;tiingo.crypto&quot;,
+       from   = &quot;2020-01-01&quot;,
+       to     = &quot;2020-01-15&quot;,
+       resample_frequency = &quot;5min&quot;)</code></pre>
+</div>
+</div>
+<div id="alpha-vantage-api" class="section level2">
+<h2>2.5 Alpha Vantage API</h2>
+<p><a href="https://www.alphavantage.co/">Alpha Vantage</a> provides access to a real-time and historical financial data. The <code>alphavantager</code> package, a lightweight R interface, has been integrated into <code>tidyquant</code> as follows. The benefit of the integration is the <strong>scalability since we can now get multiple symbols returned in a tidy format</strong>.</p>
+<div id="authentication-2" class="section level3">
+<h3>Authentication</h3>
+<p>To make full use of the integration you need to get an API key and then set your api key. If you don’t have one already, go to <a href="https://www.alphavantage.co/">Alpha Vantage</a> account and get your FREE API key. You can then set it as follows:</p>
+<pre class="r"><code>av_api_key(&quot;&lt;your-api-key&gt;&quot;)</code></pre>
+</div>
+<div id="getting-alpha-vantage-data" class="section level3">
+<h3>Getting Alpha Vantage Data</h3>
+<p>Getting data is simple as the structure follows the <a href="https://www.alphavantage.co/documentation/">Alpha Vantage API documentation</a>. For example, if you wish to retrieve intraday data at 5 minute intervals for FB and MSFT, you can build the parameters <code>x = c("FB", "MSFT"), get = "alphavantager", av_fun = "TIME_SERIES_INTRADAY", interval = "5min"</code>. The familiar <code>x</code> and <code>get</code> are the same as you always use. The <code>av_fun</code> argument comes from <code>alphavantager::av_get()</code> and the Alpha Vantage documentation. The <code>interval</code> argument comes from the docs as well.</p>
+<pre class="r"><code># Scaling is as simple as supplying multiple symbols
+c(&quot;FB&quot;, &quot;MSFT&quot;) %&gt;%
+    tq_get(get = &quot;alphavantage&quot;, av_fun = &quot;TIME_SERIES_INTRADAY&quot;, interval = &quot;5min&quot;)</code></pre>
+</div>
+</div>
+<div id="bloomberg" class="section level2">
+<h2>2.6 Bloomberg</h2>
+<p><a href="https://www.bloomberg.com/professional/solution/bloomberg-terminal/">Bloomberg</a> provides access to arguably the most comprehensive financial data and is actively used by most major financial instutions that work with financial data. The <code>Rblpapi</code> package, an R interface to Bloomberg, has been integrated into <code>tidyquant</code> as follows. The benefit of the integration is the <strong>scalability since we can now get multiple symbols returned in a tidy format</strong>.</p>
+<div id="authentication-3" class="section level3">
+<h3>Authentication</h3>
+<p>To make full use of the integration you need to have a Bloomberg Terminal account (Note this is not a free service). If you have Bloomberg Terminal running on your machine, you can connect as follows:</p>
+<pre class="r"><code>blpConnect()</code></pre>
+</div>
+<div id="getting-bloomberg-data" class="section level3">
+<h3>Getting Bloomberg Data</h3>
+<p>Getting data is simple as the structure follows the <a href="https://CRAN.R-project.org/package=Rblpapi">Rblpapi API documentation</a>. For example, if you wish to retrieve monthly data for SPX Index and AGTHX Equity, you can build the <code>tq_get</code> parameters as follows:</p>
+<ul>
+<li><code>x = c('SPX Index','ODMAX Equity')</code></li>
+<li><code>get = "rblpapi"</code></li>
+<li><code>rblpapi_fun = "bdh"</code> Note that “bdh” is the default, and options include “bdh” (Bloomberg Data History), “bds” (Bloomberg Data Set), and “bdp” (Bloomberg Data Point)</li>
+<li><code>from / to</code> These get passed to <code>start.date</code> and <code>end.date</code> and can be provided in “YYYY-MM-DD” character format. Note that <code>start.date</code> and <code>end.date</code> from <code>Rblpapi</code> can be used but must be converted to date or datetime.</li>
+<li>Other arguments: These are options that depend on the <code>rblpapi_fun</code>. See <code>Rblpapi</code> documentation.</li>
+</ul>
+<pre class="r"><code># Get Bloomberg data in a tidy data frame
+my_bloomberg_data &lt;- c(&#39;SPX Index&#39;,&#39;ODMAX Equity&#39;) %&gt;%
+    tq_get(get         = &quot;Rblpapi&quot;,
+           rblpapi_fun = &quot;bdh&quot;,
+           fields      = c(&quot;PX_LAST&quot;),
+           options     = c(&quot;periodicitySelection&quot; = &quot;WEEKLY&quot;),
+           from        = &quot;2016-01-01&quot;,
+           to          = &quot;2016-12-31&quot;)</code></pre>
+</div>
+</div>
+</div>
+<div id="mutate-quantitative-data" class="section level1">
+<h1>3.0 Mutate Quantitative Data</h1>
+<p>Mutating functions enable the <code>xts</code>/<code>zoo</code>, <code>quantmod</code> and <code>TTR</code> functions to shine. We’ll touch on the mutation functions briefly using the <code>FANG</code> data set, which consists of daily prices for FB, AMZN, GOOG, and NFLX from the beginning of 2013 to the end of 2016. We’ll apply the functions to grouped data sets to get a feel for how each works</p>
+<pre class="r"><code>data(&quot;FANG&quot;)
+FANG</code></pre>
+<pre><code>## # A tibble: 4,032 x 8
+##    symbol date        open  high   low close    volume adjusted
+##    &lt;chr&gt;  &lt;date&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+##  1 FB     2013-01-02  27.4  28.2  27.4  28    69846400     28  
+##  2 FB     2013-01-03  27.9  28.5  27.6  27.8  63140600     27.8
+##  3 FB     2013-01-04  28.0  28.9  27.8  28.8  72715400     28.8
+##  4 FB     2013-01-07  28.7  29.8  28.6  29.4  83781800     29.4
+##  5 FB     2013-01-08  29.5  29.6  28.9  29.1  45871300     29.1
+##  6 FB     2013-01-09  29.7  30.6  29.5  30.6 104787700     30.6
+##  7 FB     2013-01-10  30.6  31.5  30.3  31.3  95316400     31.3
+##  8 FB     2013-01-11  31.3  32.0  31.1  31.7  89598000     31.7
+##  9 FB     2013-01-14  32.1  32.2  30.6  31.0  98892800     31.0
+## 10 FB     2013-01-15  30.6  31.7  29.9  30.1 173242600     30.1
+## # ... with 4,022 more rows</code></pre>
+<p>For a detailed walkthrough of the compatible functions, see the next vignette in the series, <a href="TQ02-quant-integrations-in-tidyquant.html">R Quantitative Analysis Package Integrations in tidyquant</a>.</p>
+<div id="transmute-quantitative-data-tq_transmute" class="section level2">
+<h2>3.1 Transmute Quantitative Data, tq_transmute</h2>
+<p>Transmute the results of <code>tq_get()</code>. Transmute here holds almost the same meaning as in <code>dplyr</code>, only the newly created columns will be returned, but with <code>tq_transmute()</code>, the number of rows returned can be different than the original data frame. This is important for changing periodicity. An example is periodicity aggregation from daily to monthly.</p>
+<pre class="r"><code>FANG %&gt;%
+    group_by(symbol) %&gt;%
+    tq_transmute(select = adjusted, mutate_fun = to.monthly, indexAt = &quot;lastof&quot;)</code></pre>
+<pre><code>## # A tibble: 192 x 3
+## # Groups:   symbol [4]
+##    symbol date       adjusted
+##    &lt;chr&gt;  &lt;date&gt;        &lt;dbl&gt;
+##  1 FB     2013-01-31     31.0
+##  2 FB     2013-02-28     27.2
+##  3 FB     2013-03-31     25.6
+##  4 FB     2013-04-30     27.8
+##  5 FB     2013-05-31     24.4
+##  6 FB     2013-06-30     24.9
+##  7 FB     2013-07-31     36.8
+##  8 FB     2013-08-31     41.3
+##  9 FB     2013-09-30     50.2
+## 10 FB     2013-10-31     50.2
+## # ... with 182 more rows</code></pre>
+<p>Let’s go through what happened. <code>select</code> allows you to easily choose what columns get passed to <code>mutate_fun</code>. In example above, <code>adjusted</code> selects the “adjusted” column from <code>data</code>, and sends it to the mutate function, <code>to.monthly</code>, which mutates the periodicity from daily to monthly. Additional arguments can be passed to the <code>mutate_fun</code> by way of <code>...</code>. We are passing the <code>indexAt</code> argument to return a date that matches the first date in the period.</p>
+<div id="working-with-non-ohlc-data" class="section level3">
+<h3>Working with non-OHLC data</h3>
+<p>Returns from FRED, Oanda, and other sources do not have open, high, low, close (OHLC) format. However, this is not a problem with <code>select</code>. The following example shows how to transmute WTI Crude daily prices to monthly prices. Since we only have a single column to pass, we can leave the <code>select</code> argument as <code>NULL</code> which selects all columns by default. This sends the price column to the <code>to.period</code> mutate function.</p>
+<pre class="r"><code>wti_prices &lt;- tq_get(&quot;DCOILWTICO&quot;, get = &quot;economic.data&quot;) 
+wti_prices %&gt;%    
+    tq_transmute(mutate_fun = to.period,
+                 period     = &quot;months&quot;, 
+                 col_rename = &quot;WTI Price&quot;)</code></pre>
+<pre><code>## # A tibble: 129 x 2
+##    date       `WTI Price`
+##    &lt;date&gt;           &lt;dbl&gt;
+##  1 2011-01-31        91.0
+##  2 2011-02-28        97.1
+##  3 2011-03-31       106. 
+##  4 2011-04-29       113. 
+##  5 2011-05-31       103. 
+##  6 2011-06-30        95.3
+##  7 2011-07-29        95.7
+##  8 2011-08-31        88.8
+##  9 2011-09-30        78.9
+## 10 2011-10-31        93.2
+## # ... with 119 more rows</code></pre>
+</div>
+</div>
+<div id="mutate-quantitative-data-tq_mutate" class="section level2">
+<h2>3.2 Mutate Quantitative Data, tq_mutate</h2>
+<p>Adds a column or set of columns to the tibble with the calculated attributes (hence the original tibble is returned, mutated with the additional columns). An example is getting the <code>MACD</code> from <code>close</code>, which mutates the original input by adding MACD and Signal columns. Note that we can quickly rename the columns using the <code>col_rename</code> argument.</p>
+<pre class="r"><code>FANG %&gt;%
+    group_by(symbol) %&gt;%
+    tq_mutate(select     = close, 
+              mutate_fun = MACD, 
+              col_rename = c(&quot;MACD&quot;, &quot;Signal&quot;))</code></pre>
+<pre><code>## # A tibble: 4,032 x 10
+## # Groups:   symbol [4]
+##    symbol date        open  high   low close    volume adjusted  MACD Signal
+##    &lt;chr&gt;  &lt;date&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;
+##  1 FB     2013-01-02  27.4  28.2  27.4  28    69846400     28      NA     NA
+##  2 FB     2013-01-03  27.9  28.5  27.6  27.8  63140600     27.8    NA     NA
+##  3 FB     2013-01-04  28.0  28.9  27.8  28.8  72715400     28.8    NA     NA
+##  4 FB     2013-01-07  28.7  29.8  28.6  29.4  83781800     29.4    NA     NA
+##  5 FB     2013-01-08  29.5  29.6  28.9  29.1  45871300     29.1    NA     NA
+##  6 FB     2013-01-09  29.7  30.6  29.5  30.6 104787700     30.6    NA     NA
+##  7 FB     2013-01-10  30.6  31.5  30.3  31.3  95316400     31.3    NA     NA
+##  8 FB     2013-01-11  31.3  32.0  31.1  31.7  89598000     31.7    NA     NA
+##  9 FB     2013-01-14  32.1  32.2  30.6  31.0  98892800     31.0    NA     NA
+## 10 FB     2013-01-15  30.6  31.7  29.9  30.1 173242600     30.1    NA     NA
+## # ... with 4,022 more rows</code></pre>
+<p>Note that a mutation can occur if, and only if, the mutation has the same structure of the original tibble. In other words, the calculation must have the same number of rows and row.names (or date fields), otherwise the mutation cannot be performed.</p>
+<div id="mutate-rolling-regressions-with-rollapply" class="section level3">
+<h3>Mutate rolling regressions with rollapply</h3>
+<p>A very powerful example is applying <strong>custom functions</strong> across a rolling window using <code>rollapply</code>. A specific example is using the <code>rollapply</code> function to compute a rolling regression. This example is slightly more complicated so it will be broken down into three steps:</p>
+<ol style="list-style-type: decimal">
+<li>Get returns</li>
+<li>Create a custom function</li>
+<li>Apply the custom function accross a rolling window using <code>tq_mutate(mutate_fun = rollapply)</code></li>
+</ol>
+<p><em>Step 1: Get Returns</em></p>
+<p>First, get combined returns. The asset and baseline returns should be in wide format, which is needed for the <code>lm</code> function in the next step.</p>
+<pre class="r"><code>fb_returns &lt;- tq_get(&quot;FB&quot;, get  = &quot;stock.prices&quot;, from = &quot;2016-01-01&quot;, to   = &quot;2016-12-31&quot;) %&gt;%
+    tq_transmute(adjusted, periodReturn, period = &quot;weekly&quot;, col_rename = &quot;fb.returns&quot;)
+xlk_returns &lt;- tq_get(&quot;XLK&quot;, from = &quot;2016-01-01&quot;, to = &quot;2016-12-31&quot;) %&gt;%
+    tq_transmute(adjusted, periodReturn, period = &quot;weekly&quot;, col_rename = &quot;xlk.returns&quot;)
+returns_combined &lt;- left_join(fb_returns, xlk_returns, by = &quot;date&quot;)
+returns_combined</code></pre>
+<pre><code>## # A tibble: 52 x 3
+##    date       fb.returns xlk.returns
+##    &lt;date&gt;          &lt;dbl&gt;       &lt;dbl&gt;
+##  1 2016-01-08   -0.0478     -0.0516 
+##  2 2016-01-15   -0.0242     -0.0187 
+##  3 2016-01-22    0.0313      0.0264 
+##  4 2016-01-29    0.146       0.0213 
+##  5 2016-02-05   -0.0725     -0.0422 
+##  6 2016-02-12   -0.0198     -0.00582
+##  7 2016-02-19    0.0251      0.0354 
+##  8 2016-02-26    0.0320      0.0148 
+##  9 2016-03-04    0.00436     0.0281 
+## 10 2016-03-11    0.00941     0.0106 
+## # ... with 42 more rows</code></pre>
+<p><em>Step 2: Create a custom function</em></p>
+<p>Next, create a custom regression function, which will be used to apply over the rolling window in Step 3. An important point is that the “data” will be passed to the regression function as an <code>xts</code> object. The <code>timetk::tk_tbl</code> function takes care of converting to a data frame for the <code>lm</code> function to work properly with the columns “fb.returns” and “xlk.returns”.</p>
+<pre class="r"><code>regr_fun &lt;- function(data) {
+    coef(lm(fb.returns ~ xlk.returns, data = timetk::tk_tbl(data, silent = TRUE)))
+}</code></pre>
+<p><em>Step 3: Apply the custom function</em></p>
+<p>Now we can use <code>tq_mutate()</code> to apply the custom regression function over a rolling window using <code>rollapply</code> from the <code>zoo</code> package. Internally, since we left <code>select = NULL</code>, the <code>returns_combined</code> data frame is being passed automatically to the <code>data</code> argument of the <code>rollapply</code> function. All you need to specify is the <code>mutate_fun = rollapply</code> and any additional arguments necessary to apply the <code>rollapply</code> function. We’ll specify a 12 week window via <code>width = 12</code>. The <code>FUN</code> argument is our custom regression function, <code>regr_fun</code>. It’s extremely important to specify <code>by.column = FALSE</code>, which tells <code>rollapply</code> to perform the computation using the data as a whole rather than apply the function to each column independently. The <code>col_rename</code> argument is used to rename the added columns.</p>
+<pre class="r"><code>returns_combined %&gt;%
+    tq_mutate(mutate_fun = rollapply,
+              width      = 12,
+              FUN        = regr_fun,
+              by.column  = FALSE,
+              col_rename = c(&quot;coef.0&quot;, &quot;coef.1&quot;))</code></pre>
+<pre><code>## # A tibble: 52 x 5
+##    date       fb.returns xlk.returns coef.0 coef.1
+##    &lt;date&gt;          &lt;dbl&gt;       &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
+##  1 2016-01-08   -0.0478     -0.0516      NA     NA
+##  2 2016-01-15   -0.0242     -0.0187      NA     NA
+##  3 2016-01-22    0.0313      0.0264      NA     NA
+##  4 2016-01-29    0.146       0.0213      NA     NA
+##  5 2016-02-05   -0.0725     -0.0422      NA     NA
+##  6 2016-02-12   -0.0198     -0.00582     NA     NA
+##  7 2016-02-19    0.0251      0.0354      NA     NA
+##  8 2016-02-26    0.0320      0.0148      NA     NA
+##  9 2016-03-04    0.00436     0.0281      NA     NA
+## 10 2016-03-11    0.00941     0.0106      NA     NA
+## # ... with 42 more rows</code></pre>
+<pre class="r"><code>returns_combined</code></pre>
+<pre><code>## # A tibble: 52 x 3
+##    date       fb.returns xlk.returns
+##    &lt;date&gt;          &lt;dbl&gt;       &lt;dbl&gt;
+##  1 2016-01-08   -0.0478     -0.0516 
+##  2 2016-01-15   -0.0242     -0.0187 
+##  3 2016-01-22    0.0313      0.0264 
+##  4 2016-01-29    0.146       0.0213 
+##  5 2016-02-05   -0.0725     -0.0422 
+##  6 2016-02-12   -0.0198     -0.00582
+##  7 2016-02-19    0.0251      0.0354 
+##  8 2016-02-26    0.0320      0.0148 
+##  9 2016-03-04    0.00436     0.0281 
+## 10 2016-03-11    0.00941     0.0106 
+## # ... with 42 more rows</code></pre>
+<p>As shown above, the rolling regression coefficients were added to the data frame.</p>
+</div>
+</div>
+<div id="xy-variants-tq_mutate_xy-and-tq_transmute_xy" class="section level2">
+<h2>3.3 _xy Variants, tq_mutate_xy and tq_transmute_xy</h2>
+<p>Enables working with mutation functions that require two primary inputs (e.g. EVWMA, VWAP, etc).</p>
+<div id="mutate-with-two-primary-inputs" class="section level3">
+<h3>Mutate with two primary inputs</h3>
+<p>EVWMA (exponential volume-weighted moving average) requires two inputs, price and volume. To work with these columns, we can switch to the xy variants, <code>tq_transmute_xy()</code> and <code>tq_mutate_xy()</code>. The only difference is instead of the <code>select</code> argument, you use <code>x</code> and <code>y</code> arguments to pass the columns needed based on the <code>mutate_fun</code> documentation.</p>
+<pre class="r"><code>FANG %&gt;%
+    group_by(symbol) %&gt;%
+    tq_mutate_xy(x = close, y = volume, 
+                 mutate_fun = EVWMA, col_rename = &quot;EVWMA&quot;)</code></pre>
+<pre><code>## # A tibble: 4,032 x 9
+## # Groups:   symbol [4]
+##    symbol date        open  high   low close    volume adjusted EVWMA
+##    &lt;chr&gt;  &lt;date&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;
+##  1 FB     2013-01-02  27.4  28.2  27.4  28    69846400     28    NA  
+##  2 FB     2013-01-03  27.9  28.5  27.6  27.8  63140600     27.8  NA  
+##  3 FB     2013-01-04  28.0  28.9  27.8  28.8  72715400     28.8  NA  
+##  4 FB     2013-01-07  28.7  29.8  28.6  29.4  83781800     29.4  NA  
+##  5 FB     2013-01-08  29.5  29.6  28.9  29.1  45871300     29.1  NA  
+##  6 FB     2013-01-09  29.7  30.6  29.5  30.6 104787700     30.6  NA  
+##  7 FB     2013-01-10  30.6  31.5  30.3  31.3  95316400     31.3  NA  
+##  8 FB     2013-01-11  31.3  32.0  31.1  31.7  89598000     31.7  NA  
+##  9 FB     2013-01-14  32.1  32.2  30.6  31.0  98892800     31.0  NA  
+## 10 FB     2013-01-15  30.6  31.7  29.9  30.1 173242600     30.1  30.1
+## # ... with 4,022 more rows</code></pre>
+</div>
+</div>
+</div>
