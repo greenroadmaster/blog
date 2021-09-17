@@ -1,0 +1,312 @@
+---
+layout: page
+title: Gutenberg Textmining
+subtitle: Gutenberg Textmining
+date: "2021-09-17"
+author: 
+output:
+  html_document: 
+    toc: yes
+    toc_float: true
+    highlight: tango
+    code_folding: hide
+    number_sections: TRUE
+mainfont: NanumGothic
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>from a book, Text Mining with R <a href="https://bookdown.org/Maxine/tidy-text-mining/tidy-text-format.html">https://bookdown.org/Maxine/tidy-text-mining/tidy-text-format.html</a></p>
+<div id="tidy-text-format" class="section level1">
+<h1>Tidy text format</h1>
+<p>A “tidy” text format is defined as a per-token-per row data frame. This one-token-per-row structure is in contrast to the ways text is often stored in current analyses, perhaps as strings or in a document-term matrix (Chapter 5). For tidy text mining, the token that is stored in each row is most often a single word, but can also be an n-gram, sentence, or paragraph. In the tidytext package, we provide functionality to tokenize by commonly used units of text like these and convert to a one-term-per-row format.</p>
+<pre class="r"><code>library(dplyr)
+library(stringr)
+library(janeaustenr)
+library(tidytext)
+library(stringr)
+library(ggplot2)
+library(plotly)
+library(sqldf)
+library(tidyverse)
+library(lubridate)
+library(gutenbergr)
+library(tidyr)
+library(scales)</code></pre>
+<div id="the-unnest_tokens-function" class="section level2">
+<h2>1.1 The unnest_tokens() function</h2>
+<pre><code>## # A tibble: 73,422 x 2
+##    text                    book               
+##  * &lt;chr&gt;                   &lt;fct&gt;              
+##  1 &quot;SENSE AND SENSIBILITY&quot; Sense &amp; Sensibility
+##  2 &quot;&quot;                      Sense &amp; Sensibility
+##  3 &quot;by Jane Austen&quot;        Sense &amp; Sensibility
+##  4 &quot;&quot;                      Sense &amp; Sensibility
+##  5 &quot;(1811)&quot;                Sense &amp; Sensibility
+##  6 &quot;&quot;                      Sense &amp; Sensibility
+##  7 &quot;&quot;                      Sense &amp; Sensibility
+##  8 &quot;&quot;                      Sense &amp; Sensibility
+##  9 &quot;&quot;                      Sense &amp; Sensibility
+## 10 &quot;CHAPTER 1&quot;             Sense &amp; Sensibility
+## # ... with 73,412 more rows</code></pre>
+<pre><code>## # A tibble: 73,422 x 4
+##    text                    book                linenumber chapter
+##    &lt;chr&gt;                   &lt;fct&gt;                    &lt;int&gt;   &lt;int&gt;
+##  1 &quot;SENSE AND SENSIBILITY&quot; Sense &amp; Sensibility          1       0
+##  2 &quot;&quot;                      Sense &amp; Sensibility          2       0
+##  3 &quot;by Jane Austen&quot;        Sense &amp; Sensibility          3       0
+##  4 &quot;&quot;                      Sense &amp; Sensibility          4       0
+##  5 &quot;(1811)&quot;                Sense &amp; Sensibility          5       0
+##  6 &quot;&quot;                      Sense &amp; Sensibility          6       0
+##  7 &quot;&quot;                      Sense &amp; Sensibility          7       0
+##  8 &quot;&quot;                      Sense &amp; Sensibility          8       0
+##  9 &quot;&quot;                      Sense &amp; Sensibility          9       0
+## 10 &quot;CHAPTER 1&quot;             Sense &amp; Sensibility         10       1
+## # ... with 73,412 more rows</code></pre>
+<pre><code>## # A tibble: 725,055 x 4
+##    book                linenumber chapter word       
+##    &lt;fct&gt;                    &lt;int&gt;   &lt;int&gt; &lt;chr&gt;      
+##  1 Sense &amp; Sensibility          1       0 sense      
+##  2 Sense &amp; Sensibility          1       0 and        
+##  3 Sense &amp; Sensibility          1       0 sensibility
+##  4 Sense &amp; Sensibility          3       0 by         
+##  5 Sense &amp; Sensibility          3       0 jane       
+##  6 Sense &amp; Sensibility          3       0 austen     
+##  7 Sense &amp; Sensibility          5       0 1811       
+##  8 Sense &amp; Sensibility         10       1 chapter    
+##  9 Sense &amp; Sensibility         10       1 1          
+## 10 Sense &amp; Sensibility         13       1 the        
+## # ... with 725,045 more rows</code></pre>
+<pre><code>## # A tibble: 1,149 x 2
+##    word        lexicon
+##    &lt;chr&gt;       &lt;chr&gt;  
+##  1 a           SMART  
+##  2 a&#39;s         SMART  
+##  3 able        SMART  
+##  4 about       SMART  
+##  5 above       SMART  
+##  6 according   SMART  
+##  7 accordingly SMART  
+##  8 across      SMART  
+##  9 actually    SMART  
+## 10 after       SMART  
+## # ... with 1,139 more rows</code></pre>
+<pre><code>## # A tibble: 217,609 x 4
+##    book                linenumber chapter word       
+##    &lt;fct&gt;                    &lt;int&gt;   &lt;int&gt; &lt;chr&gt;      
+##  1 Sense &amp; Sensibility          1       0 sense      
+##  2 Sense &amp; Sensibility          1       0 sensibility
+##  3 Sense &amp; Sensibility          3       0 jane       
+##  4 Sense &amp; Sensibility          3       0 austen     
+##  5 Sense &amp; Sensibility          5       0 1811       
+##  6 Sense &amp; Sensibility         10       1 chapter    
+##  7 Sense &amp; Sensibility         10       1 1          
+##  8 Sense &amp; Sensibility         13       1 family     
+##  9 Sense &amp; Sensibility         13       1 dashwood   
+## 10 Sense &amp; Sensibility         13       1 settled    
+## # ... with 217,599 more rows</code></pre>
+</div>
+<div id="the-gutenbergr-package" class="section level2">
+<h2>1.2 The gutenbergr package</h2>
+<p>The gutenbergr package provides access to the public domain works from the Project Gutenberg collection. The package includes tools both for downloading books (stripping out the unhelpful header/footer information), and a complete dataset of Project Gutenberg metadata that can be used to find works of interest. In this book, we will mostly use the function gutenberg_download() that downloads one or more works from Project Gutenberg by ID.</p>
+<p>The dataset gutenberg_metadata contains information about each work, pairing Gutenberg ID with title, author, language, etc:</p>
+<pre><code>## # A tibble: 51,997 x 8
+##    gutenberg_id title  author  gutenberg_autho~ language gutenberg_books~ rights
+##           &lt;int&gt; &lt;chr&gt;  &lt;chr&gt;              &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;            &lt;chr&gt; 
+##  1            0  &lt;NA&gt;  &lt;NA&gt;                  NA en       &lt;NA&gt;             Publi~
+##  2            1 &quot;The ~ Jeffer~             1638 en       United States L~ Publi~
+##  3            2 &quot;The ~ United~                1 en       American Revolu~ Publi~
+##  4            3 &quot;John~ Kenned~             1666 en       &lt;NA&gt;             Publi~
+##  5            4 &quot;Linc~ Lincol~                3 en       US Civil War     Publi~
+##  6            5 &quot;The ~ United~                1 en       American Revolu~ Publi~
+##  7            6 &quot;Give~ Henry,~                4 en       American Revolu~ Publi~
+##  8            7 &quot;The ~ &lt;NA&gt;                  NA en       &lt;NA&gt;             Publi~
+##  9            8 &quot;Abra~ Lincol~                3 en       US Civil War     Publi~
+## 10            9 &quot;Abra~ Lincol~                3 en       US Civil War     Publi~
+## # ... with 51,987 more rows, and 1 more variable: has_text &lt;lgl&gt;</code></pre>
+<p>For example, you could find the Gutenberg ID of Wuthering Heights by doing:</p>
+<pre><code>## # A tibble: 1 x 8
+##   gutenberg_id title  author  gutenberg_autho~ language gutenberg_booksh~ rights
+##          &lt;int&gt; &lt;chr&gt;  &lt;chr&gt;              &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;             &lt;chr&gt; 
+## 1          768 Wuthe~ Brontë~              405 en       Gothic Fiction/M~ Publi~
+## # ... with 1 more variable: has_text &lt;lgl&gt;</code></pre>
+<pre><code>## # A tibble: 12,314 x 2
+##    gutenberg_id text               
+##           &lt;int&gt; &lt;chr&gt;              
+##  1          768 &quot;Wuthering Heights&quot;
+##  2          768 &quot;&quot;                 
+##  3          768 &quot;by Emily Brontë&quot;  
+##  4          768 &quot;&quot;                 
+##  5          768 &quot;&quot;                 
+##  6          768 &quot;&quot;                 
+##  7          768 &quot;&quot;                 
+##  8          768 &quot;CHAPTER I&quot;        
+##  9          768 &quot;&quot;                 
+## 10          768 &quot;&quot;                 
+## # ... with 12,304 more rows</code></pre>
+<p>In many analyses, you may want to filter just for English works, avoid duplicates, and include only books that have text that can be downloaded. The gutenberg_works() function does this pre-filtering. It also allows you to perform filtering as an argument:</p>
+<pre><code>## # A tibble: 10 x 8
+##    gutenberg_id title   author gutenberg_autho~ language gutenberg_books~ rights
+##           &lt;int&gt; &lt;chr&gt;   &lt;chr&gt;             &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;            &lt;chr&gt; 
+##  1          105 &quot;Persu~ Auste~               68 en       &lt;NA&gt;             Publi~
+##  2          121 &quot;North~ Auste~               68 en       Gothic Fiction   Publi~
+##  3          141 &quot;Mansf~ Auste~               68 en       &lt;NA&gt;             Publi~
+##  4          158 &quot;Emma&quot;  Auste~               68 en       &lt;NA&gt;             Publi~
+##  5          161 &quot;Sense~ Auste~               68 en       &lt;NA&gt;             Publi~
+##  6          946 &quot;Lady ~ Auste~               68 en       &lt;NA&gt;             Publi~
+##  7         1212 &quot;Love ~ Auste~               68 en       &lt;NA&gt;             Publi~
+##  8         1342 &quot;Pride~ Auste~               68 en       Best Books Ever~ Publi~
+##  9        31100 &quot;The C~ Auste~               68 en       &lt;NA&gt;             Publi~
+## 10        42078 &quot;The L~ Auste~               68 en       &lt;NA&gt;             Publi~
+## # ... with 1 more variable: has_text &lt;lgl&gt;</code></pre>
+</div>
+<div id="compare-word-frequency" class="section level2">
+<h2>1.3 Compare word frequency</h2>
+<p>As a common task in text analysis, compariosn of word frequencies is often employed as a tool to extract linguistic characteristics. A rule of thumb is to compare word proportions instead of raw counts.</p>
+<p>In this example, we compare novels of Jane Austen, H.G. Wells, and the Bronte Sisters.</p>
+<p>Now, our goal is to use Jane Austen as a reference to which the other two authors are compared to in terms of word frequency. The data manipulation requires a bit trick, after computing proportions of word usage, we first <em>pivot_wider</em> three authors altogether, an then <em>pivot_longer</em> the other two authors back.</p>
+<pre><code>## # A tibble: 56,090 x 4
+##    word  `Jane Austen` other          proportion
+##    &lt;chr&gt;         &lt;dbl&gt; &lt;chr&gt;               &lt;dbl&gt;
+##  1 miss       0.00855  Brontë Sisters  0.00336  
+##  2 miss       0.00855  H.G. Wells      0.000119 
+##  3 time       0.00615  Brontë Sisters  0.00417  
+##  4 time       0.00615  H.G. Wells      0.00685  
+##  5 i          0.000188 Brontë Sisters  0.00450  
+##  6 i          0.000188 H.G. Wells      0.00210  
+##  7 fanny      0.00449  Brontë Sisters  0.0000431
+##  8 fanny      0.00449  H.G. Wells      0        
+##  9 emma       0.00398  Brontë Sisters  0        
+## 10 emma       0.00398  H.G. Wells      0        
+## # ... with 56,080 more rows</code></pre>
+<p><img src="/post/guternberg/guternbergtextmining_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
+<p>Words that are close to the line in these plots have similar frequencies in both sets of texts, for example, in both Austen and Brontë texts (“miss”, “time”, “day” at the upper frequency end) or in both Austen and Wells texts (“time”, “day”, “brother” at the high frequency end). Words that are far from the line are words that are found more in one set of texts than another. For example, in the Austen-Brontë panel, words like “elizabeth”, “emma”, and “fanny” (all proper nouns) are found in Austen’s texts but not much in the Brontë texts, while words like “arthur” and “dog” are found in the Brontë texts but not the Austen texts. In comparing H.G. Wells with Jane Austen, Wells uses words like “beast”, “guns”, “feet”, and “black” that Austen does not, while Austen uses words like “family”, “friend”, “letter”, and “dear” that Wells does not.</p>
+<p>Notice that the words in the Austen-Brontë panel are closer to the zero-slope line than in the Austen-Wells panel. Also notice that the words extend to lower frequencies in the Austen-Brontë panel; there is empty space in the Austen-Wells panel at low frequency. These characteristics indicate that Austen and the Brontë sisters use more similar words than Austen and H.G. Wells. Also, we see that not all the words are found in all three sets of texts and there are fewer data points in the panel for Austen and H.G. Wells.</p>
+<p>Furhter, we can conduct a simple correlation test</p>
+<pre><code>## 
+##  Pearson&#39;s product-moment correlation
+## 
+## data:  proportion and Jane Austen
+## t = 157.55, df = 28043, p-value &lt; 2.2e-16
+## alternative hypothesis: true correlation is not equal to 0
+## 95 percent confidence interval:
+##  0.6789793 0.6913966
+## sample estimates:
+##       cor 
+## 0.6852378</code></pre>
+<pre><code>## 
+##  Pearson&#39;s product-moment correlation
+## 
+## data:  proportion and Jane Austen
+## t = 71.063, df = 28043, p-value &lt; 2.2e-16
+## alternative hypothesis: true correlation is not equal to 0
+## 95 percent confidence interval:
+##  0.3806747 0.4005106
+## sample estimates:
+##      cor 
+## 0.390638</code></pre>
+</div>
+<div id="other-tokenization-methods" class="section level2">
+<h2>1.4 Other tokenization methods</h2>
+<p>unnest_tokens supports other ways to split a column into tokens.</p>
+<pre><code>## This is, my bookdown book. Chapter 1: Preface
+##  Thanks for 
+##  reading this book
+##  Chapter 2: Introduction
+##  Chapter 3: Methods
+##  I demonstrate all of the methods here, well, not all actually.
+## 
+##  Chapter 4: Discussion
+##  blablabla, blablabla, blablabla.</code></pre>
+<pre><code>## # A tibble: 12 x 1
+##    line                                    
+##    &lt;chr&gt;                                   
+##  1 &quot;this is, my bookdown book.&quot;            
+##  2 &quot;chapter 1: preface&quot;                    
+##  3 &quot;thanks for &quot;                           
+##  4 &quot; reading this book&quot;                    
+##  5 &quot;chapter 2: introduction&quot;               
+##  6 &quot;chapter 3: methods&quot;                    
+##  7 &quot;i demonstrate all of the methods here,&quot;
+##  8 &quot;well, not all actually.&quot;               
+##  9 &quot;chapter 4: discussion&quot;                 
+## 10 &quot;blablabla,&quot;                            
+## 11 &quot;blablabla,&quot;                            
+## 12 &quot;blablabla.&quot;</code></pre>
+<pre><code>## # A tibble: 11 x 1
+##    sentences                             
+##    &lt;chr&gt;                                 
+##  1 this is, my bookdown book.            
+##  2 chapter 1: preface                    
+##  3 thanks for   reading this book        
+##  4 chapter 2: introduction               
+##  5 chapter 3: methods                    
+##  6 i demonstrate all of the methods here,
+##  7 well, not all actually.               
+##  8 chapter 4: discussion                 
+##  9 blablabla,                            
+## 10 blablabla,                            
+## 11 blablabla.</code></pre>
+<pre><code>## # A tibble: 11 x 1
+##    paragraphs                              
+##    &lt;chr&gt;                                   
+##  1 &quot;this is, my bookdown book.&quot;            
+##  2 &quot;chapter 1: preface &quot;                   
+##  3 &quot;thanks for   reading this book &quot;       
+##  4 &quot;chapter 2: introduction &quot;              
+##  5 &quot;chapter 3: methods &quot;                   
+##  6 &quot;i demonstrate all of the methods here,&quot;
+##  7 &quot;well, not all actually.&quot;               
+##  8 &quot;chapter 4: discussion &quot;                
+##  9 &quot;blablabla,&quot;                            
+## 10 &quot;blablabla,&quot;                            
+## 11 &quot;blablabla.&quot;</code></pre>
+<pre><code>## # A tibble: 188 x 1
+##    character
+##    &lt;chr&gt;    
+##  1 t        
+##  2 h        
+##  3 i        
+##  4 s        
+##  5 i        
+##  6 s        
+##  7 m        
+##  8 y        
+##  9 b        
+## 10 o        
+## # ... with 178 more rows</code></pre>
+<pre><code>## # A tibble: 155 x 1
+##    characters
+##    &lt;chr&gt;     
+##  1 this      
+##  2 hisi      
+##  3 isis      
+##  4 sism      
+##  5 ismy      
+##  6 smyb      
+##  7 mybo      
+##  8 yboo      
+##  9 book      
+## 10 ookd      
+## # ... with 145 more rows</code></pre>
+<pre><code>## # A tibble: 11 x 1
+##    chapter                                 
+##    &lt;chr&gt;                                   
+##  1 &quot;this is, my bookdown book.&quot;            
+##  2 &quot; preface\n&quot;                            
+##  3 &quot;thanks for \n reading this book\n&quot;     
+##  4 &quot; introduction\n&quot;                       
+##  5 &quot; methods\n&quot;                            
+##  6 &quot;i demonstrate all of the methods here,&quot;
+##  7 &quot;well, not all actually.\n\n&quot;           
+##  8 &quot; discussion\n&quot;                         
+##  9 &quot;blablabla,&quot;                            
+## 10 &quot;blablabla,&quot;                            
+## 11 &quot;blablabla.&quot;</code></pre>
+</div>
+</div>
+<div id="sentiment-analysis-with-tidy-data" class="section level1">
+<h1>Sentiment analysis with tidy data</h1>
+<p>One way to analyze the sentiment of a text is to consider the text as a combination of its individual words and the sentiment content of the whole text as the sum of the sentiment content of the individual words. This isn’t the only way to approach sentiment analysis, but it is an often-used approach, and an approach that naturally takes advantage of the tidy tool ecosystem.</p>
+</div>
