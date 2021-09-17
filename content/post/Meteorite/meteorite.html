@@ -1,0 +1,365 @@
+---
+layout: page
+title: xwMOOC 데이터 제품
+subtitle: 전자우편 보고서 발송 자동화
+date: "2021-09-17"
+author: Kwangchun Lee(Statkclee)
+output:
+  html_document: 
+    toc: yes
+    toc_float: true
+    highlight: tango
+    code_folding: hide
+    number_sections: TRUE
+mainfont: NanumGothic
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<div id="email-workflow" class="section level2">
+<h2>전자우편 발송 작업흐름 <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></h2>
+<p><a href="https://finance.yahoo.com/">야후 금융(Yahoo Finance)</a>에서 주식 데이터를 다운로드 받아 이에 대한
+분석작업을 수행하고 결과값을 보고서로 작성하여 이를 전자우편으로 매일 전달하는 프로그램을 작성해보자.</p>
+<iframe width="300" height="180" src="https://www.youtube.com/embed/UDKy5_SQy2o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+</iframe>
+<p>데이터를 주기적으로 다운로드 받아 이를 분석하고 결과값도 자동으로 보고서를 발송하는 작업흐름은 다음과 같다.</p>
+<ul>
+<li>데이터를 야후 금융에서 다운로드 받아 로컬 컴퓨터에 일자를 붙여 저장한다.</li>
+<li><code>tidyverse</code> 방식에 맞춰 데이터를 시각화하고 경우에 따라서는 예측 모형도 개발한다.</li>
+<li>R마크다운으로 보고서를 작성하고 <code>.html</code> 파일로 보고서를 저장한다.</li>
+<li>구글 Gmail로 자동으로 보고서를 첨부하여 전송할 수 있도록 프로그램을 작성한다.</li>
+<li>윈도우의 경우 <strong>작업 스케줄러</strong>, 유닉스 계열은 <code>cron</code>을 사용하여 정기적으로 보고서가 담긴 파일을 첨부한 전자우편을 발송한다.</li>
+</ul>
+<p>이를 위해서 먼저 구글 Gmail API에 대한 이해와 <code>cron</code>에 대한 사전 이해가 필수적이다.</p>
+</div>
+<div id="r-gmail" class="section level2">
+<h2>R과 전자우편 만남 <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></h2>
+<p>R에서 전자우편을 자동으로 보낼 수 있도록 가능하게 된 것은 최근 <a href="https://cran.r-project.org/web/packages/gmailr/index.html">gmailr</a> 팩키지가
+<a href="https://github.com/jimhester/gmailr">gmailr: Access the Gmail RESTful API</a> 이름으로 GitHub과 CRAN에 등록되었고,
+구글 전자우편 사용법을 <a href="https://github.com/jennybc/send-email-with-r">How to send a bunch of email from R</a> 통해 자세한 설명이 되어
+누구나 손쉽게 그 오래전 <strong>메일 머지(여러 사람의 이름, 주소 등이 들어 있는 ’데이터 파일(data file)’과 ’서식 파일(form letter file)’을
+결합함(merging)으로써, 이름이나 직책, 주소 부분 등만 다르고 나머지 내용이 같은 수십, 수백 통의 편지지를 한꺼번에 만드는 기능)</strong> 같은
+고급 기능을 손쉽게 구현할 수 있게 되었다.</p>
+<p>또다른 강력한 사용례는 데이터 과학을 통해 분석결과를 정기적으로 자동화해서 전달하는데 있다.
+결국 정기적인 주간보고, 월간보고 등 다양한 보고서가 있을 것이고 데이터가 바뀌면 기존에 작성해 놓은 R 스크립트를 실행하고 나서,
+전자우편 API를 통해 전송하게 된다.</p>
+<p>이를 위해서 필요한 사전 준비물은 1) Gmail 전자우편 계정, 2) Jim Hester가 개발한 <code>gmailr</code> R 팩키지다.</p>
+</div>
+<div id="gmail-api" class="section level2">
+<h2>구글 전자우편 Gmail API</h2>
+<ol style="list-style-type: decimal">
+<li><a href="https://console.developers.google.com/project">https://console.developers.google.com/project</a> 가서 <code>New Project</code>를 생성한다.
+명칭은 원하는 것으로 정한다. 예를 들어 <code>gmail-test</code> 로 정한다.</li>
+<li><code>Gmail API</code>를 활성화: 먼저 <code>Google APIs</code>에서 <code>Gmail API</code>를 선택하고 나서, <code>Enable</code>을 클릭한다.
+API Manager → Library → <code>Google Apps APIs</code> → <code>Gmail API</code>.</li>
+<li><code>API Manager</code> 좌측 메뉴의 열쇠모양 <code>Credentials</code>를 선택한다.
+<ul>
+<li><code>Create credentials</code> 를 선택하고 나서 <code>OAuth 2.0 client IDs</code>를 생성시킨다.</li>
+<li>명칭은 상기 <code>spammer-r</code>과 동일하게 한다.</li>
+<li><code>Download JSON</code> 을 클릭해서 client_id, project_id, auth_uri, token_uri, auth_provider_x509_cert_url, client_secret 등이 포함된 JSON 파일을 다운로드 한다.
+<ul>
+<li><code>client_secret_&lt;영문자-숫자-조합&gt;.apps.googleusercontent.com.json</code> 파일을 적절한 명칭으로 바꾸고 작업 디렉토리로 이동하여 붙여넣는다.</li>
+</ul></li>
+</ul></li>
+</ol>
+<p>상기 절차를 모두 마치게 되면 구글 전자우편 서버쪽과 연결을 위한 사전 준비가 다 되었다.</p>
+</div>
+<div id="gmail-setup" class="section level2">
+<h2>R 전자우편을 위한 준비</h2>
+<blockquote>
+<p><strong><code>gmailr</code> R 팩키지 설치</strong></p>
+<p>CRAN에 등록된 R 팩키지를 설치하거나, GitHub에 등록된 최신 개발 팩키지를 설치한다.</p>
+<ul>
+<li><code>install.packages("gmailr")</code></li>
+<li><code>devtools::install_github("jimhester/gmailr")</code>
+<code>dryrun.R</code> R 스크립트를 하나 작성해서 전자우편이 제대로 전송되는지 확인한다.</li>
+</ul>
+</blockquote>
+<p>먼저 <code>library(gmailr)</code> 라이브러리를 적재시키고, Gmail API를 연동하기 위한 인증작업을 <code>use_secret_file("spammer-gmail.json")</code>을 사용해서 진행한다.
+다운로드 받는 <code>client_secret_&lt;영문자-숫자-조합&gt;.apps.googleusercontent.com.json</code> 파일명이 아주 길어서 <code>gmail.json</code>로 변경했다.</p>
+<p>그리고 나서 전송할 전자우편 본문을 작성한다. <strong>From = </strong> 에는 구글 메일 전자우편주소를 사용한다.</p>
+<pre class="r"><code>library(tidyverse)
+library(gmailr)    # devtools::install_github(&quot;jimhester/gmailr&quot;)
+use_secret_file(&quot;gmail.json&quot;)
+test_email &lt;- mime(
+    To = &quot;kxxxxx@gmail.com&quot;,
+    From = &quot;kxxxyyyy@gmail.com&quot;,
+    Subject = &quot;Welcome to the R Meetup&quot;,
+    body = &quot;R Meetup에 오신 것을 환영합니다!!!&quot;)
+send_message(test_email)</code></pre>
+<p>처음 전자우편을 전송하게 되면 다음과 같은 화면이 뜨게 되는데,
+모두 클릭하게 되면 다음부터 웹브라우져가 뜨지 않고 <code>.httr-oauth</code>를 통해 자동으로 전자우편이 전송된다.</p>
+<pre class="r"><code>&gt; send_message(first_dryrun_email)
+Use a local file (&#39;.httr-oauth&#39;), to cache OAuth access credentials between R sessions?
+1: Yes
+2: No
+Selection: 1
+Waiting for authentication in browser...
+Press Esc/Ctrl + C to abort</code></pre>
+<p>상기 과정이 확인이 되면 다음부터 전자우편을 전송하는 명령어를 실행시키면 다음과 같이 깔끔하게 전송된다.</p>
+<pre class="r"><code>library(tidyverse)
+library(gmailr)    # devtools::install_github(&quot;jimhester/gmailr&quot;)
+use_secret_file(&quot;gmail.json&quot;)
+test_email &lt;- mime(
+    To = &quot;kxxxxxx@gmail.com&quot;,
+    From = &quot;kzzzzz@gmail.com&quot;,
+    Subject = &quot;Welcome to the R Meetup&quot;,
+    body = &quot;R Meetup에 오신 것을 환영합니다!!!&quot;)
+send_message(test_email)</code></pre>
+</div>
+<div id="cron-r-workflow" class="section level1">
+<h1>자동화 CRON 작업흐름</h1>
+<p>자동으로 작업을 실행시키려면 <code>cron</code> 팩키지를 설치하고 나서 작업(job)을 자동화를 위한 기본적인 명령어를 활용한다.</p>
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 10px;}
+</style>
+<div class="blue">
+<ul>
+<li><strong>윈도우 환경에서 자동화</strong>: 윈도우 환경에서 자동화에 대한 사항은 R-블로거 사이트에 게시된 글을 참조한다.</li>
+<li><a href="http://www.r-bloggers.com/scheduling-r-markdown-reports-via-email/">Scheduling R Markdown Reports via Email</a></li>
+</ul>
+</div>
+<div id="cron-r-packages" class="section level2">
+<h2><code>cron</code> 팩키지 설치</h2>
+<p>유닉스 <code>cron</code> 스케쥴러(scheduler) 팩키지가 윈도우와 유닉스 계열이 달라 사용하는 플랫폼에 맞춰 선택한다.</p>
+<ul>
+<li>유닉스 계열: <a href="https://github.com/bnosac/cronR">cronR: A simple R package for managing your cron jobs</a></li>
+<li>윈도우: <a href="https://github.com/bnosac/taskscheduleR">taskscheduleR: Schedule R scripts/processes with the Windows task scheduler</a></li>
+</ul>
+<pre class="r"><code>install.packages(&quot;shinyFiles&quot;)
+devtools::install_github(&quot;bnosac/cronR&quot;)
+library(cronR)
+cronR:::cron_rstudioaddin()</code></pre>
+<p>특히, 유닉스 계열 운영체제에서 <code>cronR</code> 팩키지를 설치하게 되면 자동으로 RStduio IDE에 <strong>Schedule R scripts on Linux/Unix</strong> Addins으로 설치된다.
+이를 실행하게 되면 GUI를 통해 <code>cron</code> 작업 전반에 필요한 사항을 숙지하는데 도움이 된다.</p>
+<p>윈도우에서는 설치가 되지 않기 때문에 필히 <a href="https://github.com/bnosac/taskscheduleR">taskscheduleR</a>을 설치하여 동일한 방식으로 자동화 작업을 수행하면 된다.</p>
+<pre class="r"><code>&gt; devtools::install_github(&quot;bnosac/cronR&quot;)
+Downloading GitHub repo bnosac/cronR@master
+from URL https://api.github.com/repos/bnosac/cronR/zipball/master
+Installing cronR
+&quot;C:/PROGRA~1/R/R-34~1.2/bin/x64/R&quot; --no-site-file --no-environ --no-save --no-restore  \
+  --quiet CMD INSTALL  \
+  &quot;C:/Users/chongmu/AppData/Local/Temp/RtmpK81eEf/devtools3020a967216/bnosac-cronR-cbaab8a&quot;  \
+  --library=&quot;C:/Program Files/R/R-3.4.2/library&quot; --install-tests 
+ERROR:  Unix-only package
+* removing &#39;C:/Program Files/R/R-3.4.2/library/cronR&#39;
+Installation failed: Command failed (1)</code></pre>
+</div>
+<div id="cron-job-add" class="section level2">
+<h2><code>cron</code> 작업 추가</h2>
+<p>가장 먼저 자동화할 작업을 R 스크립트에 작성한다. 그리고 나서
+<code>cron_add()</code> 함수를 사용하여 해당 R 스크립트를 지정하여 추가시킨다.</p>
+<pre class="r"><code>&gt; cron_add(&quot;code/hello_script.R&quot;, frequency = &#39;*/1 * * * *&#39;, id = &#39;Job ID&#39;, description = &#39;Every 1 min with Script&#39;)
+At your own risk: will set the cron schedule as is: &#39;*/1 * * * *&#39;
+Adding cronjob:
+---------------
+## cronR job
+## id:   Job ID
+## tags: 
+## desc: Every 1 min with Script
+*/1 * * * * code/hello_script.R</code></pre>
+</div>
+<div id="cron-job-ls" class="section level2">
+<h2><code>cron</code> 작업 현황 파악</h2>
+<p><code>cron_njobs()</code> 명령어를 사용하면 전체 돌고 있는 작업목록을 살펴볼 수 있다.
+<code>cron_ls()</code> 명령어로 상제 작어베 대한 내용도 파악이 가능하다.</p>
+<pre class="r"><code>&gt; cron_njobs()
+There are a total of 3 cronR cron jobs and 0 other cron jobs currently running.
+&gt; cron_ls()
+## cronR job
+## id:   job_8d92592e3a56eb48cd8f7cc36428a7a9
+## tags: 
+## desc: Hello R Every 1 Minute
+0-59 * * * * /usr/lib/R/bin/Rscript &#39;/home/shiny/cron/hello_R.R&#39;  &gt;&gt; &#39;/home/shiny/cron/hello_R.log&#39; 2&gt;&amp;1
+## cronR job
+## id:   job_97afd267a753f5bb23f282c0af4511bb
+## tags: 
+## desc: Hello R Every One Minute
+0-59 * * * * /usr/lib/R/bin/Rscript &#39;/home/shiny/cron/hello_R.R&#39;  &gt;&gt; &#39;/home/shiny/cron/hello_R.log&#39; 2&gt;&amp;1
+## cronR job
+## id:   Job ID
+## tags: 
+## desc: Every 1 min with Script
+*/1 * * * * code/hello_script.R</code></pre>
+</div>
+<div id="cron-job-remove" class="section level2">
+<h2><code>cron</code> 작업 삭제</h2>
+<p><code>cron_rm(id="job_8d92592e3a56eb48cd8f7cc36428a7a9")</code>와 같이 앞서 <code>cron</code> 작업 id를
+지정하면 자동화 작업 제거가 가능하다.</p>
+<pre class="r"><code>&gt; cron_rm(id=&quot;job_8d92592e3a56eb48cd8f7cc36428a7a9&quot;)
+Removed 1 cron job.
+&gt; cron_ls()
+## cronR job
+## id:   job_97afd267a753f5bb23f282c0af4511bb
+## tags: 
+## desc: Hello R Every One Minute
+0-59 * * * * /usr/lib/R/bin/Rscript &#39;/home/shiny/cron/hello_R.R&#39;  &gt;&gt; &#39;/home/shiny/cron/hello_R.log&#39; 2&gt;&amp;1
+## cronR job
+## id:   Job ID
+## tags: 
+## desc: Every 1 min with Script
+*/1 * * * * code/hello_script.R</code></pre>
+</div>
+</div>
+<div id="stock-report-automation" class="section level1">
+<h1>주식 보고서 전자우편 자동화</h1>
+<div id="stock-yahoo-data" class="section level2">
+<h2>야후 주식 가져오기</h2>
+<p><code>quantmod</code> 팩키지를 통해 야후 금융에서 데이터를 긁어오는 대신 <code>getSymbols()</code> 함수를 통해
+한국통신(KT), 한국전력(KEPCO) 주식 데이터를 가져온다.
+이를 데이터프레임으로 변환하고 나서 로컬 컴퓨터에 <code>data/</code> 디렉토리 아래
+“stock-2018-04-21.rds”와 같은 형식으로 일자별로 저장하도록 R 코드를 작성한다.</p>
+<pre class="r"><code># 0. 환경설정 ---------------------------------------
+library(tidyverse)
+library(quantmod)
+library(ggthemes)
+library(extrafont)
+loadfonts()
+# 1. 데이터 -------------------------------
+## 1.1. 가져오기
+kt_xts &lt;- getSymbols(Symbols=&quot;030200.KS&quot;, 
+                      src = &quot;yahoo&quot;,
+                      from= &quot;2018-01-01&quot;, 
+                      to = Sys.Date(), auto.assign = FALSE)
+kepco_xts &lt;- getSymbols(Symbols=&quot;015760.KS&quot;, 
+                     src = &quot;yahoo&quot;,
+                     from= &quot;2018-01-01&quot;, 
+                     to = Sys.Date(), auto.assign = FALSE)
+## 1.2. 전처리
+kt_df &lt;- data.frame(date=index(kt_xts), 
+                    coredata(kt_xts)) %&gt;% 
+    select(date, contains(&quot;Close&quot;)) %&gt;% 
+    mutate(company=&quot;kt&quot;) %&gt;% 
+    rename(price=X030200.KS.Close) %&gt;% 
+    as_tibble()
+kepco_df &lt;- data.frame(date=index(kepco_xts), 
+                       coredata(kepco_xts)) %&gt;% 
+    select(date, contains(&quot;Close&quot;)) %&gt;% 
+    mutate(company=&quot;kepco&quot;) %&gt;% 
+    rename(price=X015760.KS.Close) %&gt;% 
+    as_tibble()
+stock_df &lt;- bind_rows(kt_df, kepco_df)
+## 1.3. 내보내기
+stock_df %&gt;% write_rds(str_c(&quot;data/stock-&quot;, Sys.Date(), &quot;.rds&quot;, sep=&quot;&quot;))
+# 2. 시각화
+ggplot(stock_df, aes(x=date, y=price, color=company)) +
+    geom_line() +
+    labs(x=&quot;&quot;, y=&quot;&quot;, color=&quot;company&quot;) +
+    scale_x_date(date_labels = &quot;%y-%m-%d&quot;) +
+    scale_y_continuous(labels=scales::comma)  +
+    theme_minimal(base_family = &quot;NanumGothic&quot;)</code></pre>
+</div>
+<div id="stock-yahoo-report" class="section level2">
+<h2>주식 분석 보고서</h2>
+<p>로컬 컴퓨터에 <code>data/</code> 디렉토리 아래 “stock-2018-04-21.rds”와 같은 형식으로
+저장된 데이터를 바탕으로 주식보고서를 작성하는 <code>.Rmd</code> 파일을 작성한다.</p>
+<pre class="r"><code># ---
+# title: 주식 보고서
+# date: &#39;`r format(Sys.Date())`&#39;
+# output:
+#   html_document:
+#       theme: journal
+# ---
+# 
+# ```{r, include = F}
+# knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+# library(tidyverse)
+# library(ggthemes)
+# library(extrafont)
+# loadfonts()
+# 
+# # 1. 데이터
+# stock_df &lt;- read_rds(str_c(&quot;../data/stock-&quot;, Sys.Date(), &quot;.rds&quot;, sep=&quot;&quot;))
+# ```
+# 
+# # 1. 주식 보고서
+# 
+# - 한국전력(KEPCO): `r scales::comma(42000)`, 
+#     - 가격차(40,000원): `r 40000 - stock_df %&gt;% filter(date == Sys.Date()-1, company==&quot;kepco&quot;) %&gt;% pull(price)`
+# - 한국통신(KT): `r scales::comma(30000)`, 
+#     - 가격차(30,000원): `r 30000 - stock_df %&gt;% filter(date == Sys.Date()-1, company==&quot;kt&quot;) %&gt;% pull(price)`
+# 
+# ```{r, stock-report}
+# # 2. 시각화
+# 
+# ggplot(stock_df, aes(x=date, y=price, color=company)) +
+#     geom_line() +
+#     geom_point() +
+#     labs(x=&quot;&quot;, y=&quot;&quot;, color=&quot;회사&quot;) +
+#     scale_x_date(date_labels = &quot;%y-%m-%d&quot;) +
+#     scale_y_continuous(labels=scales::comma)  +
+#     theme_minimal(base_family = &quot;NanumGothic&quot;)</code></pre>
+</div>
+<div id="stock-yahoo-report-email" class="section level2">
+<h2>전자우편 발송</h2>
+<p>야후금융에서 가져온 원데이터는 <code>data/</code> 디렉토리에 저장되고,
+금융분석 보고서는 <code>report/</code> 디렉토리 아래 <code>.html</code> 파일로 저장된다.
+이를 구글 Gmail API를 통해 발송하도록 R 스크립트를 작성한다.</p>
+<pre class="r"><code># 0. 환경설정 ---------------------------------------
+library(tidyverse)
+library(gmailr)
+library(quantmod)
+library(ggthemes)
+library(extrafont)
+loadfonts()
+# 1. 데이터 가져오기 ---------------------------------------
+setwd(&quot;C:/Users/cron-task-manager/&quot;)
+unlink(&quot;report&quot;, recursive = TRUE, force = FALSE)
+source(&quot;code/02-stock-data.R&quot;)
+# 2. 보고서 만들기 ---------------------------------------
+rmarkdown::render(&quot;code/03-make-report.Rmd&quot;, 
+                  output_format=&quot;html_document&quot;,
+                  output_file = str_c(&quot;stock-report-&quot;, Sys.Date(), &quot;.html&quot;, sep=&quot;&quot;),
+                  encoding = &#39;UTF-8&#39;, 
+                  output_dir = &quot;report&quot;)
+# 3. 전자우편 보내기 ---------------------------------------
+use_secret_file(&quot;gmail.json&quot;)
+stock_email &lt;- mime() %&gt;% 
+    to(&quot;kxxxxx@gmail.com&quot;) %&gt;% 
+    from(&quot;kzzzzzzz@gmail.com&quot;) %&gt;% 
+    subject(str_c(&quot;Stock Report &quot;, Sys.Date())) %&gt;% 
+    html_body(&quot;&lt;b&gt;stock report&lt;/b&gt; &lt;br&gt; &lt;i&gt;KEPCO&lt;/i&gt; &lt;i&gt;KT&lt;/i&gt;&quot;) %&gt;% 
+    attach_file(str_c(&quot;report/stock-report-&quot;, Sys.Date(), &quot;.html&quot;, sep=&quot;&quot;))
+send_message(stock_email)</code></pre>
+</div>
+<div id="stock-yahoo-report-email-shell" class="section level2">
+<h2>윈도우/리눅스 쉘 스크립트</h2>
+<p>앞서 작성한 R 스크립트를 윈도우나 리눅스 쉘에서 실행하도록 스크립트를 작성한다.
+우선 윈도우 터미널을 열고 <code>stock.bat</code> 파일로 다음과 같이 작성한다.
+그리고 나서 <code>stock.bat</code> 파일을 더블 클릭하거나 윈도우 쉘에서 <code>$ R CMD BATCH 04-crawl-data-make-report.R</code>
+실행하게 되면 <code>04-crawl-data-make-report.Rout</code> 파일로 실행결과가 로그형태로 작성된다.</p>
+<pre class="r"><code># stock.bat
+@echo off
+R CMD BATCH C:\Users\cron-task-manager\04-crawl-data-make-report.R</code></pre>
+</div>
+<div id="stock-yahoo-report-email-scheduler" class="section level2">
+<h2>작업 스케줄러 등록</h2>
+<div id="stock-yahoo-report-email-scheduler-gui" class="section level3">
+<h3>GUI</h3>
+<p>윈도우 탐색기에서 <code>Programs &amp;rarr; Accessories &amp;rarr; System Tools &amp;rarr; Task Scheduler</code>에서 <strong>작업 스케줄러</strong>를 실행시킨다.</p>
+<p>작업 스케줄러 설정에서 작업 → <strong>프로그램 시작</strong>에서 <code>RScript.exe</code>, <code>R CMD BATCH</code>를 동원해서 R 스크립트를 실행해도 되고
+<code>stock.bat</code> 파일에 내용을 적어 <code>stock.bat</code> 파일을 실행파일로 지정해도 좋다.</p>
+</div>
+<div id="stock-yahoo-report-email-scheduler-cli" class="section level3">
+<h3>CLI</h3>
+<p>작업 스케줄러에 명령을 일일이 넣는 대신에 <code>schtasks</code> 명령어를 사용해서 작업을 등록하여 실행하는 것도 가능하다.</p>
+<pre class="r"><code>recurrence &lt;- &quot;once&quot;
+task_name &lt;- &quot;MyTask&quot;
+bat_loc &lt;- &quot;C:\\Users\\Tyler\\Desktop\\Make_Task\\task.bat&quot;
+time &lt;- &quot;00:21&quot;
+system(sprintf(&quot;schtasks /create /sc %s /tn %s /tr \&quot;%s\&quot; /st %s&quot;, recurrence, task_name, bat_loc, time))
+## Additional arguments
+browseURL(&quot;https://msdn.microsoft.com/en-us/library/windows/desktop/bb736357%28v=vs.85%29.aspx&quot;)
+## Open the scheduled tasks
+system(&quot;control schedtasks&quot;)</code></pre>
+</div>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://trinkerrstuff.wordpress.com/2015/02/11/scheduling-r-tasks-via-windows-task-scheduler/">TRinker R Blog, Scheduling R Tasks via Windows Task Scheduler, Posted on February 11, 2015</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://github.com/jennybc/send-email-with-r">How to send a bunch of email from R</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
