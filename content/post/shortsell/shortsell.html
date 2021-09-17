@@ -1,0 +1,152 @@
+---
+title: "Short Selling Stock"
+author: "[GitHub Contributors](https://github.com/FinancialMarkets/5MinuteFinance/graphs/contributors)"
+output: ioslides_presentation
+runtime: shiny
+logo: misq.png
+css: 5min_mod2.css
+smaller: true
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/jquery/jquery.min.js"></script>
+<link href="/rmarkdown-libs/dygraphs/dygraph.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/dygraphs/dygraph-combined.js"></script>
+<script src="/rmarkdown-libs/dygraphs/shapes.js"></script>
+<script src="/rmarkdown-libs/moment/moment.js"></script>
+<script src="/rmarkdown-libs/moment-timezone/moment-timezone-with-data.js"></script>
+<script src="/rmarkdown-libs/moment-fquarter/moment-fquarter.min.js"></script>
+<script src="/rmarkdown-libs/dygraphs-binding/dygraphs.js"></script>
+  <link rel="stylesheet" href="5min_mod2.css" type="text/css" />
+
+
+<div id="section-why-short-stock" class="section level2">
+<h2>Why Short Stock?</h2>
+<p>By shorting stock we profit when the stock price declines. So you can use short sales to speculate.</p>
+<p>However, shorting stock is also used by banks to hedge put options they have sold, as well as other derivative positions.</p>
+<p>In other words, shorting stock is used to lessen the risk taken by banks and other financial intermediaries. In fact, without the ability to short, put options and other derivatives may not exist.</p>
+<div class="MIfooter">
+<img src="mi.png" style="height:50px;">
+</div>
+</div>
+<div id="section-so-how-does-it-work" class="section level2">
+<h2>So How Does It Work?</h2>
+<p>To short a share of stock, you borrow the stock from someone (say, Bob) and sell it to someone else (say, Sandra). Say that you sold it to Sandra for $100. The cash balance in your account will increase by $100, and you will hold a -1 position in the stock.</p>
+<ul>
+<li><p>Eventually, you’ll have to return the stock to Bob to close our your short position.</p></li>
+<li><p>To return the stock to Bob, you’ll go to the market and buy a share. You can buy it from anyone, not just Sandra.</p></li>
+</ul>
+<div class="MIfooter">
+<img src="mi.png" style="height:50px;">
+</div>
+</div>
+<div id="section-example-profitloss" class="section level2">
+<h2>Example Profit/Loss</h2>
+<p>Imagine that the stock is trading in the market for $80 when you decide to close the position.</p>
+<ul>
+<li><p>To close the postion, you buy the stock for $80 and return it to Bob.</p></li>
+<li><p>After the transaction you are left with a profit of $100 - $80 = $20.</p></li>
+</ul>
+<div class="MIfooter">
+<img src="mi.png" style="height:50px;">
+</div>
+</div>
+<div id="section-example-profitloss-1" class="section level2">
+<h2>Example Profit/Loss</h2>
+<p>Alternatievly, say the stock is trading in the market for $110 when you decide to close the position.</p>
+<ul>
+<li><p>To close the postion, you buy the stock for $110 and return it to Bob.</p></li>
+<li><p>So you sold the stock for $100, and bought it for $110, for a loss of $10.</p></li>
+</ul>
+<div class="MIfooter">
+<img src="mi.png" style="height:50px;">
+</div>
+</div>
+<div id="section-interactive-app" class="section level2">
+<h2>Interactive App</h2>
+<p>On the next slide you can input the amount of shares you want to short, as well as the prices at which you open and close the short position.</p>
+<ul>
+<li><p>The app shows each transaction made in the course of the short sale and also your ultimate profit.</p></li>
+<li><p>A negative profit is a loss.</p></li>
+<li><p>Complete lines open the short position, and dotted lines close the short.</p></li>
+</ul>
+<div class="MIfooter">
+<img src="mi.png" style="height:50px;">
+</div>
+</div>
+<div id="section-section" class="section level2">
+<h2></h2>
+<p><iframe data-deferred-src="app1d2f73fa34efcb6e9b8dfc96a56ede85/?w=&amp;__subapp__=1" width="100%" height="400" class="shiny-frame shiny-frame-deferred"></iframe></p>
+<div class="MIfooter">
+<img src="mi.png" style="height:50px;">
+</div>
+</div>
+<div id="section-how-do-you-borrow-shares" class="section level2">
+<h2>How Do You Borrow Shares?</h2>
+<p>This is handled by your broker – you don’t have to worry about the mechanics behind the scenes.</p>
+<ul>
+<li><p>Essentially what happens is you broker will borrow the shares from a large investor or mutual fund.</p></li>
+<li><p>Sometimes your broker doesn’t think it will be able to borrow shares, and will indicate the stock is not available for shorting.</p></li>
+<li><p>Note, you don’t have any sort of right to short, and so during times of market turbulence, you may not be able to short many stocks.</p></li>
+</ul>
+<div class="MIfooter">
+<img src="mi.png" style="height:50px;">
+</div>
+</div>
+<div id="section-naked-shorting" class="section level2">
+<h2>Naked Shorting</h2>
+<p>Your broker has some leeway in terms of how soon they have to borrow shares – generally, a few days.</p>
+<ul>
+<li><p>In the past, however, some brokers never bothered to borrow the shares.</p></li>
+<li><p>The term for shorting while failing to borrow the stock is ‘Naked Shorting’ and it has been banned by the U.S. Securities and Exchange Commission.</p></li>
+</ul>
+<div class="MIfooter">
+<img src="mi.png" style="height:50px;">
+</div>
+</div>
+<div id="section-alternatives-to-shorting-inverse-etfs" class="section level2">
+<h2>Alternatives to Shorting: Inverse ETFs</h2>
+<p>If you don’t want to short (or your brokerage account doesn’t allow it), you can simply buy an inverse <a href="http://www.5minutefinance.org/concepts/exchange-traded-funds">Exchange Traded Fund (ETF)</a>.</p>
+<ul>
+<li><p>Buying an inverse ETF on a portfolio will afford a return very similar to shorting the portfolio.</p></li>
+<li><p>Inverse ETFs are not available for individual stocks.</p></li>
+</ul>
+<div class="MIfooter">
+<img src="mi.png" style="height:50px;">
+</div>
+</div>
+<div id="section-inverse-etf-performance" class="section level2">
+<h2>Inverse ETF Performance</h2>
+<p>The next slide shows the performance of an ETF on the S&amp;P 500 (SPY) and an inverse ETF on the S&amp;P 500 (SH).</p>
+<ul>
+<li><p>To zoom in or focus on a subinterval, use the range selector at the bottom of the chart.</p></li>
+<li><p>You can see the inverse ETF (short) is a mirror image of the performance of the S&amp;P 500.</p></li>
+</ul>
+<div class="MIfooter">
+<img src="mi.png" style="height:50px;">
+</div>
+</div>
+<div id="section-sp-500-spy-and-short-sp-500-sh" class="section level2">
+<h2>S&amp;P 500 (SPY) and Short S&amp;P 500 (SH)</h2>
+<pre><code>## Error in utils::download.file(url, path, method = method, quiet = quiet,  : 
+##   cannot open URL &#39;https://api.github.com/repos/joshuaulrich/quantmod/tarball/157_yahoo_502&#39;</code></pre>
+<p><div id="outa35832c44fd18858" style="width:100%; height:400px; " class="dygraphs html-widget html-widget-output"></div></p>
+<div class="MIfooter">
+<img src="mi.png" style="height:50px;">
+</div>
+<!---
+## Does Shorting Create Shares?
+Short answer: No.
+In our example, Bob ownes a share, we *owe* one share, and Sandra ownes a share.  The number of shares outstanding are 1 - 1 + 1 = 1.
+-  So as long as the shares are actually borrowed (it is not a naked short), shorting has no effect on the float.
+-->
+</div>
+<div id="section-credits-and-collaboration" class="section level2">
+<h2>Credits and Collaboration</h2>
+<p>Click the following links to see the <a href="https://github.com/FinancialMarkets/5MinuteFinance/blob/master/Equity/short_selling_stock/short_selling_stock.Rmd">code</a>, <a href="https://github.com/FinancialMarkets/5MinuteFinance/blame/master/Equity/short_selling_stock/short_selling_stock.Rmd">authors of this presentation</a>, and <a href="https://github.com/FinancialMarkets/5MinuteFinance/graphs/contributors">all the collaborators who have contributed to 5MinuteFinance</a>.</p>
+<p>If you would like to make any additions or corrections to this presentation, visit our <a href="https://github.com/FinancialMarkets/5MinuteFinance#how-to-contribute">GitHub repository page</a> to learn more about how to contribute.</p>
+<div class="MIfooter">
+<img src="mi.png" style="height:50px;">
+</div>
+</div>

@@ -1,0 +1,272 @@
+---
+title: "Data 607 Week 10 Assignment"
+author: "Sung Lee"
+date: "2021-09-17"
+output: 
+  html_document:
+    code_folding: show
+    df_print: paged
+    toc: true
+    toc_float: true
+    toc_collapsed: true
+    smooth_scroll: false
+    toc_depth: 3
+number_sections: true
+theme: paper
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p><a href="https://rpubs.com/logicalschema/data607_week10" title="Sung&#39;s Week 10 Assignment Rpubs">Assignment on RPubs</a>
+<br>
+<a href="https://github.com/logicalschema/DATA607/blob/master/week10/SungLee-Week10.Rmd" title="Sung&#39;s Week 10 Assignment Github">Rmd on Github</a><br />
+<br></p>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p><strong>Assignment</strong></p>
+<p>In Text Mining with R, Chapter 2 looks at Sentiment Analysis. In this assignment, you should start by getting the primary example code from chapter 2 working in an R Markdown document. You should provide a citation to this base code. You’re then asked to extend the code in two ways:</p>
+<ul>
+<li><p>Work with a different corpus of your choosing, and</p></li>
+<li><p>Incorporate at least one additional sentiment lexicon (possibly from another R package that you’ve found through research).</p></li>
+</ul>
+<p>As usual, please submit links to both an .Rmd file posted in your GitHub repository and to your code on rpubs.com. You may work as a small team on this assignment.</p>
+<p><strong>Note:</strong> If you initially encounter problems loading AFINN, you will need to accept the license for the lexicon by typing in the console for R Markdown.</p>
+</div>
+<div id="example-from-textbook" class="section level2">
+<h2>Example from Textbook</h2>
+<p>The code below is an example from chapter 2 of <em>Text Mining with R</em><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<p>The example uses the <code>AFINN</code> lexicon to analyze sentiment for Jane Austen’s <em>Pride and Prejudice</em>.</p>
+<pre class="r"><code># Based on code from https://www.tidytextmining.com/sentiment.html
+library(tidytext)
+library(dplyr)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>library(stringr)
+library(janeaustenr)
+library(ggplot2)
+get_sentiments(&quot;afinn&quot;)</code></pre>
+<pre><code>## # A tibble: 2,477 x 2
+##    word       value
+##    &lt;chr&gt;      &lt;dbl&gt;
+##  1 abandon       -2
+##  2 abandoned     -2
+##  3 abandons      -2
+##  4 abducted      -2
+##  5 abduction     -2
+##  6 abductions    -2
+##  7 abhor         -3
+##  8 abhorred      -3
+##  9 abhorrent     -3
+## 10 abhors        -3
+## # ... with 2,467 more rows</code></pre>
+<pre class="r"><code>tidy_books &lt;- austen_books() %&gt;%
+  group_by(book) %&gt;%
+  mutate(linenumber = row_number(),
+         chapter = cumsum(str_detect(text, regex(&quot;^chapter [\\divxlc]&quot;, 
+                                                 ignore_case = TRUE)))) %&gt;%
+  ungroup() %&gt;%
+  unnest_tokens(word, text)</code></pre>
+<pre class="r"><code>pride_prejudice &lt;- tidy_books %&gt;% 
+  filter(book == &quot;Pride &amp; Prejudice&quot;)
+pride_prejudice</code></pre>
+<pre><code>## # A tibble: 122,204 x 4
+##    book              linenumber chapter word     
+##    &lt;fct&gt;                  &lt;int&gt;   &lt;int&gt; &lt;chr&gt;    
+##  1 Pride &amp; Prejudice          1       0 pride    
+##  2 Pride &amp; Prejudice          1       0 and      
+##  3 Pride &amp; Prejudice          1       0 prejudice
+##  4 Pride &amp; Prejudice          3       0 by       
+##  5 Pride &amp; Prejudice          3       0 jane     
+##  6 Pride &amp; Prejudice          3       0 austen   
+##  7 Pride &amp; Prejudice          7       1 chapter  
+##  8 Pride &amp; Prejudice          7       1 1        
+##  9 Pride &amp; Prejudice         10       1 it       
+## 10 Pride &amp; Prejudice         10       1 is       
+## # ... with 122,194 more rows</code></pre>
+<pre class="r"><code>afinn &lt;- pride_prejudice %&gt;% 
+  inner_join(get_sentiments(&quot;afinn&quot;)) %&gt;% 
+  group_by(index = linenumber %/% 80) %&gt;% 
+  summarise(sentiment = sum(value)) %&gt;% 
+  mutate(method = &quot;AFINN&quot;)</code></pre>
+<pre><code>## Joining, by = &quot;word&quot;</code></pre>
+<pre class="r"><code>bind_rows(afinn) %&gt;%
+  ggplot(aes(index, sentiment, fill = method)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~method, ncol = 1, scales = &quot;free_y&quot;)</code></pre>
+<p><img src="/post/textmining/textmining_files/figure-html/pride_prejudice-1.png" width="672" /></p>
+</div>
+<div id="loughran-sentiment-lexicon" class="section level2">
+<h2>Loughran Sentiment Lexicon</h2>
+<p>I will use the loughran`. I found it on this page: <a href="https://www.rdocumentation.org/packages/tidytext/versions/0.2.3/topics/get_sentiments" class="uri">https://www.rdocumentation.org/packages/tidytext/versions/0.2.3/topics/get_sentiments</a><br />
+<strong>Note:</strong> If you initially encounter problems loading loughran, you will need to accept the license for the lexicon by typing in the console for R Markdown.</p>
+<pre class="r"><code>get_sentiments(&quot;loughran&quot;)</code></pre>
+<pre><code>## # A tibble: 4,150 x 2
+##    word         sentiment
+##    &lt;chr&gt;        &lt;chr&gt;    
+##  1 abandon      negative 
+##  2 abandoned    negative 
+##  3 abandoning   negative 
+##  4 abandonment  negative 
+##  5 abandonments negative 
+##  6 abandons     negative 
+##  7 abdicated    negative 
+##  8 abdicates    negative 
+##  9 abdicating   negative 
+## 10 abdication   negative 
+## # ... with 4,140 more rows</code></pre>
+</div>
+<div id="corpus" class="section level2">
+<h2>Corpus</h2>
+<p>I will use the <code>harrypotter</code> package<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. It contains several of novels from the <em>Harry Potter</em> series. I will use <em>Harry Potter and the Order of the Phoenix</em>.</p>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --</code></pre>
+<pre><code>## v tibble  3.1.4     v purrr   0.3.4
+## v tidyr   1.1.3     v forcats 0.5.1
+## v readr   2.0.1</code></pre>
+<pre><code>## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>library(stringr)
+# Code based on https://afit-r.github.io/sentiment_analysis
+devtools::install_github(&quot;bradleyboehmke/harrypotter&quot;) </code></pre>
+<pre><code>## Skipping install of &#39;harrypotter&#39; from a github remote, the SHA1 (51f71461) has not changed since last install.
+##   Use `force = TRUE` to force installation</code></pre>
+<pre class="r"><code>library(harrypotter) </code></pre>
+<p><br></p>
+<p>This is a sample of the corpus:</p>
+<pre class="r"><code>order_of_the_phoenix[1:1]</code></pre>
+<pre><code>## [1] &quot;Dudley Demented    The hottest day of the summer so far was drawing to a close and a drowsy silence lay over the large, square houses of Privet Drive. Cars that were usually gleaming stood dusty in their drives and lawns that were once emerald green lay parched and yellowing - &#39;for the use of hosepipes had been banned due to drought. Deprived of their usual car-washing and lawn-mowing pursuits, the inhabitants of Privet Drive had retreated into the shade of their cool houses, windows thrown wide in the hope of tempting in a nonexistent breeze. The only person left outdoors was a teenage boy who was lying flat on his back in a flowerbed outside number four.    He was a skinny, black-haired, bespectacled boy who had the pinched, slightly unhealthy look of someone who has grown a lot in a short space of time. His jeans were torn and dirty, his T-shirt baggy and faded, and the soles of his trainers were peeling away from the uppers. Harry Potters appearance did not endear him to the neighbours, who were the sort of people who thought scruffiness ought to be punishable by law, but as he had hidden himself behind a large hydrangea bush this evening he was quite invisible to passers-by. In fact, the only way he would be spotted was if his Uncle Vernon or Aunt Petunia stuck their heads out of the living-room window and looked straight down into the flowerbed below.    On the whole, Harry thought he was to be congratulated on his idea of hiding here. He was not, perhaps, very comfortable lying on the hot, hard earth but, on the other hand, nobody was glaring at him, grinding their teeth so loudly that he could not hear the news, or shooting nasty questions at him, as had happened every time he had tried sitting down in the living room to watch television with his aunt and uncle.    Almost as though this thought had fluttered through the open window, Vernon Dursley, Harry&#39;s uncle, suddenly spoke.    &#39;Glad to see the boy&#39;s stopped trying to butt in. Where is he, anyway?&#39;    &#39;I don&#39;t know,&#39; said Aunt Petunia, unconcerned. &#39;Not in the house.&#39;    Uncle Vernon grunted.    &#39;Watching the news . . .&#39; he said scathingly. &#39;I&#39;d like to know what he&#39;s really up to. As if a normal boy cares what&#39;s on the news - &#39;Dudley hasn&#39;t got a clue what&#39;s going on; doubt he knows who the Prime Minister is! Anyway, it&#39;s not as if there&#39;d be anything about his lot on our news - &#39;    &#39;Vernon, shh!&#39; said Aunt Petunia. The window&#39;s open!&#39;    &#39;Oh - yes - sorry, dear.&#39;    The Dursleys fell silent. Harry listened to a jingle about Fruit &#39;n&#39; Bran breakfast cereal while he watched Mrs Figg, a batty cat-loving old lady from nearby Wisteria Walk, amble slowly past. She was frowning and muttering to herself. Harry was very pleased he was concealed behind the bush, as Mrs Figg had recently taken to asking him round for tea whenever she met him in the street. She had rounded the corner and vanished from view before Uncle Vernon&#39;s voice floated out of the window again.    &#39;Dudders out for tea?&#39;    &#39;At the Polkisses&#39;,&#39; said Aunt Petunia fondly. &#39;He&#39;s got so many little friends, he&#39;s so popular . . .&#39;    Harry suppressed a snort with difficulty. The Dursleys really were astonishingly stupid about their son, Dudley. They had swallowed all his dim-witted lies about having tea with a different member of his gang every night of the summer holidays. Harry knew perfectly well that Dudley had not been to tea anywhere; he and his gang spent every evening vandalising the play park, smoking on street corners and throwing stones at passing cars and children. Harry had seen them at it during his evening walks around Little Whinging; he had spent most of the holidays wandering the streets, scavenging newspapers from bins along the way.    The opening notes of the music that heralded the seven o&#39;clock news reached Harry&#39;s ears and his stomach turned over. Perhaps tonight - after a month of waiting - would be the night.    &#39;Record numbers of stranded holidaymakers fill airports as the Spanish baggage-handlers&#39; strike reaches its second week - &#39;    &#39;Give &#39;em a lifelong siesta, I would,&#39; snarled Uncle Vernon over the end of the newsreaders sentence, but no matter: outside in the flowerbed, Harry&#39;s stomach seemed to unclench. If anything had happened, it would surely have been the first item on the news; death and destruction were more important than stranded holidaymakers.    He let out a long, slow breath and stared up at the brilliant blue sky. Every day this summer had been the same: the tension, the expectation, the temporary relief, and then mounting tension again . . . and always, growing more insistent all the time, the question of why nothing had happened yet.    He kept listening, just in case there was some small clue, not recognised for what it really was by the Muggles - an unexplained disappearance, perhaps, or some strange accident . . . but the baggage-handlers&#39; strike was followed by news about the drought in the Southeast (&#39;I hope he&#39;s listening next door!&#39; bellowed Uncle Vernon. &#39;Him with his sprinklers on at three in the morning!&#39;), then a helicopter that had almost crashed in a field in Surrey, then a famous actress&#39;s divorce from her famous husband (&#39;As if we&#39;re interested in their sordid affairs,&#39; sniffed Aunt Petunia, who had followed the case obsessively in every magazine she could lay her bony hands on).    Harry closed his eyes against the now blazing evening sky as the newsreader said, &#39;- and finally, Bungy the budgie has found a novel way of keeping cool this summer. Bungy, who lives at the Five Feathers in Barnsley, has learned to water ski! Mary Dorkins went to find out more.&#39;    Harry opened his eyes. If they had reached water-skiing budgerigars, there would be nothing else worth hearing. He rolled cautiously on to his front and raised himself on to his knees and elbows, preparing to crawl out from under the window.    He had moved about two inches when several things happened in very quick succession.    A loud, echoing crack broke the sleepy silence like a gunshot; a cat streaked out from under a parked car and flew out of sight; a shriek, a bellowed oath and the sound of breaking china came from the Dursleys&#39; living room, and as though this was the signal Harry had been waiting for he jumped to his feet, at the same time pulling from the waistband of his jeans a thin wooden wand as if he were unsheathing a sword - but before he could draw himself up to full height, the top of his head collided with the Dursleys&#39; open window. The resultant crash made Aunt Petunia scream even louder.    Harry felt as though his head had been split in two. Eyes streaming, he swayed, trying to focus on the street to spot the source of the noise, but he had barely staggered upright when two large purple hands reached through the open window and closed tightly around his throat.    &#39;Put - it - away!&#39; Uncle Vernon snarled into Harry&#39;s ear. &#39;Now! Before - anyone - sees!&#39;    &#39;Get - off - me!&#39; Harry gasped. For a few seconds they struggled, Harry pulling at his uncle&#39;s sausage-like fingers with his left hand, his right maintaining a firm grip on his raised wand; then, as the pain in the top of Harry&#39;s head gave a particularly nasty throb, Uncle Vernon yelped and released Harry as though he had received an electric shock. Some invisible force seemed to have surged through his nephew, making him impossible to hold.    Panting, Harry fell forwards over the hydrangea bush, straightened up and stared around. There was no sign of what had caused the loud cracking noise, but there were several faces peering through various nearby windows. Harry stuffed his wand hastily back into his jeans and tried to look innocent.    &#39;Lovely evening!&#39; shouted Uncle Vernon, waving at Mrs Number Seven opposite, who was glaring from behind her net curtains. &#39;Did you hear that car backfire just now? Gave Petunia and me quite a turn!&#39;    He continued to grin in a horrible, manic way until all the curious neighbours had disappeared from their various windows, then the grin became a grimace of rage as he beckoned Harry back towards him.    Harry moved a few steps closer, taking care to stop just short of the point at which Uncle Vernon&#39;s outstretched hands could resume their strangling.    &#39;What the devil do you mean by it, boy?&#39; asked Uncle Vernon in a croaky voice that trembled with fury.    &#39;What do I mean by what?&#39; said Harry coldly. He kept looking left and right up the street, still hoping to see the person who had made the cracking noise.    &#39;Making a racket like a starting pistol right outside our - &#39;    &#39;I didn&#39;t make that noise,&#39; said Harry firmly.    Aunt Petunia&#39;s thin, horsy face now appeared beside Uncle Vernon&#39;s wide, purple one. She looked livid.    &#39;Why were you lurking under our window?&#39;    &#39;Yes - yes, good point, Petunia! What were you doing under our window, boy?&#39;    &#39;Listening to the news,&#39; said Harry in a resigned voice.    His aunt and uncle exchanged looks of outrage.    &#39;Listening to the news! Again?&#39;    &#39;Well, it changes every day, you see,&#39; said Harry.    &#39;Don&#39;t you be clever with me, boy! I want to know what you&#39;re really up to - and don&#39;t give me any more of this listening to the news tosh! You know perfectly well that your lot - &#39;    &#39;Careful, Vernon!&#39; breathed Aunt Petunia, and Uncle Vernon lowered his voice so that Harry could barely hear him,&#39; - that your lot don&#39;t get on our news!&#39;    That&#39;s all you know,&#39; said Harry.    The Dursleys goggled at him for a few seconds, then Aunt Petunia said, &#39;You&#39;re a nasty little liar. What are all those - &#39; she, too, lowered her voice so that Harry had to lip-read the next word, &#39; - owls doing if they&#39;re not bringing you news?&#39;    &#39;Aha!&#39; said Uncle Vernon in a triumphant whisper. &#39;Get out of that one, boy! As if we didn&#39;t know you get all your news from those pestilential birds!&#39;    Harry hesitated for a moment. It cost him something to tell the truth this time, even though his aunt and uncle could not possibly know how bad he felt at admitting it.    &#39;The owls . . . aren&#39;t bringing me news,&#39; he said tonelessly.    &#39;I don&#39;t believe it,&#39; said Aunt Petunia at once.    &#39;No more do I,&#39; said Uncle Vernon forcefully.    &#39;We know you&#39;re up to something funny&#39; said Aunt Petunia.    &#39;We&#39;re not stupid, you know,&#39; said Uncle Vernon.    &#39;Well, that&#39;s news to me,&#39; said Harry, his temper rising, and before the Dursleys could call him back, he had wheeled about, crossed the front lawn, stepped over the low garden wall and was striding off up the street.    He was in trouble now and he knew it. He would have to face his aunt and uncle later and pay the price for his rudeness, but he: did not care very much just at the moment; he had much more pressing matters on his mind.    Harry was sure the cracking noise had been made by someone Apparating or Disapparating. It was exactly the sound Dobby the house-elf made when he vanished into thin air. Was it possible that Dobby was here in Privet Drive? Could Dobby be following him right at this very moment? As this thought occurred he wheeled around and stared back down Privet Drive, but it appeared to be completely deserted and Harry was sure that Dobby did not know how to become invisible.    He walked on, hardly aware of the route he was taking, for he had pounded these streets so often lately that his feet carried him to his favourite haunts automatically. Every few steps he glanced back over his shoulder. Someone magical had been near him as he lay among Aunt Petunia&#39;s dying begonias, he was sure of it. Why hadn&#39;t they spoken to him, why hadn&#39;t they made contact, why were they hiding now?    And then, as his feeling of frustration peaked, his certainty leaked away.    Perhaps it hadn&#39;t been a magical sound after all. Perhaps he was so desperate for the tiniest sign of contact from the world to which he belonged that he was simply overreacting to perfectly ordinary noises. Could he be sure it hadn&#39;t been the sound of something breaking inside a neighbour&#39;s house?    Harry felt a dull, sinking sensation in his stomach and before he knew it the feeling of hopelessness that had plagued him all summer rolled over him once again.    Tomorrow morning he would be woken by the alarm at five o&#39;clock so he could pay the owl that delivered the Daily Prophet - but was there any point continuing to take it? Harry merely glanced at the front page before throwing it aside these days; when the idiots who ran the paper finally realised that Voldemort was back it would be headline news, and that was the only kind Harry cared about.    If he was lucky, there would also be owls carrying letters from his best friends Ron and Hermione, though any expectation he&#39;d had that their letters would bring him news had long since been dashed.    We can&#39;t say much about you-know-what, obviously . . . We&#39;ve been told not to say anything important in case our letters go astray . . . We&#39;re quite busy but I can&#39;t give you details here . . . There&#39;s a fair amount going on, we&#39;ll tell you everything when we see you . . .    But when were they going to see him? Nobody seemed too bothered with a precise date. Hermione had scribbled I expect we&#39;ll be seeing you quite soon inside his birthday card, but how soon was soon? As far as Harry could tell from the vague hints in their letters, Hermione and Ron were in the same place, presumably at Ron&#39;s parents&#39; house. He could hardly bear to think of the pair of them having fun at The Burrow when he was stuck in Privet Drive. In fact, he was so angry with them he had thrown away, unopened, the two boxes of Honeydukes chocolates they&#39;d sent him for his birthday. He&#39;d regretted it later, after the wilted salad Aunt Petunia had provided for dinner that night.    And what were Ron and Hermione busy with? Why wasn&#39;t he, Harry, busy? Hadn&#39;t he proved himself capable of handling much more than them? Had they all forgotten what he had done? Hadn&#39;t it been he who had entered that graveyard and watched Cedric being murdered, and been tied to that tombstone and nearly killed?    Don&#39;t think about that, Harry told himself sternly for the hundredth time that summer. It was bad enough that he kept revisiting the graveyard in his nightmares, without dwelling on it in his waking moments too.    He turned a corner into Magnolia Crescent; halfway along he passed the narrow alleyway down the side of a garage where he had first clapped eyes on his godfather. Sirius, at least, seemed to understand how Harry was feeling. Admittedly, his letters were just as empty of proper news as Ron and Hermione&#39;s, but at least they contained words of caution and consolation instead of tantalising hints: I know this must be frustrating for you . . . Keep your nose clean and everything will be OK . . .Be careful and don&#39;t do anything rash . . .    Well, thought Harry, as he crossed Magnolia Crescent, turned into Magnolia Road and headed towards the darkening play park, he had (by and large) done as Sirius advised. He had at least resisted the temptation to tie his trunk to his broomstick and set off for The Burrow by himself. In fact, Harry thought his behaviour had been very good considering how frustrated and angry he felt at being stuck in Privet Drive so long, reduced to hiding in flowerbeds in the hope of hearing something that might point to what Lord Voldemort was doing. Nevertheless, it was quite galling to be told not to be rash by a man who had served twelve years in the wizard prison, Azkaban, escaped, attempted to commit the murder he had been convicted for in the first place, then gone on the run with a stolen Hippogriff.    Harry vaulted over the locked park gate and set off across the parched grass. The park was as empty as the surrounding streets. When he reached the swings he sank on to the only one that Dudley and his friends had not yet managed to break, coiled one arm around the chain and stared moodily at the ground. He would not be able to hide in the Dursleys&#39; flowerbed again. Tomorrow, he would have to think of some fresh way of listening to the news. In the meantime, he had nothing to look forward to but another restless, disturbed night, because even when he escaped the nightmares about Cedric he had unsettling dreams about long dark corridors, all finishing in dead ends and locked doors, which he supposed had something to do with the trapped feeling he had when he was awake. Often the old scar on his forehead prickled uncomfortably, but he did not fool himself that Ron or Hermione or Sirius would find that very interesting any more. In the past, his scar hurting had warned that Voldemort was getting stronger again, but now that Voldemort was back they would probably remind him that its regular irritation was only to be expected . . . nothing to worry about . . . old news . . .    The injustice of it all welled up inside him so that he wanted to yell with fury. If it hadn&#39;t been for him, nobody would even have known Voldemort was back! And. his reward was to be stuck in Little Whinging for four solid weeks, completely cut off from the magical world, reduced to squatting among dying begonias so hat he could hear about water-skiing budgerigars! How could Dumbledore have forgotten him so easily? Why had Ron and Hermione got together without inviting him along, too? How much longer was he supposed to endure Sirius telling him to sit tight and be a good boy; or resist the temptation to write to the stupid Daily Prophet and point out that Voldemort had returned? These curious thoughts whirled around in Harry&#39;s head, and his insides writhed with anger as a sultry, velvety night fell around him, the air full of the smell of warm, dry grass, and the only sound that of the low grumble of traffic on the road beyond the park railings. He did not know how long he had sat on the swing before the sound of voices interrupted his musings and he looked up. The streetlamps from the surrounding roads were casting a misty glow strong enough to silhouette a group of people making their way across the park. One of them was singing a loud, crude song. The others were laughing. A soft ticking noise came from several expensive racing bikes that they were wheeling along.    Harry knew who those people were. The figure in front was unmistakeably his cousin, Dudley Dursley wending his way home, accompanied by his faithful gang.    Dudley was as vast as ever, but a year&#39;s hard dieting and the discovery of a new talent had wrought quite a change in his physique. As Uncle Vernon delightedly told anyone who would listen, Dudley had recently become the Junior Heavyweight Inter-school Boxing Champion of the Southeast. &#39;The noble sport&#39;, as Uncle Vernon called it, had made Dudley even more formidable than he had seemed to Harry in their primary school days when he had served as Dudley&#39;s first punchball. Harry was not remotely afraid of his cousin any more but he still didn&#39;t think that Dudley earning to punch harder and more accurately was cause for celebration. Neighbourhood children all around were terrified of him - even more terrified than they were of &#39;that Potter boy&#39; who, they lad been warned, was a hardened hooligan and attended St Brutus&#39;s secure Centre for Incurably Criminal Boys.    Harry watched the dark figures crossing the grass and wondered who they had been beating up tonight. Look round, Harry found himself thinking as he watched them. Come on . . . look round . . . I&#39;m sitting here all alone . . . come and have a go . . .    If Dudley&#39;s friends saw him sitting here, they would be sure to make a beeline for him, and what would Dudley do then? He wouldn&#39;t want to lose face in front of the gang, but he&#39;d be terrified of provoking Harry . . . it would be really fun to watch Dudley&#39;s dilemma, to taunt him, watch him, with him powerless to respond . . . and if any of the others tried hitting Harry, he was ready - he had his wand. Let them try . . . he&#39;d love to vent some of his frustration on the boys who had once made his life hell.    But they didn&#39;t turn around, they didn&#39;t see him, they were almost at the railings. Harry mastered the impulse to call after them . . . seeking a fight was not a smart move . . . he must not use magic he would be risking expulsion again.    The voices of Dudley&#39;s gang died away; they were out of sight, heading along Magnolia Road.    There you go, Sirius, Harry thought dully. Nothing rash. Kept my nose clean. Exactly the opposite of what you&#39;d have done.    He got to his feet and stretched. Aunt Petunia and Uncle Vernon seemed to feel that whenever Dudley turned up was the right time to be home, and any time after that was much too late. Uncle Vernon had threatened to lock Harry in the shed if he came home alter Dudley ever again, so, stifling a yawn, and still scowling, Harry set off towards the park gate.    Magnolia Road, like Privet Drive, was full of large, square houses with perfectly manicured lawns, all owned by large, square owners who drove very clean cars similar to Uncle Vernon&#39;s. Harry preferred Little Whinging by night, when the curtained windows made patches of jewel-bright colour in the darkness and he ran no danger of hearing disapproving mutters about his &#39;delinquent&#39; appearance when he passed the householders. He walked quickly, so that halfway along Magnolia Road Dudley&#39;s gang came into view again; they were saying their farewells at the entrance to Magnolia Crescent. Harry stepped into the shadow of a large lilac tree and waited.    &#39;. . . squealed like a pig, didn&#39;t he?&#39; Malcolm was saying, to guffaws from the others.    &#39;Nice right hook, Big D,&#39; said Piers.    &#39;Same time tomorrow?&#39; said Dudley.    &#39;Round at my place, my parents will be out,&#39; said Gordon.    &#39;See you then,&#39; said Dudley.    &#39;Bye, Dud!&#39;    &#39;See ya, Big D!&#39;    Harry waited for the rest of the gang to move on before setting off again. When their voices had faded once more he headed around the corner into Magnolia Crescent and by walking very quickly he soon came within hailing distance of Dudley, who was strolling along at his ease, humming tunelessly.    &#39;Hey, Big D!&#39;    Dudley turned.    &#39;Oh,&#39; he grunted. &#39;It&#39;s you.&#39;    &#39;How long have you been \&quot;Big D\&quot; then?&#39; said Harry.    &#39;Shut it,&#39; snarled Dudley, turning away.    &#39;Cool name,&#39; said Harry, grinning and falling into step beside is cousin. &#39;But you&#39;ll always be \&quot;Ickle Diddykins\&quot; to me.&#39;    &#39;I said, SHUT IT!&#39; said Dudley, whose ham-like hands had curled into fists.    &#39;Don&#39;t the boys know that&#39;s what your mum calls you?&#39;    &#39;Shut your face.&#39;    &#39;You don&#39;t tell her to shut her face. What about \&quot;Popkin\&quot; and \&quot;Dinky Diddydums\&quot;, can I use them then?&#39;    Dudley said nothing. The effort of keeping himself from hitting Harry seemed to demand all his self-control.    &#39;So who&#39;ve you been beating up tonight?&#39; Harry asked, his grin fading. &#39;Another ten-year-old? I know you did Mark Evans two nights ago - &#39;    &#39;He was asking for it,&#39; snarled Dudley.    &#39;Oh yeah?&#39;    &#39;He cheeked me.&#39;    &#39;Yeah? Did he say you look like a pig that&#39;s been taught to walk on its hind legs? &#39;Cause that&#39;s not cheek, Dud, that&#39;s true.&#39;    A muscle was twitching in Dudley&#39;s jaw. It gave Harry enormous satisfaction to know how furious he was making Dudley; he felt as though he was siphoning off his own frustration into his cousin, the only outlet he had.    They turned right down the narrow alleyway where Harry had first seen Sirius and which formed a short cut between Magnolia Crescent and Wisteria Walk. It was empty and much darker than the streets it linked because there were no streetlamps. Their footsteps were muffled between garage walls on one side and a high fence on the other.    Think you&#39;re a big man carrying that thing, don&#39;t you?&#39; Dudley said after a few seconds.    &#39;What thing?&#39;    That - that thing you are hiding.&#39;    Harry grinned again.    &#39;Not as stupid as you look, are you, Dud? But I s&#39;pose, if you were, you wouldn&#39;t be able to walk and talk at the same time.&#39;    Harry pulled out his wand. He saw Dudley look sideways at it.    &#39;You&#39;re not allowed,&#39; Dudley said at once. &#39;I know you&#39;re not. You&#39;d get expelled from that freak school you go to.&#39;    &#39;How d&#39;you know they haven&#39;t changed the rules, Big D?&#39;    They haven&#39;t,&#39; said Dudley, though he didn&#39;t sound completely convinced.    Harry laughed softly.    &#39;You haven&#39;t got the guts to take me on without that thing, have you?&#39; Dudley snarled.    &#39;Whereas you just need four mates behind you before you can beat up a ten year old. You know that boxing title you keep banging on about? How old was your opponent? Seven? Eight?&#39;    &#39;He was sixteen, for your information,&#39; snarled Dudley, &#39;and he was out cold for twenty minutes after I&#39;d finished with him and he was twice as heavy as you. You just wait till I tell Dad you had that thing out -    &#39;Running to Daddy now, are you? Is his ickle boxing champ frightened of nasty Harry&#39;s wand?&#39;    &#39;Not this brave at night, are you?&#39; sneered Dudley.    &#39;This is night, Diddykins. That&#39;s what we call it when it goes all dark like this.&#39;    &#39;I mean when you&#39;re in bed!&#39; Dudley snarled.    He had stopped walking. Harry stopped too, staring at his cousin.    From the little he could see of Dudley&#39;s large face, he was wearing a strangely triumphant look.    &#39;What d&#39;you mean, I&#39;m not brave when I&#39;m in bed?&#39; said Harry, Completely nonplussed. &#39;What am I supposed to be frightened of, pillows or something?&#39;    &#39;I heard you last night,&#39; said Dudley breathlessly. Talking in your sleep. Moaning.&#39;    &#39;What d&#39;you mean?&#39; Harry said again, but there was a cold, plunging sensation in his stomach. He had revisited the graveyard last night in his dreams.    Dudley gave a harsh bark of laughter, then adopted a high-pitched whimpering voice.    &#39; \&quot;Don&#39;t kill Cedric! Don&#39;t kill Cedric!\&quot; Who&#39;s Cedric - your boyfriend?&#39;    &#39;I - you&#39;re lying,&#39; said Harry automatically. But his mouth had gone dry. He knew Dudley wasn&#39;t lying - how else would he know about Cedric?    &#39; \&quot;Dad! Help me, Dad! He&#39;s going to kill me, Dad! Boo hoo!&#39;&#39; &#39;    &#39;Shut up,&#39; said Harry quietly. &#39;Shut up, Dudley, I&#39;m warning you!&#39;    &#39; \&quot;Come and help me, Dad! Mum, come and help me! He&#39;s killed Cedric! Dad, help me! He&#39;s going to - \&quot; Don&#39;t you point that thing at me!&#39;    Dudley backed into the alley wall. Harry was pointing the wand directly at Dudley&#39;s heart. Harry could feel fourteen years&#39; hatred of Dudley pounding in his veins - what wouldn&#39;t he give to strike now, to jinx Dudley so thoroughly he&#39;d have to crawl home like an insect, struck dumb, sprouting feelers . . .    &#39;Don&#39;t ever talk about that again,&#39; Harry snarled. &#39;D&#39;you understand me?&#39;    &#39;Point that thing somewhere else!&#39;    &#39;I said, do you understand me?&#39;    &#39;Point it somewhere else!&#39;    &#39;DO YOU UNDERSTAND ME?&#39;    &#39;GET THAT THING AWAY FROM - &#39;    Dudley gave an odd. shuddering gasp, as though he had been doused in icy water.    Something had happened to the night. The star-strewn indigo sky was suddenly pitch black and lightless - the stars, the moon, the misty streetlamps at either end of the alley had vanished. The distant rumble of cars and the whisper of trees had gone. The balmy evening was suddenly piercingly, bitingly cold. They were surrounded by total, impenetrable, silent darkness, as though some giant hand had dropped a thick, icy mantle over the entire alleyway, blinding them.    For a split second Harry thought he had done magic without meaning to, despite the fact that he&#39;d been resisting as hard as he could - then his reason caught up with his senses - he didn&#39;t have the power to turn off the stars. He turned his head this way and that, trying to see something, but the darkness pressed on his eyes like a weightless veil.    Dudley&#39;s terrified voice broke in Harry&#39;s ear.    &#39;W-what are you d-doing? St-stop it!&#39;    &#39;I&#39;m not doing anything! Shut up and don&#39;t move!&#39;    &#39;I c-can&#39;t see! I&#39;ve g-gone blind! I - &#39;    &#39;I said shut up!&#39;    Harry stood stock still, turning his sightless eyes left and right. The cold was so intense he was shivering all over; goose bumps had erupted up his arms and the hairs on the back of his neck were standing up - he opened his eyes to their fullest extent, staring blankly around, unseeing.    It was impossible . . . they couldn&#39;t be here . . . not in Little Whinging . . . he strained his ears . . . he would hear them before he saw them . . .    &#39;I&#39;ll t-tell Dad!&#39; Dudley whimpered. &#39;W-where are you? What are you d-do-?&#39;    &#39;Will you shut up?&#39; Harry hissed, &#39;I&#39;m trying to lis- &#39;    But he fell silent. He had heard just the thing he had been dreading.    There was something in the alleyway apart from themselves, something that was drawing long, hoarse, rattling breaths. Harry felt a horrible jolt of dread as he stood trembling in the freezing air.    &#39;C-cut it out! Stop doing it! I&#39;ll h-hit you, I swear I will!&#39;    &#39;Dudley, shut - &#39;    WHAM.    A fist made contact with the side of Harry&#39;s head, lifting him off his feet. Small white lights popped in front of his eyes. For the second time in an hour Harry felt as though his head had been cleaved in two; next moment, he had landed hard on the ground and his wand had flown out of his hand.    &#39;You moron, Dudley!&#39; Harry yelled, his eyes watering with pain as he scrambled to his hands and knees, feeling around frantically n the blackness. He heard Dudley blundering away, hitting the alley fence, stumbling.    &#39;DUDLEY, COME BACK! YOU&#39;RE RUNNING RIGHT AT IT!&#39;    There was a horrible squealing yell and Dudley&#39;s footsteps topped. At the same moment, Harry felt a creeping chill behind him that could mean only one thing. There was more than one.    &#39;DUDLEY, KEEP YOUR MOUTH SHUT! WHATEVER YOU DO, KEEP YOUR MOUTH SHUT! Wand!&#39; Harry muttered frantically, his hands flying over the ground like spiders. &#39;Where&#39;s - wand - come on - lumos!&#39;    He said the spell automatically, desperate for light to help him n his search - and to his disbelieving relief, light flared inches from his right hand - the wand tip had ignited. Harry snatched it up, scrambled to his feet and turned around.    His stomach turned over.    A towering, hooded figure was gliding smoothly towards him, hovering over the ground, no feet or face visible beneath its robes, sucking on the night as it came.    Stumbling backwards, Harry raised his wand.    &#39;Expecto patronum!&#39;    A silvery wisp of vapour shot from the tip of the wand and the Dementor slowed, but the spell hadn&#39;t worked properly; tripping over his own feet, Harry retreated further as the Dementor bore down upon him, panic fogging his brain - concentrate -    A pair of grey, slimy, scabbed hands slid from inside the Dementor&#39;s robes, reaching for him. A rushing noise filled Harry&#39;s ears.    &#39;Expecto patronum!&#39;    His voice sounded dim and distant. Another wisp of silver smoke, feebler than the last, drifted from the wand - he couldn&#39;t do it any more, he couldn&#39;t work the spell.    There was laughter inside his own head, shrill, high-pitched laughter . . . he could smell the Dementor&#39;s putrid, death-cold breath filling his own lungs, drowning him - think . . . something happy . . .    But there was no happiness in him . . . the Dementor&#39;s icy fingers were closing on his throat - the high-patched laughter was growing louder and louder, and a voice spoke inside his head: &#39;Bow to death, Harry . . . it might even be painless . . . I would not know . . . I have never died    He was never going to see Ron and Hermione again -    And their faces burst clearly into his mind as he fought for breath.    &#39;EXPECTO PATRONUM!&#39;    An enormous silver stag erupted from the tip of Harry&#39;s wand; it&#39;s antlers caught the Dementor in the place where the heart should have been; it was thrown backwards, weightless as darkness, and as the stag charged, the Dementor swooped away, bat-like and defeated.    &#39;THIS WAY!&#39; Harry shouted at the stag. Wheeling around, he sprinted down the alleyway, holding the lit wand aloft. &#39;DUDLEY? DUDLEY!&#39;    He had run barely a dozen steps when he reached them: Dudley was curled up on the ground, his arms clamped over his face. A second Dementor was crouching low over him, gripping his wrists in its slimy hands, prising them slowly, almost lovingly apart, lowering its hooded head towards Dudley&#39;s face as though about to kiss him.    &#39;GET IT!&#39; Harry bellowed, and with a rushing, roaring sound, the silver stag he had conjured came galloping past him. The Dementor&#39;s eyeless face was barely an inch from Dudley&#39;s when the silver antlers caught it; the thing was thrown up into the air and, like its fellow, it soared away and was absorbed into the darkness; the stag cantered to the end of the alleyway and dissolved into silver mist.    Moon, stars and streetlamps burst back into life. A warm breeze swept the alleyway. Trees rustled in neighbouring gardens and the mundane rumble of cars in Magnolia Crescent filled the air again.    Harry stood quite still, all his senses vibrating, taking in the abrupt return to normality. After a moment, he became aware that his T-shirt was sticking to him; he was drenched in sweat.    He could not believe what had just happened. Dementors here, in Little Whinging.    Dudley lay curled up on the ground, whimpering and shaking. Harry bent down to see whether he was in a fit state to stand up, but then he heard loud, running footsteps behind him. Instinctively raising his wand again, he span on his heel to face the newcomer.    Mrs Figg, their batty old neighbour, came panting into sight. Her grizzled grey hair was escaping from its hairnet, a clanking String shopping bag was swinging from her wrist and her feet were halfway out of her tartan carpet slippers. Harry made to stow his wand hurriedly out of sight, but -    &#39;Don&#39;t put it away, idiot boy!&#39; she shrieked. &#39;What if there are more of them around? Oh, I&#39;m going to kill Mundungus Fletcher!&#39; &quot;</code></pre>
+<p><br>
+<br></p>
+</div>
+<div id="import" class="section level2">
+<h2>Import</h2>
+<pre class="r"><code># Code based on https://afit-r.github.io/sentiment_analysis
+titles &lt;- c(&quot;Order of the Phoenix&quot;)
+books &lt;- list(order_of_the_phoenix)
+series &lt;- tibble()
+for(i in seq_along(titles)) {
+  
+  temp &lt;- tibble(chapter = seq_along(books[[i]]),
+                  text = books[[i]]) %&gt;%
+    unnest_tokens(word, text) %&gt;%
+    ##Here we tokenize each chapter into words
+    mutate(book = titles[i]) %&gt;%
+    select(book, everything())
+  
+  series &lt;- rbind(series, temp)
+}
+# set factor to keep books in order of publication
+series$book &lt;- factor(series$book, levels = rev(titles))
+# This is what the tokenizing looks like
+series</code></pre>
+<pre><code>## # A tibble: 258,763 x 3
+##    book                 chapter word    
+##    &lt;fct&gt;                  &lt;int&gt; &lt;chr&gt;   
+##  1 Order of the Phoenix       1 dudley  
+##  2 Order of the Phoenix       1 demented
+##  3 Order of the Phoenix       1 the     
+##  4 Order of the Phoenix       1 hottest 
+##  5 Order of the Phoenix       1 day     
+##  6 Order of the Phoenix       1 of      
+##  7 Order of the Phoenix       1 the     
+##  8 Order of the Phoenix       1 summer  
+##  9 Order of the Phoenix       1 so      
+## 10 Order of the Phoenix       1 far     
+## # ... with 258,753 more rows</code></pre>
+</div>
+<div id="analysis" class="section level2">
+<h2>Analysis</h2>
+<p>Here is sentiment analysis on the book using the <code>AFINN</code> lexicon.</p>
+<pre class="r"><code># Using the AFINN lexicon for sentiment analysis on Harry Potter
+afinn &lt;- series %&gt;%
+        group_by(book) %&gt;% 
+        mutate(word_count = 1:n(),
+               index = word_count %/% 500 + 1) %&gt;% 
+        inner_join(get_sentiments(&quot;afinn&quot;)) %&gt;%
+        group_by(book, index) %&gt;%
+        summarise(sentiment = sum(value)) %&gt;%
+        mutate(method = &quot;AFINN&quot;)</code></pre>
+<pre><code>## Joining, by = &quot;word&quot;</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;book&#39;. You can override using the `.groups` argument.</code></pre>
+<pre class="r"><code>#A view of the AFINN analysis
+afinn</code></pre>
+<pre><code>## # A tibble: 518 x 4
+## # Groups:   book [1]
+##    book                 index sentiment method
+##    &lt;fct&gt;                &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt; 
+##  1 Order of the Phoenix     1         0 AFINN 
+##  2 Order of the Phoenix     2         9 AFINN 
+##  3 Order of the Phoenix     3        -5 AFINN 
+##  4 Order of the Phoenix     4         3 AFINN 
+##  5 Order of the Phoenix     5       -10 AFINN 
+##  6 Order of the Phoenix     6       -24 AFINN 
+##  7 Order of the Phoenix     7       -15 AFINN 
+##  8 Order of the Phoenix     8        13 AFINN 
+##  9 Order of the Phoenix     9       -21 AFINN 
+## 10 Order of the Phoenix    10       -23 AFINN 
+## # ... with 508 more rows</code></pre>
+<p><br>
+Now, let’s take a look at the Loughran lexicon for sentiment analysis.</p>
+<p><br></p>
+<pre class="r"><code># Using the Loughran lexicon for sentiment analysis on Harry Potter
+loughran &lt;- series %&gt;%
+  right_join(get_sentiments(&quot;loughran&quot;)) %&gt;%
+  filter(!is.na(sentiment)) %&gt;%
+  count(sentiment, sort = TRUE)</code></pre>
+<pre><code>## Joining, by = &quot;word&quot;</code></pre>
+<pre class="r"><code>#A view of the Loughran analysis
+loughran</code></pre>
+<pre><code>## # A tibble: 6 x 2
+##   sentiment        n
+##   &lt;chr&gt;        &lt;int&gt;
+## 1 negative      5350
+## 2 uncertainty   2123
+## 3 positive      1793
+## 4 litigious     1151
+## 5 constraining   305
+## 6 superfluous     58</code></pre>
+<pre class="r"><code>#Prepares loughran for plotting
+loughran &lt;- bind_rows(series %&gt;%
+                  group_by(book) %&gt;% 
+                  mutate(word_count = 1:n(),
+                         index = word_count %/% 500 + 1) %&gt;%
+                  inner_join(get_sentiments(&quot;loughran&quot;) %&gt;%
+                                     filter(sentiment %in% c(&quot;positive&quot;, &quot;negative&quot;))) %&gt;%
+                  mutate(method = &quot;Loughran&quot;)) %&gt;%
+        count(book, method, index = index , sentiment) %&gt;%
+        ungroup() %&gt;%
+        spread(sentiment, n, fill = 0) %&gt;%
+        mutate(sentiment = positive - negative) %&gt;%
+        select(book, index, method, sentiment)</code></pre>
+<pre><code>## Joining, by = &quot;word&quot;</code></pre>
+<p><br>
+Here is a comparison of the the Loughlan and Afinn analyses.</p>
+<p><br></p>
+<pre class="r"><code>bind_rows(afinn,
+          loughran) %&gt;%
+        ungroup() %&gt;%
+        mutate(book = factor(book, levels = titles)) %&gt;%
+  ggplot(aes(index, sentiment, fill = method)) +
+  geom_bar(alpha = 0.8, stat = &quot;identity&quot;, show.legend = FALSE) +
+  facet_grid(book ~ method)</code></pre>
+<p><img src="/post/textmining/textmining_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+</div>
+<div id="conclusion" class="section level2">
+<h2>Conclusion</h2>
+<p>Both lexicons produce similar trends. I should adjust the axis for the comparison.</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://www.tidytextmining.com/sentiment.html" class="uri">https://www.tidytextmining.com/sentiment.html</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://cran.r-project.org/web/packages/harrypotter/index.html" class="uri">https://cran.r-project.org/web/packages/harrypotter/index.html</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
