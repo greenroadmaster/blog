@@ -7,8 +7,8 @@ authors: Byeonghui-Won
 tags:
 categories: Future
 series: 
-date: '2022-08-31'
-lastmod: '2022-08-31'
+date: '2021-08-31'
+lastmod: '2021-08-31'
 draft: false
 ---
 출처 [https://finance.yahoo.com/news/china-tightens-scrutiny-9-3-061651213.html](https://finance.yahoo.com/news/china-tightens-scrutiny-9-3-061651213.html)
