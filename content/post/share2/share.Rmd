@@ -1,5 +1,5 @@
 ---
-title: "Core Functions in tidyquant"
+title: "R패키지 tidyquant의 핵심재무분석"
 author: "Matt Dancho"
 date: "`r Sys.Date()`"
 output: 
@@ -11,6 +11,8 @@ vignette: >
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
+
+이 자료는 GitHub에 Matt Dancho가 올린 Tidyquant에 관한 자료이다.
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 knitr::opts_chunk$set(message = FALSE,
@@ -26,16 +28,35 @@ knitr::opts_chunk$set(message = FALSE,
 > A few core functions with a lot of power
 # Overview
 
-The `tidyquant` package has a __core functions with a lot of power__. Few functions means less of a learning curve for the user, which is why there are only a handful of functions the user needs to learn to perform the vast majority of financial analysis tasks. The main functions are:
+The `tidyquant` package has a __core functions with a lot of power__. Few functions means less of a learning curve for the user, which is why there are only a handful of functions the user needs to learn to perform the vast majority of financial analysis tasks. 
+
++ The `tidyquant` package has a __core functions with a lot of power__. tidyquant패키지의 간결함을 말한다. 
+
++ Few functions means less of a learning curve for the user 간결한 기능은 사용자가 배울 커브가 몇개 없다는 말이다.
+
++ which is why there are only a handful of functions the user needs to learn to perform the vast majority of financial analysis tasks. 이 말은 재무분석에서 주요 기능은 사실 몇개 없다는 말이다. 
+
+
+## The main functions are:
 
 * __Get a Stock Index, `tq_index()`, or a Stock Exchange, `tq_exchange()`__: Returns the stock symbols and various attributes for every stock in an index or exchange. Eighteen indexes and three exchanges are available.
 
+주식지표중인 `tq_index()`, 주식거래엔 `tq_exchange()`가 쓸만하다는 말이다.
+
+
 * __Get Quantitative Data, `tq_get()`__: A one-stop shop to get data from various web-sources. 
+
+양적인 데이터에는 `tq_get()`으로 웹소스를 대량 받을 수 있다.
+
 
 * __Transmute, `tq_transmute()`, and Mutate, `tq_mutate()`, Quantitative Data__: Perform and scale financial calculations completely within the `tidyverse`. These workhorse functions integrate the `xts`, `zoo`, `quantmod`, and `TTR` packages. 
 
+두 기능으로 tidyverse 패키지를 활용해 대량의 재무데이터를 분석할 수 있다. 또 이 기능은 `xts`, `zoo`, `quantmod`, and `TTR` packages 와 연동된다. 
+
 
 * __Performance analysis, `tq_performance()`, and portfolio aggregation, `tq_portfolio()`__: The `PerformanceAnalytics` integration enables analyzing performance of assets and portfolios. Because of the breadth of this topic, refer to [Performance Analysis with tidyquant](TQ05-performance-analysis-with-tidyquant.html) for a tutorial on these functions.
+
+자산과 포트폴리오의 효율분석 쓸만한 기능도 두가지나 있다. 
 
 # Prerequisites
 

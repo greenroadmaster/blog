@@ -7,8 +7,8 @@ authors: byeonghui-won
 tags:
 categories: Kid
 series: BookReview
-date: '2021-09-17'
-lastmod: '2021-09-17'
+date: '2021-09-25'
+lastmod: '2021-09-25'
 draft: false
 ---
 

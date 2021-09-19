@@ -1,7 +1,7 @@
 ---
 title: "Core Functions in tidyquant"
 author: "Matt Dancho"
-date: "2021-09-16"
+date: "2021-09-18"
 output: 
   rmarkdown::html_vignette:
     toc: true
@@ -15,17 +15,36 @@ vignette: >
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
+<p>이 자료는 GitHub에 Matt Dancho가 올린 Tidyquant에 관한 자료이다.</p>
 <blockquote>
 <p>A few core functions with a lot of power
 # Overview</p>
 </blockquote>
-<p>The <code>tidyquant</code> package has a <strong>core functions with a lot of power</strong>. Few functions means less of a learning curve for the user, which is why there are only a handful of functions the user needs to learn to perform the vast majority of financial analysis tasks. The main functions are:</p>
+<p>The <code>tidyquant</code> package has a <strong>core functions with a lot of power</strong>. Few functions means less of a learning curve for the user, which is why there are only a handful of functions the user needs to learn to perform the vast majority of financial analysis tasks.</p>
 <ul>
-<li><p><strong>Get a Stock Index, <code>tq_index()</code>, or a Stock Exchange, <code>tq_exchange()</code></strong>: Returns the stock symbols and various attributes for every stock in an index or exchange. Eighteen indexes and three exchanges are available.</p></li>
-<li><p><strong>Get Quantitative Data, <code>tq_get()</code></strong>: A one-stop shop to get data from various web-sources.</p></li>
-<li><p><strong>Transmute, <code>tq_transmute()</code>, and Mutate, <code>tq_mutate()</code>, Quantitative Data</strong>: Perform and scale financial calculations completely within the <code>tidyverse</code>. These workhorse functions integrate the <code>xts</code>, <code>zoo</code>, <code>quantmod</code>, and <code>TTR</code> packages.</p></li>
-<li><p><strong>Performance analysis, <code>tq_performance()</code>, and portfolio aggregation, <code>tq_portfolio()</code></strong>: The <code>PerformanceAnalytics</code> integration enables analyzing performance of assets and portfolios. Because of the breadth of this topic, refer to <a href="TQ05-performance-analysis-with-tidyquant.html">Performance Analysis with tidyquant</a> for a tutorial on these functions.</p></li>
+<li><p>The <code>tidyquant</code> package has a <strong>core functions with a lot of power</strong>. tidyquant패키지의 간결함을 말한다.</p></li>
+<li><p>Few functions means less of a learning curve for the user 간결한 기능은 사용자가 배울 커브가 몇개 없다는 말이다.</p></li>
+<li><p>which is why there are only a handful of functions the user needs to learn to perform the vast majority of financial analysis tasks. 이 말은 재무분석에서 주요 기능은 사실 몇개 없다는 말이다.</p></li>
 </ul>
+<div id="the-main-functions-are" class="section level2">
+<h2>The main functions are:</h2>
+<ul>
+<li><strong>Get a Stock Index, <code>tq_index()</code>, or a Stock Exchange, <code>tq_exchange()</code></strong>: Returns the stock symbols and various attributes for every stock in an index or exchange. Eighteen indexes and three exchanges are available.</li>
+</ul>
+<p>주식지표중인 <code>tq_index()</code>, 주식거래엔 <code>tq_exchange()</code>가 쓸만하다는 말이다.</p>
+<ul>
+<li><strong>Get Quantitative Data, <code>tq_get()</code></strong>: A one-stop shop to get data from various web-sources.</li>
+</ul>
+<p>양적인 데이터에는 <code>tq_get()</code>으로 웹소스를 대량 받을 수 있다.</p>
+<ul>
+<li><strong>Transmute, <code>tq_transmute()</code>, and Mutate, <code>tq_mutate()</code>, Quantitative Data</strong>: Perform and scale financial calculations completely within the <code>tidyverse</code>. These workhorse functions integrate the <code>xts</code>, <code>zoo</code>, <code>quantmod</code>, and <code>TTR</code> packages.</li>
+</ul>
+<p>두 기능으로 tidyverse 패키지를 활용해 대량의 재무데이터를 분석할 수 있다. 또 이 기능은 <code>xts</code>, <code>zoo</code>, <code>quantmod</code>, and <code>TTR</code> packages 와 연동된다.</p>
+<ul>
+<li><strong>Performance analysis, <code>tq_performance()</code>, and portfolio aggregation, <code>tq_portfolio()</code></strong>: The <code>PerformanceAnalytics</code> integration enables analyzing performance of assets and portfolios. Because of the breadth of this topic, refer to <a href="TQ05-performance-analysis-with-tidyquant.html">Performance Analysis with tidyquant</a> for a tutorial on these functions.</li>
+</ul>
+<p>자산과 포트폴리오의 효율분석 쓸만한 기능도 두가지나 있다.</p>
+</div>
 <div id="prerequisites" class="section level1">
 <h1>Prerequisites</h1>
 <p>Load the <code>tidyquant</code> package to get started.</p>
@@ -73,7 +92,20 @@ library(tidyquant)</code></pre>
 <p>The stock prices can be retrieved succinctly using <code>get = "stock.prices"</code>. This returns stock price data from Yahoo Finance.</p>
 <pre class="r"><code>aapl_prices  &lt;- tq_get(&quot;AAPL&quot;, get = &quot;stock.prices&quot;, from = &quot; 1990-01-01&quot;)
 aapl_prices </code></pre>
-<pre><code>## [1] NA</code></pre>
+<pre><code>## # A tibble: 7,991 x 8
+##    symbol date        open  high   low close    volume adjusted
+##    &lt;chr&gt;  &lt;date&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+##  1 AAPL   1990-01-02 0.315 0.335 0.312 0.333 183198400    0.267
+##  2 AAPL   1990-01-03 0.339 0.339 0.335 0.335 207995200    0.269
+##  3 AAPL   1990-01-04 0.342 0.346 0.333 0.336 221513600    0.269
+##  4 AAPL   1990-01-05 0.337 0.342 0.330 0.337 123312000    0.270
+##  5 AAPL   1990-01-08 0.335 0.339 0.330 0.339 101572800    0.272
+##  6 AAPL   1990-01-09 0.339 0.339 0.330 0.336  86139200    0.269
+##  7 AAPL   1990-01-10 0.336 0.336 0.319 0.321 199718400    0.258
+##  8 AAPL   1990-01-11 0.324 0.324 0.308 0.308 211052800    0.247
+##  9 AAPL   1990-01-12 0.306 0.310 0.301 0.308 171897600    0.247
+## 10 AAPL   1990-01-15 0.308 0.319 0.306 0.306 161739200    0.245
+## # ... with 7,981 more rows</code></pre>
 <p>Yahoo Japan stock prices can be retrieved using a similar call, <code>get = "stock.prices.japan"</code>.</p>
 <pre class="r"><code>x8411T &lt;- tq_get(&quot;8411.T&quot;, get = &quot;stock.prices.japan&quot;, from = &quot;2016-01-01&quot;, to  = &quot;2016-12-31&quot;)</code></pre>
 <p>The data source is <a href="https://finance.yahoo.com/">Yahoo Finance</a> and <a href="https://finance.yahoo.co.jp/">Yahoo Finance Japan</a>.</p>
