@@ -7,22 +7,20 @@ authors: Byeonghui-Won
 tags:
 categories: Future
 series: Stock
-date: '2021-09-17'
-lastmod: '2021-09-17'
+date: '2021-09-19'
+lastmod: '2021-09-19'
 draft: false
 ---
 
-금년 말레이시아의 소비자 물가지수는 123으로 올 해초보다 3지수 상승했습니다.  
+금년 말레이시아의 소비자 물가지수는 123으로 올 해초보다 3지수 상승했다. 
 
 ## Consumer Price Index 란 무엇?
 
-위키에는 다음과 같이 설명합니다. 
+위키에는 다음과 같이 말한다. 
 
 The Consumer Price Index (CPI) is a measure of the average change over time in the prices paid by urban consumers for a market basket of consumer goods and services. Each country indexes are available for the each countries and various geographic areas.
 
 + is a measure of the average change over time in the prices 가격에서 전반적인 시간에 걸쳐 평균의 변화의 한 측정이다.
-
-
 
 ## What is CPI and how is it calculated?
 
