@@ -18,12 +18,11 @@ G20 ITALY 2021  G20 Agriculture Ministers' Meeting  Communiqué
 
 + G20 농업각료회의의 상시 주요논재가 식량 안보, 영양, 그리고 회복력 있는 식량 시스템임
 
-## 2. Over the last decades, global agriculture and food systems have delivered a substantial increase in food production to feed a growing population and have improved food availability and access despite the continued exposure to a wide variety of risks. Nonetheless, six years since the adoption of the 2030 Agenda for Sustainable Development, a quarter of the world population still experiences food insecurity and the world is off-track to achieve Sustainable Development Goal 2 (SDG 2) Zero Hunger. This situation has been exacerbated by disruptions
-related to the COVID-19 pandemic.
+## 2. Over the last decades, global agriculture and food systems have delivered a substantial increase in food production to feed a growing population and have improved food availability and access despite the continued exposure to a wide variety of risks. Nonetheless, six years since the adoption of the 2030 Agenda for Sustainable Development, a quarter of the world population still experiences food insecurity and the world is off-track to achieve Sustainable Development Goal 2 (SDG 2) Zero Hunger. This situation has been exacerbated by disruptions related to the COVID-19 pandemic.
 
 + 식량은 증산되었지만 세계인구의 1/4은 여전히 식량불안정에 있어 SDG2030의 하나인 제로 기아를 달성하지 못하고 있음
 
-+ SDG2030 이 매우 중요한 과제임 
++ SDG2030 은 매우 중요한 과제임 
 
 ## 3. We recognize that sustainable and resilient food systems are fundamental for food security and nutrition, contributing to healthy and balanced diets, poverty eradication, sustainable management of natural resources, conservation and protection of ecosystems and climate change mitigation and adaptation. In this context, we welcome the recently endorsed Committee on World Food Security (CFS) Voluntary Guidelines on Food Systems and Nutrition and encourage all stakeholders to actively contribute to promoting their use and application.
 
@@ -123,7 +122,7 @@ related to the COVID-19 pandemic.
 
 + 9월에 열리는 유엔식품시스템 정상회의를 환영함
 
-+ 어느때부도도 식품 시스템이 도전과제를 해결하기 위해 한 걸음 더 나갈 수 있도록 단호하고 포용적이며 지속적이며 조정된 조치가 필요하다는 것을 인정함
++ 어느때보다 식품 시스템이 도전과제를 해결하기 위해 한 걸음 더 나갈 수 있도록 단호하고 포용적이며 지속적이며 조정된 조치가 필요하다는 것을 인정함
 
 + SDG2030은 정말 중요함. 이를 달성하기 위해 정상 회담의 작업흐름을 적극적으로 지원하고 모든 이해관계자가 해당 프로세스에 기여할 것을 요청함 
 
