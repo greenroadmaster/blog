@@ -1,0 +1,121 @@
+---
+title: "Rss News Feed"
+author: "Byeonghui-Won"
+date: "9/23/2021"
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE,
+                      comment="", digits = 3, tidy = FALSE, prompt = FALSE, fig.align = 'center')
+library(tidyverse)
+```
+
+
+## RSS 란 무엇인가
+
+[RSS](https://en.wikipedia.org/wiki/RSS)는 예전에 듣기론 천재해커가 자료수집의 속도와 처리의 효율을... 웹서핑이 귀찮아서... 만든거라고 들었었다. 이걸 최근에는 RDF Site Summary에서 출발하여 Rich Site Summary, Really Simple Syndication으로 알려진 웹 사용자 혹은 응용프로그램이 온라인 콘텐츠를 가져오게 된 표준규약으로... 라고 설명하는데, 왠지 해커의 이야기가 더 재밌다. 
+
++ "자연어 처리"의 중요한 말뭉치(Corpus)의 한 축임
+
++ [유명한 RSS 피드 모음](https://raw.githubusercontent.com/DataWookie/feedeR/master/tests/testthat/test-feeds.txt)
+
+## RSS 수집과 저장
+
+뉴스나 블로그에 올라온 글의 RSS를 가져오는 방법으로,
+
+우선, 크롬을 사용하게 되면 "RSS Feeds URLs" 플러그인을 사용하게 되면 우측 상단에서 웹사이트에서 바로 RSS Feeds URL을 수집하여 [feedly.com](https://feedly.com/)에 저장하여 관리하거나, 
+
+만약, 웹사이트에서 정보를 공개는 하지만 RSS Feeds를 제공하지 않는 경우에는  [politepol.com](https://politepol.com/en/) 에서 수동으로 블로그 글을 추출하여 RSS Feeds URL을 생성시켜 [feedly.com](https://feedly.com/)에 저장시키는 방법이 있다. 
+
+## RSS 저장을 리딩
+
+저장된 RSS가 있는 [feedly.com](https://feedly.com/)을 활용해서 다양한 RSS 리더(Reader)를 연결하는 방법이 있다. 
+
+우선, 안드로이드도 가능한데 [feedly.com](https://feedly.com/)은 지원하니 구글 계정을 연결시킨다. 
+
+PC에서는, 하나는 Windows Store에서 Readiy를 설치하는 방법과, 다른하나는  [QuiteRSS](https://quiterss.org/en/download)를 설치하고 [feedly.com](https://feedly.com/)에서 OPML로 내려받아 이를 QuiteRSS에 연결시킨다. 
+
+## `tidyRSS` 패키지
+
+R 에서는 두가지 패키지를 우선 활용해보았다. 
+
+하나는 [tidyRSS](https://github.com/RobertMyles/tidyrss) 팩키지로, RSS, Atom, JSON, geoRSS 피드도 받아내는 기능이 있고, 다른하나는 [feedeR](https://github.com/DataWookie/feedeR) 팩키지로 몇가지 기능을 시험적으로 사용하고 있다. 
+
+## RSS 피딩
+
+RSS가 허락된 블로그에서 패키지의 함수를 활용해 텍스트를 가져와 자연어 처리후 시각화해보는 방법을 해보자.
+
+Github의 몇안되는 한국인 R 지식인의 코드를 활용해보았다. 
++ 블로그 [https://statmodeling.stat.columbia.edu/](https://statmodeling.stat.columbia.edu/)의 RSS 피드를 
++ `tidyRSS` 팩키지를 활용해서 
+  + 1. `tidyfeed()` 함수를 사용해서 텍스트를 리딩하고 
+  + 2. `tidytext` 자연어 처리 흐름으로 데이터프레임화하고 
+  + 3. `ggplot`으로 시각화한다.
+
+```{r rss-address}
+library(tidyRSS)
+library(tidytext)
+library(tidyverse)
+
+## 1. `tidyfeed()` 함수를 사용해서 텍스트를 리딩
+
+rss <- tidyfeed("https://statmodeling.stat.columbia.edu/feed/") 
+DT::datatable(rss)
+
+
+## 2. `tidytext` 자연어 처리 흐름으로 데이터프레임화
+rss_tbl <- rss %>%
+  unnest_tokens(word, item_title) %>% 
+  anti_join(stop_words) %>% 
+  inner_join(get_sentiments("bing"), by = "word") %>% 
+  mutate(week = lubridate::week(feed_pub_date))
+
+
+## 3. `ggplot`으로 시각화
+ggplot(rss_tbl, aes(x = sentiment)) +
+  geom_bar(aes(fill = sentiment), colour = "black") +
+  theme_classic() +
+  scale_fill_manual(values = c("#616161", "#FFD700"))
+```
+
+## 한글 RSS
+
+[국내 48곳 언론사/포탈 뉴스 RSS 모음](http://w3devlabs.net/wp/?p=52)을 통해서 주요 언론사 뉴스 RSS를 받아볼 수 있다.
+
+**`xmlXPathEval: evaluation failed`** 오류 발생시 [Install libxml2 on Mac OSX](http://macappstore.org/libxml2/)을 참조하여 `libxml2`를 설치하여 해결한다.
+
+```{r rss-ingest, eval=FALSE}
+hani_rss <- tidyfeed("http://www.hani.co.kr/rss/") 
+xmlXPathEval: evaluation failed
+```
+
+
+```{r hani-rss, eval=FALSE}
+joins_rss <- tidyRSS::tidyfeed("http://rss.joinsmsn.com/joins_news_list.xml") 
+```
+
+```{R}
+
+library(tidyRSS)
+library(tidytext)
+ library(tidyverse)
+
+## RSS 블로그 데이터 가져오기
+hani_rss <- tidyfeed("https://statmodeling.stat.columbia.edu/feed/") 
+DT::datatable(hani_rss)
+
+
+## 텍스트 데이터 전처리
+hani_rss_tbl <- hani_rss %>%
+  unnest_tokens(word, item_title) %>% 
+  anti_join(stop_words) %>% 
+  inner_join(get_sentiments("bing"), by = "word") %>% 
+  mutate(week = lubridate::week(feed_pub_date))
+
+
+## 감성분석 시각화
+ggplot(hani_rss_tbl, aes(x = sentiment)) +
+  geom_bar(aes(fill = sentiment), colour = "black") +
+  theme_classic() +
+  scale_fill_manual(values = c("#616161", "#FFD700"))
+```
