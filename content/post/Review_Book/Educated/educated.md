@@ -1,5 +1,5 @@
 ---
-title: 북리뷰- Auggie & Me three Wonder stories by P.J. Palacio
+title: Educated by Tara Westover
 description: This is book review
 featuredImage: "https://kidsbookswithoutborders.files.wordpress.com/2016/04/img_0249.jpg"
 toc: true
@@ -12,507 +12,1128 @@ lastmod: '2021-09-25'
 draft: false
 ---
 
+## 줄거리
+
+Tara Westover 의 회고록 Educated 는 가족의 독실하고 고립주의적인 종교적 신념에 맞서 투쟁하고 교육을 위해 투쟁하며 배움의 길을 따라 아이다호 시골에서 캠브리지 대학의 박사 과정에 이르는 여정을 따라간다. 
+
+### 고향 Idaho에서의 이야기
+
+시골 아이다호 카운티의 벅스 피크(Buck's Peak)라는 산 기슭에서 자란 Tara의 삶은 횡포한 아버지 Gene에 의해 지배되었다. 
+
+그녀의 아버지 Gene은 미국 정부가 모든 시민의 자유를 박탈하기 위해 고안된 무신론적 교육, 사탄의 의료 행위, 감시 방법을 통해 시민들을 중독시키고 부패시키고 있다고 믿었던 카리스마 있지만 편집증적이고 망상적인 사람으로 자급자족하고 생존주의적인 생활 방식을 채택한 Gene은 어린 나이에 자신의 고철장 마당에서 자녀들을 일하게 하고 항상 임박했다고 믿었던 "가증의 날"을 대비하고 있다. 
+
+Gene이 가족을 고립시키고 성경과 거친 산에서의 생활 방식 이외의 다른 응급 상황에서의 의료 지원이나 교육을 거부한 결과, Westover 가족은 많은 끔찍하고 쇠약한 사고를 겪는다. 
+
+그녀의 어머니 Feye는 교통사고 후 뇌 손상을 입었으나 한 번도 병원치료를 받지 못했고, 그 결과 그녀는 극심한 편두통과 기억 상실을 겪습니다. 그녀는 "근육 검사"라는 손가락 동작을 통해 사람이 아픈지 아닌지를 판단할 수 있다고 믿었고 하나님으로부터 직접 복잡한 질문을 던졌습니다. Faye는 에센셜 오일 사업을 시작해 많은 돈을 벌었으며 가족에게 종말을 위한 지속적인 준비에 사용될 막대한 금액을 제공한다.
+
+어린 소녀 Tara는 아버지의 폐품 마당에서 일했지만 그녀가 마을에서 만난 다른 아이들처럼 평범한 삶을 사는 것이 꿈으로 음악 레슨과 댄스 수업을 들었지만 Gene이 Tara의 의상이 무릎길이의 스웨트 셔츠를 보고 "창피한" 것이라고 하자, 그녀는 댄스를 그만두고 노래와 연극을 시작한다. 커뮤니티 연극 참여를 통해 그녀의 첫사랑인 Charles 와 같은 여러 친구들을 만났고 심지어 그녀의 오빠인 Shawn과도 유대감으로 시간을 보낸다. 
+
+그녀의 오빠인 Shawn은 나이가 들어감에 따라 극장에서 만나고 데이트한 소녀들을 스토킹하고 괴롭히기 시작했고 곧 폭력을 Tara에게 돌렸다. Shawn은 항상 Tara에 대한 폭력적인 신체적, 정서적 폭행이 재미있고 게임이라고 주장했으며, 그들 사이의 학대와 화해 패턴은 수년 동안 통제할 수 없었다. Shawn이 건설 작업 중 일련의 사고로 영구적인 뇌 손상을 입었다. Tara는 그가 고통을 받아 폭력적이고 자제력을 잃었다고 생각했다.  
+Tara는 이런 공포속에서 탈출하기로 했으며 가족을 탈출하는 유일한 방법으로 대학을 선택한다. 오빠 타일러의 격려로 집을 떠나 대학에 입학할 수 있을 만큼 열심히 공부한 그녀는 ACT를 위해 공부하고 명문 몰몬 교육 기관인 Brigham Young University에 지원했으며 합격했다.
+
+### BYU에서의 이야기
+
+Tara는 대학의 처음 몇년은 과거와 현재의 부조화로 인해 고통받으며 성장해 나가는 이야기이다. 새로운 환경에서 친구들에게서 문화적 차이에서 오는 충격을 받았고, 학교에서 배움을 통해 자신이 아는 세상이 점점 커가기 시작함으로 그동안 그녀가 알던 몰몬교에 대한 회의론도 들기 시작했다. 또한 방학과 휴가철에 고향으로 돌아갔지만 가족의 품에서 폭력과 무관심속에서 고뇌했다. BYU에서 Tara 주변의 사람들의 일상속에서 그녀는 세속적이라는 생각을 하게 된다. 평범한 몰몬 교도인 "이방인"에게 압도되었고 급우들에게 겁을 먹기 시작했다. 강의시간에는 흔히 알려진 사실도 모르는 경우가 있다. 강의 중 "홀로코스트"라는 용어를 언급하자 타라는 손을 들어 그 단어의 의미를 물었고, 반 친구들이 역겹다는 반응을 보인다. Tara는 홀로코스트의 파괴, 폭력, 슬픔과 대량학살에 대한 무지에 직면하여 도서관 컴퓨터에서 자신이 이 용어를 검색한 후 그녀는 자신이 주변 세계에 대해 진정으로 아는 것이 거의 없음을 깨닫는다.
+
+여름과 휴가철 고향으로 돌아오지만. 가족방문을 통해 Tara는 Shawn의 폭행, 아버지의 무의미한 조소, 어머니의 냉정한 무관심의 폭력과 굴욕을 당한다. 오랜 세월 가족과 함께 하는 감정적인 줄다리기 때문에 감정적으로 위축되고 몸도 아프지만, 새로운 친구들, 교회 공동체, 교수들의 도움으로 그녀는 자립심과 스스로에 대한 책임감을 깨닫는다. Tara의 아버지가 산에서 사고로 심하게 화상을 입는다. 이 것은 몇년 전 형제 Luke가 겪었던 화상 처럼 되풀이 되지만 그들이 믿는 왜곡된 신념처럼 그녀의 가족이 계속해서 순환적이고 무의미한 고통을 겪는 것을 보면서 자신의 운명을 돌아본다. 
+
+### 케임브리지와 하버드의 이야기
+
+Tara는 명문 케임브리지 대학의 해외 유학 프로그램에 지원할 기회를 제안받았을 때 이를 수락한다. 하지만 자신과 가족 사이에 BYU이상의 거리로 떨어지고 그 가운데 바다를 끼는 것이 어떤 의미가 될지 두려운 마음이 든다. 케임브리지에서 Tara는 자신이 불안해하며 무가치하다고 느끼지만, 그녀의 교수들은 스펀지 같은 그녀의 두뇌에 깊은 인상을 받았으며, 그녀의 교육적 배경이 부족하다는 사실에 의아해하고 그녀의 이야기를 듣고나서 그녀의 교수들은 그녀를 열성적으로 지원하고 격려한다. 
+
+케임브리지와 하버드 때론 파리를 오가며 그녀의 공부를 계속하지만 미국으로 돌아온 Tara는 몰몬 신앙과 가족 내에서 자신의 위치에 대해 계속 의문을 제기하며 부모님의 낡은 믿음, 끔찍한 인종차별, 말도 안되는 음모론이 결코 변하지 않을 것이라는 사실에 직면한다. 변하지 않은 오히려 어둡게 짙어진 가족과의 관계속에 불안과 공포로 고통스럽게 살기 시작한다. 
+
+희망처럼 Tara의 형제 Tyler가 현재 상황을 들었고 그녀를 응원한다는 이메일을 보내고 이런 가족의 응원으로 기쁨이 열리고, 상담에 참석하기 시작하고 고통을 끝낼 힘을 찾고 어려운 진실을 극복해나가며 박사학위를 수여받고 남자친구와 런던으로 이사하며 둘은 자랑스럽고 진심으로 행복해한다.
+
+### 여정의 끝으로
+
+그러나 자신의 역사를 되찾으려면 Buck's Peak로 마지막 여행을 해야 한다는 것을 알고 있다. 할머니의 장례식을 위해 벅스 피크를 다시 찾았고 그곳에서 이모들과 만나고 그들의 사랑과 지원에서 위안을 찾는다. 나머지 가족이 함께 모여 있는 것을 보았지만 대부분 그녀의 앞을 쳐다보지도 않지만 Tara는 형제자매인 Tyler와 Richard와 함께 앉았다. 교육을 받기로 선택한 세 형제는 나머지 Westover 일족과 대척점에 있다. 
+
+Tara는 자신이 교육을 받을 가치가 없는건 아닌지 혹은 교육을 받기로 선택한 사기꾼은 아니었는지 고뇌한다. 그녀는 항상 자신이 Buck's Peak의 폐품 야적장에서 일하는 남성 청바지를 입은 어린 소녀가 될까봐 두려워했고 동시에 그녀는 교육이 평생의 과정이라는 이해에서 도피처를 찾았다. 그녀의 교육은 변형, 배신, 변신을 고통스러워했지만 인간의 삶에서 피할 수 없는 부분으로 받아들인다. 
+
+
+
 ## 주요 캐릭터들 
 
 ### Tara Westover
 
-Educated 의 주인공이자 내레이터. 회고록이 진행되는 동안 Tara Westover는 가족과 자신의 지울 수 없는 초상화를 그립니다. 책을 통해 그녀는 아버지 Gene 의 Mormon에 대해 자세히 설명합니다.
+Educated 의 주인공이자 내레이터. 회고록이 진행되는 동안 Tara Westover는 가족과 자신사이에 만들어진 지울 수 없는 자화상을 그려낸다. 
 
 ### Gene Westover / Dad
 
-Tara 의 아버지는 "가증한 날"을 준비하기 위해 가족에게 자급 자족적인 생존주의 생활 방식을 강요하는 과시적이고 독실하며 편집증적이고 망상적인 사람입니다. Gene은 접근하는 급진적인 모르몬교 근본주의자 입니다.
+Tara 의 아버지는 최후의 날을 준비하기 위해 가족에게 자급 자족적인 생존주의 생활 방식을 강요하는 과시적이고 독실하며 편집증적이고 망상적인 사람으로 급진적인 모르몬교 근본주의자 이다.
 
 ### Faye Westover / Mother
 
-Tara 의 어머니는 남편 Gene 를 기쁘게 하기 위해 조산사를 공부하는 온유하고 순종적인 여성입니다. 그리고 그의 편집증이나 그의 강렬하고 생존주의적이며 여성혐오적인 종교적 신념에 대해 결코 의문을 제기하지 않습니다. 결혼 생활 내내 Faye는 정서적, 신체적 폭력, 근거 없는 잔인함, 사고로 인한 끔찍한 부상을 당하고 Gene은 그녀가 의료 지원을 요청하는 것을 거부합니다. 결과적으로 Faye는 동종 요법 및 믿음 기반 또는 에너지 기반 "치료법"에 의존하기 시작합니다.
+Tara 의 어머니는 남편 Gene 를 기쁘게 하기 위해 조산사를 공부하는 온유하고 순종적인 여성입니다. 그리고 그의 편집증이나 그의 강렬하고 생존주의적이며 여성혐오적인 종교적 신념에 대해 결코 의문을 제기하지 않는다. 결혼 생활 내내 Faye는 정서적, 신체적 폭력, 근거 없는 잔인함, 사고로 인한 끔찍한 부상을 당하고 Gene은 그녀가 의료 지원을 요청하는 것을 거부한다. 결과적으로 Faye는 동종 요법 및 믿음 기반 또는 에너지 기반 "치료법"에 의존하기 시작한다.
 
 ### Shawn Westover
 
-Tara의 오빠 중 한명. 어릴 적 기억이 거의 없습니다. 그는 오랫동안 집에 살지 않았습니다. 그가 집에 돌아왔을 때 그는 폭력적이고 화를 잘 내는 것으로 유명해졌습니다. Shawn은 아빠의 쓰레기장에서 열심히 일하면서 빠르게 유대감을 형성하지만, 시간이 지남에 따라 Shawn은 강박적이고 잔인하며 폭력적인 자신의 본성을 드러내고 주변사람들을 학대하기 시작합니다. 
+Tara의 오빠 중 한명. 어릴 적 기억이 거의 없다. 그는 오랫동안 집에 살지 않았습니다. 그가 집에 돌아왔을 때 그는 폭력적이고 화를 잘 내는 것으로 유명해졌다. Shawn은 아빠의 쓰레기장에서 열심히 일하면서 빠르게 유대감을 형성하지만, 시간이 지남에 따라 Shawn은 강박적이고 잔인하며 폭력적인 자신의 본성을 드러내고 주변사람들을 학대하기 시작한다.
 
 ### Charles
 
-Tara 의 마을 친구 중 한 명 이자 그녀의 첫 "남자친구"이지만 Tara는 Charles와 친밀하거나 낭만적으로 행동하는 데 어려움을 겪습니다.
+Tara 의 마을 친구 중 한 명 이자 그녀의 첫 "남자친구"이지만 Tara는 Charles와 친밀하거나 낭만적으로 행동하는 데 어려움을 겪는다.
 
-### 리처드 웨스트오버
+### Richard Westover
 
-타라의 형 중 한 명. Richard는 교육을 추구하고 Kami라는 여성과 결혼합니다. 그들은 함께 "주류" 생활을 하며 몰몬 신앙에 충실하지만 제한적이고 고립된 전통을 버립니다
+타라의 형제. Richard는 교육을 추구하고 Kami라는 여성과 결혼합니다. 그들은 함께 "주류" 생활을 하며 몰몬 신앙에 충실하지만 제한적이고 고립된 전통을 버린다.
 
-### 루크 웨스트오버
+### Luke Westover
 
-타라의 형 중 한 명. 회고록에서 루크의 가장 기억에 남는 이야기는 폐차장에서 사고를 당했을 때 발생합니다. 다리 중 하나에 불이 붙고 쇠약해지는 끔찍한 화상을 입었습니다
+타라의 형제. 회고록에서 루크는 폐차장에서 다리 중 하나에 불이 붙는 끔찍한 화상을 입는다. 
 
-### 할머니 다운 언덕
+### Grandmother in down hill
 
-타라의 외할머니. 그녀의 별명에서 알 수 있듯이 그녀는 Gene 가족의 언덕 아래에 살고 있지만 손주들이 자라는 방식에 반대하여 그들이 대신 학교에 있어야한다고 생각했습니다. 
+타라의 외할머니. 그녀의 별명에서 알 수 있듯이 그녀는 Gene 가족의 언덕 아래에 살고 있지만 손주들이 자라는 방식에 반대하여 그들이 대신 학교에 있어야한다고 생각했다. 
 
-### 동네 할머니
+### 타라의 외할머니
 
-카운티의 유일한 마을에 있는 Westover 일족에서 15마일 떨어진 곳에 사는 Tara의 외할머니. 그녀는 "정상적인"기준에 따라 겸손한 집을 유지하지만 Tara는 항상 그녀에게 매료되어 있습니다
+카운티의 유일한 마을에 있는 Westover 일족에서 15마일 떨어진 곳에 사는 Tara의 외할머니. 그녀는 "정상적인"기준에 따라 겸손한 집을 유지하지만 Tara는 항상 그녀에게 매료되어 있다
 
 ### 스타인버그 교수
 
-케임브리지에서 유학 프로그램을 진행하는 동안 Tara의 초기 감독자 중 한 명입니다. 그는 Tara의 배경에 매료되어 그녀를 가르치는 것이 "Shaw의 Pygmalion"에 들어갔다고 봅니다. 그는 Tara와 지칠 줄 모르고 일합니다.
+케임브리지에서 유학 프로그램을 진행하는 동안 Tara의 초기 감독자 중 한 명. 그는 Tara의 배경에 매료되어 그녀를 가르치는 것이 "Shaw의 Pygmalion"에 들어갔다고하며Tara와 지칠 줄 모르고 일한다.
 
 ### 케리 박사
 
-BYU에서 Tara의 유대인 역사 수업 교수. 그는 케임브리지에서 열리는 연례 해외 유학 프로그램에서 Tara를 확보하는 데 도움을 줍니다.
+BYU에서 Tara의 유대인 역사 수업 교수. 그는 케임브리지에서 열리는 연례 해외 유학 프로그램에서 Tara를 확보하는 데 도움을 준다.
 
 ### 오드리 웨스트오버
 
-타라의 유일한 여동생. 두 사람은 결코 친한 사이가 아니며, Tara는 결국 Audrey와 관계를 형성하고 Shawn의 학대에 대한 진실을 그녀에게 털어놓으려 하지만 Audrey는 결국 서게 됩니다…
+타라의 유일한 여동생. Shawn의 학대를 벗어나고자 Tara에게 도움을 청했지만 반대로 Audrey는 결국 가족의 결정에 따르면서 Tara와 멀어진다. Tara는 이에대해 자신의 생각을 오도하도록 예기한걸로 주장하고 있다.
 
 ### Tyler Westover
 
-Tara의 오빠 중 한명. 똑똑하고, 센스티브하며 조용한 성격으로 그가 제일 좋아하는 것은 독서와 클래식 뮤직감상이다. 
+Tara의 오빠. 똑똑하고, 센스티브하며 조용한 성격으로 그가 제일 좋아하는 것은 독서와 클래식 뮤직감상이다. 후에 Biomass관련 Ph.D가 된다. 
 
 ### Emily Westover
 
-숀 의 아내. Shawn보다 10년 가까이 어린 그녀는 "순응하는" 성격을 가지고 있습니다. Tara 는 Emily와 Shawn의 결혼이 폭력과 조작으로 얼룩질 것이라고 예언 하지만 그녀는 멈출 수 없습니다
+Shawn 의 아내. Shawn보다 10년 가까이 어린 그녀는 "순응하는" 성격을 가지고 있다. Tara 는 Emily와 Shawn의 결혼이 폭력과 조작으로 얼룩질 것이라고 예언 하지만 그녀는 멈추지 않았다. 
 
 ### Stefanie Westover
 
-타일러 의 아내. 몇 년에 걸쳐 천천히, 그가 예방 접종 및 기타 Westovers에게 금지된 것과 같은 "정상적인" 삶의 방식이 악하지 않다는 것을 알도록 도와주는 친절한 여성입니다. 
+Tyler 의 아내. 몇 년에 걸쳐 천천히, 그가 예방 접종 및 기타 Westovers에게 금지된 것과 같은 "정상적인" 삶의 방식이 악하지 않다는 것을 알도록 도와주는 친절한 여성이다. 
 
 ### Erin
 
- 숀 의 옛 여자 친구. 나이가 든 후 Tara는 다른 사람들이 입증할 수 있는 Shawn의 학대적인 성격에 대한 "증거"를 찾기 위해 그녀에게 편지를 씁니다.
+ 숀 의 옛 여자 친구. 나이가 든 후 Tara는 다른 사람들이 입증할 수 있는 Shawn의 학대적인 성격에 대한 "증거"를 찾기 위해 그녀에게 편지를 쓴다.
 
 ### Robin
 
-BYU의 2학년 룸메이트 키가 크고 운동잘하는 여자인 그녀는 타라의 순진함을 직감하고 그녀가 여러 룸메이트와 함께 아파트 생활에 적응하도록 부드럽게 도와줍니다. 
+BYU의 2학년 룸메이트 키가 크고 운동잘하는 여자인 그녀는 타라의 순진함을 직감하고 그녀가 여러 룸메이트와 함께 아파트 생활에 적응하도록 부드럽지만 카리스마있게 도와준다.
 
 ## Minor Characters
 
 ### Kami Westover
 
-리차드의 아내. Kami는 모르몬교인이지만 Gene과 다른 Westovers는 그녀를 "외부인"으로 봅니다. 그녀는 Westovers의 기준에 따라 도럭적으로 타락한 삶인 의사와 병원 방문을 하는 삶을 살고 있습니다.
+리차드의 아내. Kami는 모르몬교인이지만 Gene과 다른 Westovers는 그녀를 "외부인"으로 본다. 그녀는 Westovers의 기준에 따라 도덕적으로 타락한 삶인 의사와 병원 방문을 하는 삶을 살고 있다.
 
 ### Angie
 
-페이의 여동생으로 타라의 할머니 할아버지댁 인근에 삽니다. Gene의 잔혹함과 편집증 때문에 Angie와 다른 웨스트오버 사이의 관계는 어렵지만 Tara와 Angie는 우정을 쌓아갑니다. 
+페이의 여동생으로 타라의 할머니 할아버지댁 인근에 산다. Gene의 잔혹함과 편집증 때문에 Angie와 다른 웨스트오버 사이의 관계는 어렵지만 Tara와 Angie는 우정을 쌓는다. 
 
 ### Mary
 
-Tara의 1학년 룸메이트로 Tara는 그녀가 보수적이고 겸손한 옷차람으로 인해 독실하다고 생각했지만 Mary가 일요일에 쇼핑하고 다이어트 콜라를 마시자 충격을 받습니다. 
+Tara의 1학년 룸메이트로 Tara는 그녀가 보수적이고 겸손한 옷차람으로 인해 독실하다고 생각했지만 Mary가 일요일에 쇼핑하고 다이어트 콜라를 마시자 충격을 받는다.  
 
 ### Vanessa
 
-Tara의 클레스메이트, 역사 수업의 유일한 신입생이라는 사실에 유대감을 갖지만, 홀로코스트에 대한 Tara의 무지에 대해 Vanessa가 분노하자 그들의 우정은 단절됩니다.
+Tara의 클레스메이트, 역사 수업의 유일한 신입생이라는 사실에 유대감을 갖지만, 홀로코스트에 대한 Tara의 무지에 대해 Vanessa가 분노하자 그들의 우정은 단절된다.
 
 ### Dr. Runciman
 
-Tara의 켐브리지 시절동안 그녀의 교수이자 멘토였습니다.
+Tara의 켐브리지 시절동안 그녀의 교수이자 멘토였다.
 
 ### Jenni
 
-Tarad의 2학년 룸메이트입니다. 그녀는 Tara의 고통을 감지했지만 어떻게 도와야 할 지 모릅니다. 
+Tarad의 2학년 룸메이트 그녀는 Tara의 고통을 감지했지만 어떻게 도와야 할 지 모른다. 
 
 ### Megan
 
-Tara의 2학년 룸메이트입니다. 그녀는 Tara를 Comtemptuous(경멸)하며, 그녀의 위생관념에 Skeptical(회의적)입니다. 
+Tara의 2학년 룸메이트. 그녀는 Tara를 Comtemptuous(경멸)하며, 그녀의 위생관념에 Skeptical(회의적)이다. 
 
 ### Tony Westover
 
-Tara의 가장 큰 오빠입니다. 
+Tara의 가장 큰 오빠. 트럭운전사라고 소개된다. 
 
 ### Debbie
 
-Faye의 estranged sisters 입니다. Tyler와 Tara에게 친절을 베풀고 그녀의 가족의 일부가 될 그들을 환영합니다. 
+Faye의 estranged sisters. Tyler와 Tara에게 친절을 베풀고 그녀의 가족의 일부가 될 그들을 환영한다. 
 
 ### Shannon
 
-Tara의 1학년 룸메이트입니다. 그녀의 옷차림에 충격을 받습니다. 
+Tara의 1학년 룸메이트. 그녀의 옷차림에 충격을 받는다. 
 
 ### Sadie
 
-Shawn의 여자친구입니다. Shawn은 그녀를 학대하지만, Sadie는 두려움이나 트라우마로 인해 Shawn에게 충성하고 그의 통제안에 머무릅니다. 
+Shawn의 여자친구. Shawn은 그녀를 학대하지만, Sadie는 두려움이나 트라우마로 인해 Shawn에게 충성하고 그의 통제안에 머무른다. 
 
 ### Benjamin
 
-Audrey의 남편입니다. 그는 종종 Gene의 고철장에서 일하거나 시내 곳곳의 다양한 일을 합니다. 
+Tara의 여동생 Audrey의 남편. 그는 종종 Gene의 고철장에서 일하거나 시내 곳곳의 다양한 일을 한다. 
 
 ### Grandpa-down-the-hill
 
-Tara의 할아버지로 “weatherworn”, “rugged”, 그리고 “short fuse”라 불리는 Horse Wrangler입니다. 
+Tara의 할아버지. “weatherworn”, “rugged”, 그리고 “short fuse”라 불리는 Horse Wrangler다.
 
 ### Grandpa-over-in-town
 
-Tara의 외할아버지입니다. 전직우편배달부로 그의 오랜 공직경험으로 Gene의 조롱과 의심을 인지합니다. 
+Tara의 외할아버지다. 전직우편배달부로 그의 오랜 경험으로 Gene의 이상함을 알고 있다.
 
 ### Nick
 
-Tara의 대학 남자친구입니다. 
+Tara의 대학 남자친구. 헤어진다.
 
 ### Drew
 
-Tara의 남자친구로 세계를 여행하며 공부합니다. 그는 Tara가 Idaho에서 겪은 일을 처음 터 놓은 첫번째 남자입니다. 
-
+Tara의 남자친구로 세계를 여행하며 공부한다. 그는 Tara가 Idaho에서 겪은 일을 처음 터 놓은 첫번째 남자다. 
 ### Papa Jay Moyle
 
-동네 주유소의 친절한 주인입니다. 
+동네 주유소의 친절한 주인. 
 
 ### Myrna Moyle
 
-Papa Jay의 부인입니다. 남편과 함께 주유소를 운영합니다. 
+Papa Jay의 부인. 남편과 함께 주유소를 운영.
 
 ### Mary Moyle
 
-동네 주유소집 딸이자 마을의 피아노 강사입니다. 
+동네 주유소집 딸이자 마을의 피아노 강사. 
 
 ### Caroline Moyle
 
-동네 주유소집 딸이자 댄스 강사입니다. 
+동네 주유소집 딸이자 댄스 강사. 
 
-## 줄거리
+## Quotes
 
-Tara Westover 의 회고록 Educated 는 가족의 독실하고 고립주의적인 종교적 신념에 맞서 투쟁하고 교육을 위해 투쟁하며 배움의 길을 따라 아이다호 시골에서 캠브리지 대학의 박사 과정에 이르는 여정을 따라갑니다. 
+### Part One
 
-### 고향 Idaho에서의 이야기
+My strongest memory is not a memory. It’s something I imagined, then came to remember as if it had happened.
+30 September, 2021 10:22 PM
 
-시골 아이다호 카운티의 벅스 피크(Buck's Peak)라는 산 기슭에서 자란 Tara의 삶은 횡포한 아버지 Gene에 의해 지배되었습니다. 
+───
 
-그녀의 아버지 Gene은 미국 정부가 모든 시민의 자유를 박탈하기 위해 고안된 무신론적 교육, 사탄의 의료 행위, 감시 방법을 통해 시민들을 중독시키고 부패시키고 있다고 믿었던 카리스마 있지만 편집증적이고 망상적인 사람입니다. 자급자족하고 생존주의적인 생활 방식을 채택한 Gene은 어린 나이에 자신의 고철장 마당에서 자녀들을 일하게 하고 항상 임박했다고 믿었던 "가증의 날"을 위한 비축품을 비축했습니다. Gene이 가족을 고립시키고 성경과 거친 산에서의 생활 방식 이외의 다른 응급 상황에서의 의료 지원이나 교육을 거부한 결과, Westover 가족은 많은 끔찍하고 쇠약한 사고를 겪었습니다. 
+A YEAR AFTER MY FATHER told us that story, we gathered one evening to hear him read aloud from Isaiah, a prophecy about Immanuel. 
+30 September, 2021 10:22 PM
 
-그녀의 어머니 Feye는 교통사고 후 뇌 손상을 입었으나 한 번도 병원치료를 받지 못했고, 그 결과 그녀는 극심한 편두통과 기억 상실을 겪습니다. 그녀는 "근육 검사"라는 손가락 동작을 통해 사람이 아픈지 아닌지를 판단할 수 있다고 믿었고 하나님으로부터 직접 복잡한 질문을 던졌습니다. Faye는 에센셜 오일 사업을 시작했으며 많은 돈을 벌었으며 가족에게 종말을 위한 지속적인 준비에 사용될 막대한 금액을 제공했습니다.
+───
 
-어린 소녀 Tara는 아버지의 폐품 마당에서 일했지만 그녀가 마을에서 만난 다른 아이들처럼 평범한 삶을 사는 것이 꿈이었습니다. 그녀는 음악 레슨과 댄스 수업을 들었지만 Gene이 Tara의 의상이 무릎길이의 스웨트 셔츠를 보고 "창피한" 것이라고 하자, 그녀는 댄스를 그만두고 노래와 연극을 시작했습니다. 
+AFTER DAD TOOK UP preaching against milk, Grandma jammed her fridge full of it. She and Grandpa only drank skim but pretty soon it was all there—two percent, whole, even chocolate. She seemed to believe this was an important line to hold.
+30 September, 2021 10:22 PM
 
-그녀는 커뮤니티 연극 참여를 통해 그녀의 첫사랑인 Charles 와 같은 여러 친구들을 만났고, 심지어 그녀의 오빠인 Shawn과도 유대감으로 시간을 보냈습니다. 연극에 참여하고 시내에서 시간을 보내는 데에도 관심이 있었습니다. 
+───
 
-그녀의 오빠인 Shawn은 나이가 들어감에 따라 극장에서 만나고 데이트한 소녀들을 스토킹하고 괴롭히기 시작했고 곧 폭력을 Tara에게 돌렸습니다. Shawn은 항상 Tara에 대한 폭력적인 신체적, 정서적 폭행이 재미있고 게임이라고 주장했으며, 그들 사이의 학대와 화해 패턴은 수년 동안 통제할 수 없었습니다. Shawn이 건설 작업 중 일련의 사고로 영구적인 뇌 손상을 입었습니다. Tara는 그가 고통을 받아 폭력적이고 자제력을 잃었다고 생각했습니다.  
+I DIDN’T SLEEP THAT NIGHT. I sat on the kitchen floor and watched the hours tick by. One A.M. Two. Three.
 
-그러나 그녀는 이런 공포속에서 탈출하기로 결심합니다. 가족을 탈출하는 유일한 방법으로 대학을 선택합니다. 동생 타일러의 격려로 집을 떠나 대학에 입학할 수 있을 만큼 열심히 공부한 그녀는 ACT를 위해 공부하고 명문 몰몬 교육 기관인 Brigham Young University에 지원했으며 합격했습니다.
+At four I stood and put my boots by the back door. They were caked in manure, and I was sure Grandma wouldn’t let them into her car. I pictured them on her porch, abandoned, while I ran off shoeless to Arizona.
+30 September, 2021 10:23 PM
 
-### BYU에서의 이야기
+───
 
-Tara는 대학의 처음 몇년은 과거와 현재의 부조화로 인해 고통받으며 성장해 나가는 이야기입니다. 새로운 환경에서 친구들에게서 문화적 차이에서 오는 충격을 받았고, 학교에서 배움을 통해 자신이 아는 세상이 점점 커가기 시작함으로 그동안 그녀가 알던 몰몬교에 대한 회의론도 들기 시작했습니다. 또한 방학과 휴가철에 고향으로 돌아갔지만 가족의 품에서 폭력과 무관심속에서 고뇌했습니다. 
+THE EVENT WAS A FAMOUS ONE, I would later learn—like Wounded Knee or Waco—but when my father first told us the story, it felt like no one in the world knew about it except us.
+30 September, 2021 10:23 PM
 
-이야기는 BYU에서 Tara 주변의 사람들의 일상속에서 그녀는 세속적이라는 생각을 하게 됩니다. 평범한 몰몬 교도인 "이방인"에게 압도되었고 급우들에게 겁을 먹기 시작합니다.
+───
 
-강의시간에는 흔히 알려진 사실도 모르는 경우가 있습니다. 강의 중 "홀로코스트"라는 용어를 언급하자 타라는 손을 들어 그 단어의 의미를 물었고, 반 친구들이 역겹다는 반응을 보입니다. Tara는 홀로코스트의 파괴, 폭력, 슬픔과 대량학살에 대한 무지에 직면하여 도서관 컴퓨터에서 자신이 이 용어를 검색한 후 그녀는 자신이 주변 세계에 대해 진정으로 아는 것이 거의 없음을 깨달았습니다. 
+“Do you have calendula?” the midwife said. “I also need lobelia and witch hazel.”
+30 September, 2021 10:31 PM
 
-여름과 휴가철 고향으로 돌아옵니다. 가족방문을 통해 Tara는 Shawn의 폭행, 아버지의 무의미한 조소, 어머니의 냉정한 무관심의 폭력과 굴욕을 당합니다. 오랜 세월 가족과 함께 하는 감정적인 줄다리기 때문에 감정적으로 위축되고 몸도 아프지만, 새로운 친구들, 교회 공동체, 교수들의 도움으로 그녀는 자립심과 스스로에 대한 책임감을 깨닫습니다. Tara의 아버지가 산에서 사고로 심하게 화상을 입습니다. 이 것은 몇년 전 형제 Luke가 겪었던 화상 처럼 되풀이 됩니다. 그녀는 그런것이 그들이 믿는 왜곡된 신념처럼 그녀의 가족이 계속해서 순환적이고 무의미한 고통을 겪는 것을 보면서 자신의 운명을 돌아봅니다.
+───
 
-### 케임브리지에서의 이야기
+THE FIRST TIME MOTHER assisted with a birth she was gone for two days. Then she wafted through the back door, so pale she seemed translucent, and drifted to the couch, where she stayed, trembling. “It was awful,” she whispered. “Even Judy said she was scared.” Mother closed her eyes. “She didn’t look scared.”
+30 September, 2021 10:32 PM
 
-Tara는 명문 케임브리지 대학의 해외 유학 프로그램에 지원할 기회를 제안받았을 때 이를 수락했습니다. 하지만 자신과 가족 사이에 BYU이상의 거리로 떨어지고 그 가운데 바다를 끼는 것이 어떤 의미가 될지 두려운 마음이 들었습니다. 
+───
 
-케임브리지에서 Tara는 자신이 불안해하며 무가치하다고 느끼지만, 그녀의 교수들은 스펀지 같은 그녀의 두뇌에 깊은 인상을 받았으며, 그녀의 교육적 배경이 부족하다는 사실에 의아해합니다. 그녀의 교수들은 그녀를 열성적으로 지원하고 격려합니다. 
+LUKE WAS FIFTEEN WHEN he asked Mother if he could have a birth certificate. He wanted to enroll in Driver’s Ed because Tony, our oldest brother, was making good money driving rigs hauling gravel, which he could do because he had a license. Shawn and Tyler, the next oldest after Tony, had birth certificates; it was only the youngest four—Luke, Audrey, Richard and me—who didn’t.
+30 September, 2021 10:32 PM
 
-미국으로 돌아온 Tara는 몰몬 신앙과 가족 내에서 자신의 위치에 대해 계속 의문을 제기합니다. 부모님의 낡은 믿음, 끔찍한 인종차별, 말도 안되는 음모론이 결코 변하지 않을 것이라는 사실에 직면한 그녀는 박사 학위를 받기 위해 케임브리지 대학에 지원합니다. 
+───
 
-### 결말
+THAT FALL, WHEN I was nine, I went with Mother on a birth. I’d been asking to go for months, reminding her that Maria had seen a dozen births by the time she was my age. “I’m not a nursing mother,” she said. “I have no reason to take you. Besides, you wouldn’t like it.”
 
-이제 가족의 편파적이고 어두운 모습이 드러났으며, Tara는 힘겨운 투쟁에서 실패하고 돌아온 다음부터 불안과 공포속에 고통스럽게 살기시작합니다. 
+Eventually, Mother was hired by a woman who had several small children. It was arranged; I would tend them during the birth.
+30 September, 2021 10:33 PM
 
-Buck's Peak로의 여정동안, Tara는 Shawn의 폭력의 희생양인 Emily의 증인이 됩니다. 자신은 사기와 기만으로 믿지만 Gene과 Faye의 오일에센스사업은 호황입니다. 그녀의 여동생 Audrey는 침묵속에 고통스러워합니다. Audrey도 Shawn에게 학대를 당했습니다. 
+───
 
-Tara와 Audrey는 서로 힘을 보아 이겨내보려하지만 힘이 되지 않습니다. Audrey는 Tara없이 스스로 대항해 보려 하지만, Shawn은 Audrey를 죽이려했고, 부모는 비협조적이었으며, Shawn은 피 묻은 칼을 휘두르며 Tara를 위협할 때 그녀는 자신을 책망하고 그에 대한 모든 주장을 철회하고 케임브리지로 돌아온 다음부터 밤이 무섭고, 공포, 불안, 그리고 우울증을 겪기 시작합니다.
+THERE WERE NO HERBALISTS in Wyoming as good as Mother, so a few months after the incident at the hospital, Judy came to Buck’s Peak to restock. The two women chatted in the kitchen, Judy perched on a barstool, Mother leaning across the counter, her head resting lazily in her hand.
+30 September, 2021 10:33 PM
 
-Shawn은 영국에 있는 그녀에게 살해협박을 하기 시작합니다. Tara는 그녀의 부모에게 이 사실을 말했지만 부모는 그녀를 보호하지 않고 도리어 Shawn이 자신을 변호하려는 시도가 "정당"하다고까지  주장합니다. 
+───
 
-Tara는 자신의 말에 반대하는 가족과 자신의 기억마저 조작하려는 현실에 직면하여 자신의 기억과 정신에 의문을 갖기시작합니다. 
+My mother, Faye, was a mailman’s daughter. She grew up in town, in a yellow house with a white picket fence lined with purple irises. Her mother was a seamstress, the best in the valley some said, so as a young woman Faye wore beautiful clothes, all perfectly tailored, from velvet jackets and polyester trousers to woolen pantsuits and gabardine dresses.
+30 September, 2021 10:34 PM
 
-Harvard의 펠로우십을 수락했지만 이 사실을 즐길 여력이 없습니다. 타라의 부모는 하버드에 있는 그녀를 방문하여 그녀를 "개종"시키려고 시도합니다. 
+───
 
-아빠는 Tara에게 축복을 제안하고 그녀가 가족을 분열시키기 위해 했던 모든 말과 행동을 되찾는다면 집에 돌아와서 다시 환영받을 수 있다고 말합니다. 
+MY FATHER, GENE, WAS one of those young men who somehow manage to seem both solemn and mischievous. His physical appearance was striking—ebony hair, a strict, angular face, nose like an arrow pointing toward fierce, deep-set eyes. His lips were often pressed together in a jocular grin, as if all the world were his to laugh at.
+30 September, 2021 10:34 PM
 
-Tara는 아버지의 제안을 거부하지만 부모님이 떠나고 정신 상태가 계속 나빠진 후 그녀는 다시 필사적으로 아이다호로 돌아갑니다. 
+───
 
-그녀가 도착했을 때, 그녀는 그녀의 어머니의 컴퓨터에서 Tara를 거짓말쟁이이자 사기꾼이라고 비난하는 내용으로 카운티 및 커뮤니티 구성원에게 보내는 이메일을 발견합니다. 그녀가 가족으로부터 진정으로 환영받지 못한다는 것을 알고 있습니다. 
+MOTHER USED TO TELL a story from the time before she was married. She had been close to her brother Lynn, so she took him to meet the man she hoped would be her husband. It was summer, dusk, and Dad’s cousins were roughhousing the way they did after a harvest. Lynn arrived and, seeing a room of bowlegged ruffians shouting at each other, fists clenched, swiping at the air, thought he was witnessing a brawl straight out of a John Wayne film. He wanted to call the police.
+30 September, 2021 10:34 PM
 
-그녀는 돌연 떠나고 돌아오겠다고 약속하지만 다시는 부모님을 볼 수 없을지도 모른다는 것을 알고 있습니다. 
+───
 
-하버드의 재직기간을 마치고 케임브리지로 돌아왔을 때, Tara는 몸이 허약해졌고, 방에 틀어박혀 텔레비전을 보고, 그녀의 친구와 교수가 와도 거부하는 등, 박사 학위를 마치지 못 할것만 같습니다.  
+GRANDMA-OVER-IN-TOWN DIED THREE YEARS ago, age eighty-six.
 
-### 가족의 응원의 시작
+I didn’t know her well.
 
-Tara의 형제 Tyler가 현재 상황을 들었고 그녀를 응원한다는 이메일을 보냅니다. Tara는 Tyler의 응원으로 이제 기쁨이 열리고, 상담에 참석하기 시작하고 고통을 끝낼 힘을 찾습니다. 그녀는 박사학위를 수여받고 남자친구와 런던으로 이사합니다. 둘은 자랑스럽고 진심으로 행복해합니다.
+All those years I was passing in and out of her kitchen, and she never told me what it had been like for her, watching her daughter shut herself away, walled in by phantoms and paranoias.
+30 September, 2021 10:34 PM
 
-### 여정의 끝으로
+───
 
-그러나 자신의 역사를 되찾으려면 Buck's Peak로 마지막 여행을 해야 한다는 것을 알고 있습니다.
+No one saw the car leave the road. My brother Tyler, who was seventeen, fell asleep at the wheel. It was six in the morning and he’d been driving in silence for most of the night, piloting our station wagon through Arizona, Nevada and Utah. We were in Cornish, a farming town twenty miles south of Buck’s Peak, when the station wagon drifted over the center line into the other lane, then left the highway. The car jumped a ditch, smashed through two utility poles of thick cedar, and was finally brought to a stop only when it collided with a row-crop tractor.
+30 September, 2021 10:35 PM
 
-Tara는 할머니의 장례식을 위해 벅스 피크를 다시 찾습니다. 
+───
 
-그곳에서 이모들과 만나고 그들의 사랑과 지원에서 위안을 찾습니다. 나머지 가족이 함께 모여 있는 것을 보았지만 대부분 그녀의 앞을 쳐다보지도 않았습니다.
+THE TRIP HAD BEEN Mother’s idea.
 
-Tara는 형제자매인 Tyler와 Richard와 함께 앉습니다. 교육을 받기로 선택한 세 형제는 나머지 Westover 일족과 대척점에 있습니다. 
+A few months earlier, when crisp leaves had begun slipping to the ground, signaling the end of summer, Dad had been in high spirits.
+30 September, 2021 10:35 PM
 
-### 생각의 정리
+───
 
-Tara는 자신이 교육을 받을 가치가 없는건 아닌지 혹은 교육을 받기로 선택한 사기꾼은 아는지 합니다. 그녀는 항상 자신이 Buck's Peak의 폐품 야적장에서 일하는 남성 청바지를 입은 어린 소녀가 될까봐 두려워했고, 동시에 그녀는 교육이 평생의 과정이라는 이해에서 도피처를 찾았습니다. 그녀의 교육은 변형, 배신, 변신을 고통스럽지만 인간의 삶에서 피할 수 없는 부분으로 받아들입니다. 
+IT WAS A SCORCHING AFTERNOON, so hot you couldn’t walk barefoot on the pavement, when Grandma took me and Richard for a drive through the desert, having wrestled us into seatbelts, which we’d never worn before. 
+30 September, 2021 10:35 PM
 
-## Chapter 요약
+───
 
-### 프롤로그
+I AWOKE WHEN THE CAR HIT the first utility pole.
+30 September, 2021 10:36 PM
 
-내레이터 Tara는 시골 아이다호의 산기슭 근처 농장의 위치를 설명하면서 어린 시절 집의 배경을 생생한 그림으로 그리는 것으로 시작합니다. 그녀는 일곱 살 때의 기억을 설명하고 아이들 중 아무도 학교에 다니지 않았기 때문에 자신의 가족이 대부분의 다른 가족과 다르다는 것을 이해하고 있다고 설명합니다. 그런 다음 Tara는 가족에 대한 몇 가지 주요 사실을 설명하기 위해 기억을 확장합니다. 그녀는 7명의 자녀 중 하나이며, 그들 중 다수는 출생 증명서나 정규 교육을 받은 적이 없습니다. 그녀는 종말론적 사건이 언젠가 일어나기를 기대하며 자라는 개념을 암시합니다. 그녀는 어린 시절 자신의 모든 지식이 작은 땅에 국한되어 있었다는 생각과 그 지식이 어른이 되어서는 어떻게 부적절하다는 것이 입증되었는지를 회상합니다.
+───
 
-### 1장 Choose the Good
+The mountain thawed and the Princess appeared on its face, her head brushing the sky. It was Sunday, a month after the accident, and everyone had gathered in the living room. Dad had begun to expound a scripture when Tyler cleared his throat and said he was leaving.
 
-Tara는 어린 시절에 들은 이야기에서 자신이 구성한 기억을 설명하는 것으로 시작합니다. 그녀의 아버지는 그녀와 그녀의 형제들에게 집이 연방 요원에게 습격당하는 생생한 이야기를 전하자 5살 Tara는 혼란스러워하고 이 사건이 실제로 일어난 일이라고 상상하기 시작합니다. Tara는 Buck's Peak로 알려진 산 기슭의 외딴 농장에서 일곱 자녀 중 막내로 성장했습니다. 그녀의 아버지의 가족은 여러 세대에 걸쳐 이 위치에 살았고, 할머니로 알려진 그녀의 아버지의 어머니는 근처에 살고 있습니다. Tara의 아버지는 종교가 깊은 사람으로 정부를 매우 의심합니다. 이런 이유로 그는 자녀가 학교에 가는 것을 허락하지 않습니다. 그는 또한 연방 요원이 자녀를 학교에 보내기를 거부하는 가족을 쏜 사건에 대해 자녀들에게 이야기합니다.
+“I’m g-g-going to c-college,” he said, his face rigid.
+30 September, 2021 10:36 PM
 
-타라의 할머니는 타라가 학교에 다닐 수 있도록 애리조나로 데려가겠다고 제안한다. Tara는 처음에 할머니에게 몰래 집에서 나와 함께 가겠다고 말했지만 가족을 떠날 수 없다는 사실을 알게 됩니다.
+───
 
-### 2장 The Midlife
+I DIDN’T BELIEVE TYLER would really go to college, that he would ever abandon the mountain to join the Illuminati.
+30 September, 2021 10:37 PM
 
-Tara는 어머니가 지역 조산사 조수로 훈련을 시작하는 것을 보았던 것을 기억합니다. Tara의 어머니는 이 역할을 맡는 것을 주저하지만 Tara의 아버지는 그것을 고집합니다. 어머니는 결국 그 지역의 주 조산사로 일하게 되며, 이는 그녀가 매우 바쁘게 지낸다는 것을 의미합니다. 이 역할을 통해 Tara는 전통적인 약초 지식을 통합한 어머니가 사용하는 기술을 배울 수 있습니다. 어머니의 일은 또한 그녀에게 더 많은 재정적 독립성과 자율성을 부여하지만, 그녀는 항상 남편을 존중하기 위해 매우 조심합니다. 어머니는 결국 네 명의 막내 자녀(루크, 오드리, 리처드, 타라)의 출생 증명서를 받는 데 적극적인 역할을 합니다. Tara가 9살이 되었을 때, 그녀는 처음으로 어머니와 함께 출산을 합니다. 그제서야 Tara는 그녀의 어머니가 무면허 조산사로 일하고 있음을 완전히 깨닫습니다.
+───
 
-### 3장 Cream Shoe
+WEEKS PASSED AND IT was full summer. One Sunday Dad called the family together. “We’ve got a good supply of food,” he said. “We’ve got fuel and water stored away. What we don’t got is money.” Dad took a twenty from his wallet and crumpled it. “Not this fake money. In the Days of Abomination, this won’t be worth a thing. People will trade hundred-dollar bills for a roll of toilet paper.”
+30 September, 2021 10:37 PM
 
-Tara는 어머니의 역사에 대해 더 깊이 파고듭니다. Faye는 외모와 사회적 관습이 높이 평가되는 중산층 모르몬교 가정에서 자랐습니다. 그녀는 Tara의 아버지 Gene와 결혼하여 반란을 일으켰습니다. 진은 폭력적인 아버지와 일하느라 바빴던 어머니 밑에서 자랐습니다. 그의 거칠고 독립적인 삶은 처음에 Faye에게 매우 매력적이었습니다. Faye의 가족은 결혼을 반대했고 Tara의 어린 시절 동안 어머니의 가족과의 관계는 항상 긴장되었습니다. Gene은 결혼 당시 21세였으며 처음에는 단지 반항적이고 관습에 얽매이지 않는 것처럼 보였습니다. 그가 나이를 먹고 부부가 자녀를 더 많이 낳으면서 Gene은 자녀를 학교에 보내거나 전화를 받지 않는 등의 행동을 함으로써 점점 더 급진적이 되었습니다. Tara는 나중에 다음과 같이 회상합니다.
+───
 
-### 4장 Apache Woman
+I AWOKE ONE MORNING in August to find Tyler packing his clothes, books and CDs into boxes. 
+30 September, 2021 10:37 PM
 
-Tara는 그녀가 열 살쯤 된 어린 시절에 가족이 여행을 갔을 때 일어난 자동차 사고를 기억합니다. 남편의 우울증 징후를 알아차린 페이는 온 가족을 데리고 시댁을 방문하기 위해 애리조나로 여행을 떠난다. 그러나 진은 방문의 대부분을 어머니와 격렬한 논쟁으로 보낸다. 지친 진은 집으로 운전을 하기 시작하고 타일러가 운전하는 동안 심각한 교통사고를 당하게 된다고 주장합니다. 부상에도 불구하고 치료를 받는 사람은 아무도 없으며, 페이는 혼란과 편두통으로 이어지는 뇌 손상을 경험합니다.
+───
 
-### 5장 Honest Dirt
+SUMMER WANED, SEEMING TO evaporate in its own heat. The days were still hot but the evenings had begun to cool, the frigid hours after sunset claiming more of each day. Tyler had been gone a month.
+30 September, 2021 10:39 PM
 
-교통사고가 난지 한달 후 타일러는 대학에 가고 싶다고 말한다. 이 소식은 Tony와 Shawn도 최근에 집을 떠났고 Gene은 Tyler의 도움에 크게 의존하고 있기 때문에 특히 혼란스럽습니다. 타일러는 대부분의 아이들이 매우 무질서한 교육을 받는 가정에서 흔하지 않은, 항상 공부하고 체계적이었습니다. Tara의 외조부모는 이러한 결정에 박수를 보내지만 당시 Tara는 왜 그녀의 남동생이 학교에 가고 싶어하는지 이해하지 못합니다. 이 시기에 조부모님과의 상호작용을 통해 Tara는 세상을 아버지의 관점에서 보고 다른 사람과 다르다는 것에 자부심을 느낍니다.
+───
 
-### 6장 Shield and Buckler
+The winter after Tyler left, Audrey turned fifteen. She picked up her driver’s license from the county courthouse and, on her way home, got a job flipping burgers. Then she took a second job milking cows at four A.M. every morning. For a year she’d been fighting with Dad, bucking under the restraints he put on her. Now she had money; she had her own car; we hardly saw her. The family was shrinking, the old hierarchy compressing.
+30 September, 2021 10:40 PM
 
-Tara와 그녀의 형제 자매가 나이가 들어감에 따라 가족의 역동성은 계속해서 변화합니다. Audrey는 일을 시작하고 수입을 사용하여 독립성을 유지합니다. Richard와 Tara는 또한 아버지가 고철 작업을 하는 것을 돕는 일에 더 많이 관여하게 됩니다. 이것은 위험하고 빠르게 진행되는 작업이며, Tara는 그녀가 하는 동안 육체적인 위험에 처하게 될 것임을 깨닫습니다. 그 동안 페이는 여전히 뇌 손상의 영향으로 고통 받고 있으며 조산사로서의 능력에 의문을 제기합니다. 그녀는 조산사로 일하는 것에서 벗어나 치유력이 있다고 믿는 에센셜 오일을 혼합하는 일을 하고 있습니다. Faye는 또한 이전의 과학적이고 합리적인 관점에서 그녀가 직관과 영적 주장에 의존하는 관점으로 이동하는 것처럼 보입니다.
+───
 
-타라는 타일러가 학교에 가기로 결정했다는 사실을 알고 교육에 대해 더 궁금해하고 스스로 학교에 가는 것에 대한 공상을 하게 됩니다. 리처드도 비슷한 경향을 보이는 것 같고, 몰래 혼자 책을 읽고 공부를 하는 것 같다. 봄이 되자 타라는 아버지와 함께 스크레핑을 하던 중 위험한 사고를 당한다. 그녀의 어머니는 그녀를 의사에게 데려가지 않고 집에서 그녀의 부상을 치료합니다. 잠시 후, Tara는 아버지에게 학교에 가고 싶다고 말하지만 아버지가 반대하는 것을 보고 뒤로 물러납니다.
+I WASN’T THE ONLY ONE whose feet were searching for solid ground. For six months after the car accident, Mother had improved steadily and we’d thought she would fully recover.
+30 September, 2021 10:40 PM
 
-### 7장 The Load Will Provide
+───
 
-Tara는 Tyler가 집을 떠난 지 거의 한 달 후인 여름에 일어난 사건에 대해 설명합니다. 그녀의 17세 남동생 루크는 청바지에 휘발유를 쏟은 후 실수로 자신에게 불을 붙인다. 당황한 그는 옷에서 주변 지역의 마른 풀로 불이 번지게 합니다. 사건은 집에서 멀지 않은 곳에서 발생하고, 타라는 동생이 도착했을 때 혼자이고 화상으로 고통스러워 비명을 질렀다. 그녀는 그의 다리를 얼음과 물에 담그고 그를 돕기 위해 최선을 다합니다. 그녀의 어머니는 결국 집으로 돌아와 부상의 심각성과 타일러의 극심한 고통에도 불구하고 화상을 스스로 치료합니다.
+THE MEMORY OF TYLER haunted me that winter. I remembered the day he left, how strange it was to see his car bumping down the hill loaded with boxes. I couldn’t imagine where he was now, but sometimes I wondered if perhaps school was less evil than Dad thought, because Tyler was the least evil person I knew, and he loved school—loved it more, it seemed, than he loved us.
+30 September, 2021 10:41 PM
 
-Tara는 기억에서 벗어나 독자에게 기억을 기록하면 무언가를 깨닫게 된다고 말합니다. 루크는 다친 직후 풀에 불을 붙였기 때문에 누가 불을 끄고 주변을 태우지 못하게 막았는지 궁금합니다. 그녀는 루크가 아버지가 불에 탔을 때 그녀가 항상 생각했던 것처럼 혼자가 아니라 아버지와 함께 있었던 것이 가능한지 궁금해합니다. Tara는 그녀의 형제 Richard에게 묻습니다. 그녀는 그녀에게 아버지가 불이 번지기 전에 불을 끌 수 있도록 불에 탄 아들을 집에 혼자 보낸 아버지의 이야기를 기억한다고 말합니다. 루크의 기억에 따르면 부상이 발생했을 때 그는 아버지와 함께 있었지만 Gene은 그를 집으로 데려가 도왔고 그 전에 화재를 처리하기 위해 돌아갔습니다.
+───
 
-### 8장 Tiny Harlots
+TYLER WAS GONE. There was hardly a trace he’d ever lived in the house, except one: every night, after dinner, I would close the door to my room and pull Tyler’s old boom box from under my bed. I’d dragged his desk into my room, and while the choir sang I would settle into his chair and study, just as I’d seen him do on a thousand nights. I didn’t study history or math. I studied religion.
+30 September, 2021 10:41 PM
 
-11세가 되자 Tara는 고철 처리장에서 일하기를 열망하여 인근 마을에서 아이를 돌보기 시작합니다. 그녀의 고객 중 한 명인 Mary는 숙련된 피아니스트이고 Tara는 그녀의 서비스에 대한 대가로 피아노 연주를 배운다. Mary는 Tara도 댄스 레슨을 시작하자고 제안하고 Tara의 어머니는 Tara가 레슨을 받는 동안 아버지에게 레슨을 숨기도록 도와줍니다. Gene은 Tara의 크리스마스 리사이틀 날이 되어서야 딸이 춤을 추고 있다는 소식을 듣고 두 부모는 Tara의 공연을 보러 갑니다. 이후 진이 화를 낼 것을 알고 타라의 어머니는 리사이틀과 의상에 놀란 척한다.
+───
 
-Tara는 더 이상 춤을 배울 수 없기 때문에 그녀의 어머니는 대신 그녀를 음성 레슨에 데려갑니다. 타라는 어느 날 교회에서 찬송가를 부르면 많은 찬사를 받고 아버지는 그녀의 재능에 진정한 자부심을 보입니다. Tara의 음성 교사가 그녀에게 Annie 의 현지 제작에 대한 오디션을 제안했을 때 Gene은 놀랍게도 지지합니다.
+BY THE TIME THE SNOW on the mountain began to melt, my hands were thickly callused. A season in the junkyard had honed my reflexes: I’d learned to listen for the low grunt that escaped Dad’s lips whenever he tossed something heavy, and when I heard it I hit the dirt. I spent so much time flat in the mud, I didn’t salvage much. Dad joked I was as slow as molasses running uphill.
+30 September, 2021 10:41 PM
 
-### 9장 Perfect in His Generations
+───
 
-Tara의 Annie 역할은 1999년 여름, 그녀가 13세가 되기 직전입니다. 그녀의 아버지는 2000년 1월 1일이 혼란과 붕괴를 일으킬 것이라는 그의 믿음에 사로잡혀 있고, 준비와 비축에 가족의 모든 에너지를 집중합니다. 한편, Tara가 Annie 역할을 성공적으로 수행하면서 가족 외의 누구와도 불편함을 느끼고 불편함을 느끼긴 했지만 계속해서 연기와 노래를 부르게 되었습니다. 그녀의 공연을 통해 그녀는 그녀에게 다정한 Charles라는 소년을 만난다. 진은 이례적으로 가족을 위한 케이블 TV를 시청하고, 타라는 이것이 새해와 함께 끝이 온다는 신호인지 궁금합니다. 그러나 새해 전날, 진은 자신의 신념이 하나도 실현되지 않고 세상이 평소와 같이 계속되고 있다는 사실에 놀란다.
+It was a rainless summer. The sun blazed across the sky each afternoon, scorching the mountain with its arid, desiccating heat, so that each morning when I crossed the field to the barn, I felt stalks of wild wheat crackle and break beneath my feet.
+30 September, 2021 10:41 PM
 
-### 10장 Shield of Feathers
+───
 
-새해가 지나고 진은 우울증에 빠지자 페이는 또 다른 가족 여행을 애리조나로 계획한다. 다시 한 번, 가족은 집으로 돌아오는 길에 위험한 상황에서 운전을 하던 중 교통사고를 당합니다. Tara는 목 부상을 입습니다. 사고 후 얼마 지나지 않아 그녀의 형 숀은 아버지를 돕기 위해 다시 집으로 이사한다.
+I’D STACKED THE DIRTY dishes and was filling the kitchen sink when I heard it—a shrill, strangled cry that began in one key and ended in another. There was no question it was human. I’d never heard an animal bellow like that, with such fluctuations in tone and pitch.
+30 September, 2021 10:42 PM
 
-### 11장 Instinct
+───
 
-Tara는 놀랍게도 Shawn이 그녀의 삶에 관심을 갖고 있는 것 같습니다. 그는 그녀가 타고 싶어하는 말을 길들이는 것을 돕고, 그녀를 극장 리허설까지 데려다 주기도 합니다. Tara가 15세가 되기 직전 Sean은 그녀가 말에서 떨어질 뻔한 위험한 상황에서 그녀를 도우러 옵니다.
+FOR EIGHTEEN YEARS I never thought of that day, not in any probing way. The few times my reminiscing carried me back to that torrid afternoon, what I remembered first was the belt. Luke, I would think. You wild dog. I wonder, do you still wear twine?
+30 September, 2021 10:43 PM
 
-### 12장 Fish Eyes
+───
 
-Tara는 Shawn이 그의 형제 Tony의 트럭 운송 사업을 일시적으로 인수할 때 동행합니다. 이 친밀한 기간 동안 Shawn은 Tara에게 장난스럽게 "Siddle Lister"라는 별명을 붙였습니다. Tara의 리허설 중 하나에서 Shawn과 Tara는 분명히 Shawn에게 호감을 갖게 되는 Sadie라는 소녀를 만난다. Shawn은 때때로 Sadie에게 시시덕거리지만 그녀에게 잔인한 것처럼 보이기도 합니다. 어느 날, Shawn이 Sadie에게 사용한 것과 같은 거만한 태도를 Tara에게 보여주자 그녀는 반항하고 물 한 잔을 그의 머리에 쏟습니다. 숀은 화를 내며 타라에게 신체적으로 상처를 주어 사과를 강요합니다. 이후 그녀는 그 사건이 자신에게 영향을 미치지 않았다는 결론을 내렸지만, 돌이켜보면 그 사건이 깊은 트라우마를 남겼습니다.
+MOTHER MUST HAVE FELT guilty after the recital, because in the weeks that followed she searched for something else I could do, something Dad wouldn’t forbid. She’d noticed the hours I spent in my room with Tyler’s old boom box, listening to the Mormon Tabernacle Choir, so she began looking for a voice teacher. 
+30 September, 2021 10:44 PM
 
-### 13장 Silence in the Churches
+───
 
-이야기의 이 시점은 2001년이고 Tara의 여동생 Audrey는 결혼했고 그녀의 아버지는 임박한 성전에 대해 경고하고 있습니다. 15살이 된 타라의 몸은 변화하고 있으며, 그녀는 아버지가 노출이 심한 옷을 입은 여성들을 비판하는 방식이나 자신에게 관심을 끌기 위해 무엇이든 하는 방식을 점점 더 자각하게 됩니다. 타라의 친구 찰스는 새디를 짝사랑하고 있다고 털어놓았고, 새디와 숀이 헤어진 후 찰스와 새디는 데이트를 한다. 숀은 질투에 사로잡혀 찰스를 위협합니다. 점점 폭력적이고 변덕스러운 행동을 보이는 것 같습니다.
+The summer I sang the lead for Annie it was 1999. My father was in serious preparedness mode. Not since I was five, and the Weavers were under siege, had he been so certain that the Days of Abomination were upon us.
+30 September, 2021 10:44 PM
 
-다음날 아침, Tara는 Shawn이 그녀를 공격하고 그녀의 끔찍한 이름을 부르는 것을 보고 깨어납니다. 그녀의 어머니는 그녀를 변호하려고 하지만 그렇게 하는 데 어려움이 있습니다. 예기치 않게 집에 돌아온 타일러는 형제 자매의 갈등에 개입한다. 그는 타라가 도망치는 것을 돕습니다. 그녀가 집으로 돌아오자 Shawn은 Tara에게 사과하고 그가 그녀를 보호하고 그녀가 죄를 짓지 않도록 보호하려고 한다고 설명합니다. 그러나 Tyler는 Tara에게 떠날 계획을 세울 것을 촉구하고 대학 지원을 고려해 보라고 제안합니다. 다음날 Tara는 침실 문에 자물쇠를 설치합니다.
+───
 
-### 14장 My Feet No Longer Touch Earth
+I HAD REHEARSALS MOST NIGHTS at the Worm Creek Opera House, a dilapidated theater near the only stoplight in town. The play was another world. Nobody talked about Y2K.
+30 September, 2021 10:44 PM
 
-그는 처음에 짧은 일을 했다. 아빠는 Buck's Peak에서 약 20마일 떨어진 Oneida 카운티에 착유 헛간을 짓는 계약을 맺었습니다. 그래서 Shawn은 마당을 돌아다니며 회로도를 조정하고 I-빔을 측정했습니다. 
+───
 
-Tara의 아버지는 Shawn과 함께 건설 사업을 확장합니다. Shawn은 더 안전하고 효율적인 장비를 현대화하고 사용하는 것을 거부하는 아버지에 대해 종종 화를 냅니다. 한편, 타라는 인터넷과 휴대폰을 소개하는 현지 판매원과 함께 일하느라 바쁘다. 타일러는 여동생이 학교에 가야 한다는 문제를 계속 압박하며 그녀에게 음악을 공부할 수 있다고 제안한다. Tara는 결국 흥미를 느끼고 대학 입학 절차의 일부로 치러야 하는 ACT 시험 공부를 시작합니다. 그러나 Tara는 삼각법을 배우는 데 어려움을 겪고 마침내 Tyler는 그녀를 돕습니다. 그는 엔지니어링 프로그램을 졸업할 예정이며 퍼듀 대학교에서 박사 학위를 취득할 계획입니다.
+IT WAS AT THE Worm Creek Opera House that I first saw him: a boy I didn’t know, laughing with a group of public school kids, wearing big white shoes, khaki shorts and a wide grin. He wasn’t in the play, but there wasn’t much to do in town, and I saw him several more times that week when he turned up to visit his friends. Then one night, when I was wandering alone in the dark wings backstage, I turned a corner and found him sitting on the wooden crate that was a favorite haunt of mine. The crate was isolated—that was why I liked it.
+30 September, 2021 10:44 PM
 
-Tyler와의 연구 세션에서 돌아온 Tara는 Shawn이 사고를 당했다는 전화를 받습니다. 그녀는 나중에 루크와 그녀의 처남 벤자민에게서 Shawn이 콘크리트 벽에 20피트 이상 떨어졌음을 알게 됩니다. 그는 처음에는 다치지 않은 것처럼 보였지만 약 20분 후에 이상하고 공격적으로 행동하기 시작합니다. 루크, 벤자민, 진은 숀이 그들을 공격하지 못하도록 제지하려 하고, 숀은 두 번째로 땅에 머리를 친다. 이 시점에서 무슨 일이 일어나든 너무 놀라서 누군가가 911에 전화를 걸고 Shawn은 병원으로 공수됩니다.
+───
 
-Tara는 처음에 어떤 감정이 표출될까 두려워 병원에 Shawn을 방문하는 것을 주저하지만 마침내 Shawn을 방문했을 때 안타까움을 느낍니다. Shawn은 가능한 한 빨리 집으로 달려가 그곳에서 계속해서 회복합니다. 그와 Sadie는 재회하고 Tara는 학업을 진행하면서 동생을 돌보는 데 전념합니다. 그러나 Shawn은 부상 후 더욱 폭력적이고 변덕스러운 경향을 보입니다.
+ It took more than an hour, and when they’d finished they stood back, revealing what looked like an enormous military-green telescope, with its long barrel set firmly atop a short, broad tripod. Richard was so excited he was hopping from one foot to the other, reciting what it could do. “Got a range more than a mile! Can bring down a helicopter!”
+30 September, 2021 10:45 PM
 
-### 15장 No More a Child
+───
 
-미래의 상상, 숀 없이 건설공사가 별로 없음, 숀이 돌아옴, 세어머신 도입, 한달동안 같이하면서 사이가 좋아짐
+I CAME HOME ONE AFTERNOON from packing macadamias to find Dad and Richard gathered around a large metal box, which they’d hefted onto the kitchen table. While Mother and I cooked meatloaf, they assembled the contents.
+30 September, 2021 10:45 PM
 
-I tried to imagine what future such a woman might claim for herself. I tried to conjure other scenes in which she and her father were of two minds. When she ignored his counsel and kept her own. But my father had taught me that there are not two reasonable opinions to be had on any subject: there is Truth and there are Lies.
+───
+
+CHRISTMAS WAS SPARSE THAT YEAR. We weren’t poor—Mother’s business was doing well and Dad was still scrapping—but we’d spent everything on supplies.
+30 September, 2021 10:47 PM
+
+───
+
+When January 1 dawned like any other morning, it broke Dad’s spirit. He never again mentioned Y2K. He slipped into despondency, dragging himself in from the junkyard each night, silent and heavy. He’d sit in front of the TV for hours, a black cloud hovering.
+30 September, 2021 10:48 PM
+
+───
+
+I AWOKE TO BLACKNESS. Something ice-cold was running down my back. We’re in a lake! I thought. Something heavy was on top of me. The mattress. I tried to kick it off but couldn’t, so I crawled beneath it, my hands and knees pressing into the ceiling of the van, which was upside down. I came to a broken window. It was full of snow. Then I understood: we were in a field, not a lake. I crawled through the broken glass and stood, unsteadily. I couldn’t seem to gain my balance. I looked around but saw no one. The van was empty. My family was gone.
+30 September, 2021 10:49 PM
+
+───
+
+A FEW DAYS AFTER the crash, my neck froze.
+
+I awoke one morning and it wouldn’t move. It didn’t hurt, not at first, but no matter how hard I concentrated on turning my head, it wouldn’t give more than an inch. The paralysis spread lower, until it felt like I had a metal rod running the length of my back and into my skull. When I couldn’t bend forward or turn my head, the soreness set in. I had a constant, crippling headache, and I couldn’t stand without holding on to something.
+30 September, 2021 10:49 PM
+
+───
+
+DURING THE MONTH I was in bed I heard another voice. I remembered it but it was no longer familiar to me. It had been six years since that impish laugh had echoed down the hall.
+30 September, 2021 10:50 PM
+
+───
+
+When Grandpa-down-the-hill was a young man, there’d been herds of livestock spread across the mountain, and they were tended on horseback. Grandpa’s ranching horses were the stuff of legend. Seasoned as old leather, they moved their burly bodies delicately, as if guided by the rider’s thoughts.
+30 September, 2021 10:50 PM
+
+───
+
+SHAWN SAID HE WANTED out of his old life, and that the first step was to stay away from his friends. Suddenly he was home every evening, looking for something to do. He began to drive me to my rehearsals at Worm Creek. When it was just the two of us floating down the highway, he was mellow, lighthearted. He joked and teased, and he sometimes gave me advice, which was mostly “Don’t do what I did.” But when we arrived at the theater, he would change.
+30 September, 2021 10:50 PM
+
+───
+
+IT WAS A HAZY summer evening, a month before I turned fifteen. The sun had dipped below Buck’s Peak but the sky still held a few hours of light. Shawn and I were in the corral. After breaking Bud that spring, Shawn had taken up horses in a serious way. 
+30 September, 2021 10:50 PM
+
+───
+
+My brother Tony had taken out a loan to buy his own rig—a semi and trailer—but in order to make the payments, he had to keep the truck on the road, so that’s where he was living, on the road. Until his wife got sick and the doctor she consulted (she had consulted a doctor) put her on bed rest. Tony called Shawn and asked if he could run the rig for a week or two.
+30 September, 2021 10:50 PM
+
+───
+
+THE WORM CREEK OPERA HOUSE announced a new play: Carousel. Shawn drove me to the audition, then surprised me by auditioning himself. Charles was also there, talking to a girl named Sadie, who was seventeen. She nodded at what Charles was saying, but her eyes were fixed on Shawn.
+30 September, 2021 10:51 PM
+
+───
+
+SADIE’S PARENTS WERE DIVORCING and the town was awash in rumors about her father. When Mother heard the rumors, she said now it made sense why Shawn had taken an interest in Sadie. “He’s always protected angels with broken wings,” she said.
+30 September, 2021 10:51 PM
+
+───
+
+In September the twin towers fell. I’d never heard of them until they were gone. Then I watched as planes sank into them, and I stared, bewildered, at the TV as the unimaginably tall structures swayed, then buckled.
+30 September, 2021 10:51 PM
+
+───
+
+SHAWN AND I AUDITIONED for a melodrama at Worm Creek. I saw Charles at the first rehearsal and spent half the evening working up the courage to talk to him. When I did, finally, he confided in me that he was in love with Sadie. This wasn’t ideal, but it did give us something to talk about.
+30 September, 2021 10:52 PM
+
+───
+
+I AWOKE WITH NEEDLES in my brain. Thousands of them, biting, blocking out everything. Then they disappeared for one dizzying moment and I got my bearings.
+30 September, 2021 10:52 PM
+
+───
+
+THAT NIGHT, WHEN I came home, Shawn was gone. Mother was in the kitchen blending oils. She said nothing about that morning, and I knew I shouldn’t mention it. I went to bed, but I was still awake hours later when I heard a pickup roar up the hill. A few minutes later, my bedroom door creaked open. I heard the click of the lamp, saw the light leaping over the walls, and felt his weight drop onto my bed. I turned over and faced him. He’d put a black velvet box next to me. When I didn’t touch it, he opened the box and withdrew a string of milky pearls.
+30 September, 2021 10:54 PM
+
+───
+
+WHEN I AWOKE THE next morning, my neck was bruised and my wrist swollen. I had a headache—not an ache in my brain but an actual aching of my brain, as if the organ itself was tender. 
+30 September, 2021 10:54 PM
+
+───
+
+In October Dad won a contract to build industrial granaries in Malad City, the dusty farm town on the other side of Buck’s Peak. It was a big job for a small outfit—the crew was just Dad, Shawn, Luke, and Audrey’s husband, Benjamin—but Shawn was a good foreman, and with him in charge Dad had acquired a reputation for fast, reliable work.
+30 September, 2021 10:54 PM
+
+───
+
+I WORKED LATE MOST NIGHTS. Randy planned to take a big road trip to find new accounts, and he’d asked me to manage the business while he was gone. He taught me how to use his computer to keep the books, process orders, maintain inventory. It was from Randy that I first heard of the Internet. He showed me how to get online, how to visit a webpage, how to write an email. The day he left, he gave me a cellphone so he could reach me at all hours.
+30 September, 2021 10:54 PM
+
+───
+
+EVERY EVENING, AS THE CREW was leaving Malad, Dad would phone the house so Mother could have dinner waiting when the truck bumped up the hill. I listened for that call, and when it came I would get in Mother’s car and drive away. I didn’t know why. I would go to Worm Creek, where I’d sit in the balcony and watch rehearsals, my feet on the ledge, a math book open in front of me. I hadn’t studied math since long division, and the concepts were unfamiliar. I understood the theory of fractions but struggled to manipulate them, and seeing a decimal on the page made my heart race. Every night for a month I sat in the opera house, in a chair of red velvet, and practiced the most basic operations—how to multiply fractions, how to use a reciprocal, how to add and multiply and divide with decimals—while on the stage, characters recited their lines.
+30 September, 2021 10:55 PM
+
+───
+
+I STUDIED TRIGONOMETRY FOR a month. I sometimes dreamed about sine, cosine and tangent, about mysterious angles and concussed computations, but for all this I made no real progress. I could not self-teach trigonometry. But I knew someone who had.
+30 September, 2021 10:55 PM
+
+───
+
+MOTHER HAD LITTLE INFORMATION. Shawn had fallen. He’d landed on his head. Someone had called 911, and he’d been airlifted to a hospital in Pocatello. The doctors weren’t sure if he would live. That was all she knew.
+30 September, 2021 10:55 PM
+
+───
+
+SHAWN LIVED THROUGH THE NIGHT.
+
+In the morning I drove to Buck’s Peak. I couldn’t explain why I wasn’t rushing to my brother’s bedside. I told Mother I had to work.
+30 September, 2021 10:55 PM
+
+───
+
+There was a moment that winter. I was kneeling on the carpet, listening to Dad testify of Mother’s calling as a healer, when my breath caught in my chest and I felt taken out of myself. I no longer saw my parents or our living room. What I saw was a woman grown, with her own mind, her own prayers, who no longer sat, childlike, at her father’s feet.
+30 September, 2021 10:56 PM
+
+───
+
+I WAS LYING ON MY BED, watching the shadows my feeble lamp cast on the ceiling, when I heard my father’s voice at the door. Instinctively I jerked to my feet in a kind of salute, but once I was standing I wasn’t sure what to do. There was no precedent for this: my father had never visited my room before.
+30 September, 2021 10:56 PM
+
+───
 
 WITHOUT SHAWN AS FOREMAN, Dad’s construction business dwindled. I’d quit my job at Randy’s to look after Shawn. Now I needed money, so when Dad went back to scrapping that winter, so did I.
+30 September, 2021 10:56 PM
 
-A few years before, Dad had been hired by Utah Power to dismantle hundreds of utility towers.
+───
 
-그녀를 부끄럽게 만들고 겁주어 그녀의 계획을 포기하게 만들려고 합니다. 하지만 Tara는 똑똑하고 자신이 신의 메시지라고 주장하는 내용이 자신의 감정을 드러내고 있다는 것을 깨닫고 그의 권위가 그녀가 교육을 추구하는 것을 두려워하지 않는다면 신의 최고 권위는 정당할 수 있습니다.
+THERE WAS AN UNUSUALLY hot day that spring, and Luke and I spent it hauling purlins—the iron beams that run horizontally along the length of a roof. 
+30 September, 2021 10:56 PM
 
-타라는 학교와 시험을 보는 세상이 낯설고 낯설고, 결국 자신에게 맞는 곳으로 돌아와서 안도한다. 그녀를 가두는 모든 방법.
+───
 
-타라가 돈을 저축하고 있다는 사실을 알게 된 그녀의 아버지는 그녀에게 각종 생활비를 청구하기 시작하고 그녀의 ACT 점수가 도착하는 날 갑자기 그녀에게 나가라고 말합니다. 
+I WAS HOARDING MY PAYCHECKS, in case I needed the money for tuition. Dad noticed and started charging me for small things. Mother had gone back to buying insurance after the second car accident, and Dad said I should pay my share. So I did. Then he wanted more, for registration. “These Government fees will break you,” he said as I handed him the cash.
+30 September, 2021 10:56 PM
 
-처음에 그녀의 어머니는 동의하지만 Tara가 그녀가 겨우 16살이라고 강조하자 그녀는 누그러집니다.
+───
 
-가위는 아빠의 망상적이지만 위협적인 사고 방식의 강력한 상징입니다. 그는 지름길을 택하고, 모든 사람을 자신의 통제 하에 두며, 신이 자신과 그의 가족을 보호할 것임을 증명하기로 굳게 결심하여 죽음을 계속해서 유혹하여 운명 자체를 도발했습니다.
+SHAWN RETURNED TO WORK, hobbling unsteadily. 
+30 September, 2021 10:56 PM
 
-Shawn은 직장으로 돌아가서 아버지가 Tara에게 Shear라는 위험한 기계를 작업하라고 요구하자 Tara를 변호합니다. 
+───
 
-Shawn은 집으로 돌아온 이후 Tara에게 잔인하고 모욕적이었지만, 이 구절에서 그는 자신이 하고 있는 일을 언급하지 않고 아빠를 부릅니다. 그는 그가 Tara를 위협하고 위협하기 위해 Shear를 사용했다고 비난하지 않지만, 그럼에도 불구하고 그의 발을 내려놓고 그가 아마도 그 이름으로 부를 수 없는 교활한 심리적 학대를 막으려 합니다.
+Construction began on the milking barn in Oneida. Shawn designed and welded the main frame—the massive beams that formed the skeleton of the building. 
+30 September, 2021 10:57 PM
 
-아버지와 아들의 대결은 숀이 점점 아버지에게 싫증이 나고 있음을 보여주지만, 결국 숀과 타라는 둘 다 위험한 기계에서 함께 일하게 된다.
+───
 
-### 16장 Disloyal Man, Disobedient Heaven
+IT WAS A SATURDAY NIGHT. I was at Grandma-over-in-town’s, my math book propped open on the kitchen table, a plate of cookies next to me. I was studying to retake the ACT. I often studied at Grandma’s so Dad wouldn’t lecture me.
+30 September, 2021 10:57 PM
 
-헛간건설시작, 크레인, 숀의 변호, 숀의 사고, 병원진단, 자책, 학교입학, 
+───
 
-아빠는 Buck's Peak에서 약 20마일 떨어진 Oneida 카운티의 착유 헛간에서 건설이 시작되었습니다. Shawn은 건물의 골격을 형성하는 거대한 보인 메인 프레임을 설계하고 용접했습니다. 그들은 로더에게 너무 무거웠습니다. 크레인만이 그들을 들어올릴 수 있었습니다. 그것은 용접공이 빔을 기둥 위로 내린 다음 제자리에서 용접하는 동안 빔의 반대쪽 끝에서 균형을 잡아야 하는 섬세한 절차였습니다. Shawn은 내가 크레인을 작동하기를 원한다고 발표했을 때 모두를 놀라게 했습니다.
+I’D NEVER BEEN TO the hospital in town, but it was easy to find.
 
-“Tara는 크레인을 운전할 수 없어요.” 아빠가 말했다. "그녀에게 컨트롤을 가르치는 데는 오전 반이 걸릴 것이고, 그녀는 여전히 자신이 무엇을 하고 있는지 알지 못할 것입니다."
+Dwain had asked me what the hell I was doing when I flipped a U-turn and accelerated down the hillside. I’d listened to Shawn’s shallow breathing as I raced through the valley, along Fivemile Creek, then shot up the Bear River Hill. At the hospital, I parked in the emergency lane, and Dwain and I carried Shawn through the glass doors. I shouted for help. A nurse appeared, running, then another. Shawn was conscious by then. They took him away and someone shoved me into the waiting room.
+30 September, 2021 10:58 PM
 
-"하지만 그녀는 조심할 것입니다." Shawn이 말했습니다.
+───
 
-한 시간 후 나는 맨박스 안에 있었고 Shawn과 Luke는 20피트 높이의 들보 양쪽 끝에 서 있었습니다. 나는 레버를 가볍게 닦고 유압 실린더가 부드럽게 쉿 소리를 내며 당기는 소리를 들었다. "잡고있다!" 숀은 빔이 제자리에 놓였을 때 소리를 지르며 헬멧을 숙이고 용접을 시작했습니다.
+THE ENVELOPE ARRIVED THREE weeks later, just as Shawn was getting back on his feet. I tore it open, feeling numb, as if I were reading my sentence after the guilty verdict had already been handed down. I scanned down to the composite score. Twenty-eight. I checked it again. I checked my name. There was no mistake. Somehow—and a miracle was the only way I could account for it—I’d done it.
+30 September, 2021 10:58 PM
 
-내가 크레인을 운전한 것은 그해 여름 Shawn이 이겼던 아빠와 Shawn 사이의 100가지 논쟁 중 하나였습니다. 대부분은 그렇게 평화롭게 해결되지 않았습니다. 그들은 집에 남겨둔 회로도나 도구의 결함에 대해 거의 매일 논쟁을 벌였습니다. 아빠는 누가 책임자인지 증명하기 위해 싸우고 싶어하는 것 같았습니다.
+───
 
-Tara는 Shawn이 아빠에게 맞서는 모습을 보는 방식에 매료되고 심지어 흥분합니다. 종종 그녀를 변호합니다. 
+THREE DAYS BEFORE I turned seventeen, Mother drove me to Utah to find an apartment.
+30 September, 2021 10:58 PM
 
-Shawn과 Tara는 점점 더 평범한 남매의 순간을 보내고 있으며 교육을 위해 집을 떠나는 그녀의 꿈을 지지하는 것 같기도 합니다.
+───
 
-첫 번째 추락의 트라우마를 겨우 회복하고 있는 Shawn은 또 다른 폭력적인 사고를 당합니다. 적어도 Tara의 눈에는 첫 번째 사고보다 더 나쁜 것으로 보입니다.
+WAITING FOR CHRISTMAS THAT year felt like waiting to walk off the edge of a cliff. Not since Y2K had I felt so certain that something terrible was coming, something that would obliterate everything I’d known before. 
+30 September, 2021 10:58 PM
 
-Shawn이 심각한 곤경에 처해 있다는 Tara의 주장에도 불구하고, 아빠는 엄마가 그를 치료할 책임이 있다고 굳게 믿고 있습니다. 하지만 Tara는 확신이 서지 않고 스스로 해결하기로 결정합니다. 그렇게 함으로써 그녀는 아빠에게 직접적으로 반항하고 있으며, 아빠의 교리에 따르면 하나님 자신에게 반항하고 있습니다.
+───
 
-Tara는 Shawn을 병원으로 데려가기로 결정했고 상황이 생각보다 나쁘지 않다는 것을 깨닫고 수치심과 자기 혐오로 가득 차 있습니다. 그녀는 실제로 Shawn을 집에 있는 어머니에게 데려갔어야 했는지 궁금합니다. Shawn을 병원에 데려온 것은 자신이 모든 사람의 시간과 돈을 낭비하고 있으며 아빠와의 단조로운 관계에 또 다른 타격을 가했다고 생각합니다. 사람이 외부에서 비교적 정상으로 보일 때 뇌 손상이 일반적으로 더 심각하다는 의사의 말은 Shawn의 이전 뇌 손상 사건으로 거슬러 올라갑니다.
+### Part Two
 
-Tara는 부모에게 충분히 좋은 딸이 되지 못한 것에 대해 수치심과 죄책감을 느끼며 고군분투하고 있지만, 그녀는 독립적인 행동과 자신의 감정의 우선순위를 정하는 것, 그녀 같은 사람에게는 급진적인 일을 실험합니다. Tara가 그녀의 성공에 대한 이야기를 가족들에게 집으로 가져왔을 때, 망상적이고 자기 도취적이고 분개한 아빠인 아빠는 그녀의 성공이 자신의 성공이라고 주장합니다.
+On New Year’s Day, Mother drove me to my new life. I didn’t take much with me: a dozen jars of home-canned peaches, bedding, and a garbage bag full of clothes.
+30 September, 2021 10:58 PM
 
-Tara는 자신의 인생을 영원히 바꾸려고 합니다. 하지만 학교를 떠나기 몇 주 전, 그녀는 Buck's Peak 너머의 세상에 대해 자신이 얼마나 알고 있는지 깨닫기 시작합니다. Tara의 학습에는 엄청난 격차가 있으며, 이 구절은 그녀의 정규 교육 초기를 표시할 어려움, 충격 및 불확실성을 예고합니다.
+───
 
-### 17장
+THE NEXT MORNING, I got on the bus going the wrong direction. By the time I’d corrected my mistake, the lecture was nearly finished.
+30 September, 2021 10:59 PM
 
-Tara는 유타로 이사하여 두 명의 룸메이트인 Mary와 Shannon과 함께 살게 됩니다. 두 소녀 모두 몰몬교인이지만 그들의 신앙이 훨씬 덜 완고해 Tara는 충격을 받습니다. 수업을 시작할 때 Tara는 다양한 수준의 수업이 있다는 것을 이해하지 못했다는 것을 깨닫고 1학년 수준의 과정을 수강하기 위해 고군분투합니다. Tara는 자신의 코스 콘텐츠 대부분이 자신에게 의미가 없다는 것을 불편하게 알고 있습니다. 이 낯선 환경에서 Tara는 자신이 성장한 신앙과 전통의 명확성에 더 끌립니다.
+───
 
-어느 날 미술사 수업에서 타라는 홀로코스트 라는 단어의 의미를 묻는다 . 모두들 그녀가 장난을 치는 줄 알고 차갑게 반응한다. 수업이 끝난 후 Tara는 단어를 조사하고 자신의 무지를 깨닫고 소름 끼치고 충격을받습니다. Tara는 안식일을 매우 엄격하게 지키겠다는 그녀의 약속에 대해 룸메이트와 의견이 일치하지 않기 시작합니다.
+THAT SATURDAY, I SAT at my desk with a stack of homework. Everything had to be finished that day because I could not violate the Sabbath.
+30 September, 2021 10:59 PM
 
-### 18장
+───
 
-Tara는 그녀가 대학에 다니는 데 드는 비용을 심각하게 과소평가하고 있다는 것을 깨닫고 어떻게 계속해서 그 비용을 감당할 수 있을지 궁금합니다. 그녀의 학업 성적은 장학금을 받을 만큼 강하지 않으며 특히 서양 문명 과정에서 어려움을 겪습니다. Tara는 자신의 이상하고 독특한 어린 시절에 대한 좌절과 씨름하면서 그녀와 그녀의 형제 자매들이 어린 시절에 구한 부상당한 야생 올빼미의 기억을 회상합니다. 놀랍게도 Tara가 그녀의 걱정을 아버지에게 털어놓았을 때 그는 동정심을 보이며 그녀를 도와주겠다고 제안합니다. 급우와의 우연한 대화를 통해 Tara는 수업 시간에 교과서를 읽어야 한다는 것을 알게 됩니다. 일단 그녀가 그렇게 하기 시작하면, 그녀의 성적은 극적으로 향상됩니다.
+After that, I rarely spoke to Shannon or Mary and they rarely spoke to me, except to remind me to do my share of the chores, which I never did. The apartment looked fine to me.
+30 September, 2021 10:59 PM
 
-### 19장
+───
 
-학기가 끝나면 Tara는 여름을 위해 집으로 돌아갑니다. 그녀는 가을에 대학으로 돌아갈 수 있을지 아직 모릅니다. 그녀의 성적은 그녀가 장학금을 받을 만큼 충분히 좋아야 합니다. Tara는 돈을 벌기 위해 동네 식료품점으로 돌아가고 싶어하지만 아버지는 그녀가 다시 스크랩 작업으로 돌아가라고 주장합니다. 다시 쓰레기로 돌아가지 않으면 집에서 살 수 없을 것이라는 위협에 직면한 Tara는 식료품점에서 일을 그만둡니다.
+MY BANK ACCOUNT DECREASED steadily.
+30 September, 2021 10:59 PM
 
-타라의 오랜 친구 찰스는 그녀에게 관심을 갖고 데이트 신청을 한다. 부끄럽게도 Tara는 그와 점점 더 많은 시간을 보내기 시작합니다. 그녀는 또한 그녀가 장학금을 받았고 가을에 대학으로 돌아갈 수 있다는 사실을 알게 되어 기쁩니다. Tara는 Charles가 낭만적인 제스처를 취하기를 바랐지만 처음으로 그녀를 만지려고 하면 당황합니다.
+───
 
-### 20장
+ONE WINTER, WHEN I was very young, Luke found a great horned owl in the pasture, unconscious and half frozen.
+30 September, 2021 10:59 PM
 
-Tara의 교육과 새로운 세속적인 것, 그리고 Charles와의 싹트기 시작한 관계는 Shawn과 그녀의 아버지의 관심을 끕니다. 두 남자는 Tara를 그녀의 자리에 두기로 결심합니다. Tara는 새로 습득한 지식에 비추어 볼 때 아버지 및 오빠와 상호 작용하는 경험이 불편함을 발견합니다. 예를 들어, 그녀의 남동생은 그녀의 별명으로 인종적 소명을 사용합니다. 이것은 과거에 Tara를 괴롭히지 않았지만 이제 그녀는 노예제의 역사와 시민권 운동에 대해 알고 있습니다. 그녀는 그녀의 형제가 이 용어를 사용하는 것이 얼마나 잘못된 것인지 이해하지만, 그녀 역시 그를 막을 힘이 없습니다.
+───
 
-### 21장
+IN MARCH, THERE WAS ANOTHER exam in Western Civ.
+30 September, 2021 11:00 PM
 
-Tara는 대학으로 돌아가기 직전에 심한 귀 통증을 경험합니다. 그녀의 어머니의 약초 요법은 어떤 것도 완화시켜주지 않으며 그녀가 Charles에게 그녀의 고통을 언급하면 그는 그녀에게 진통제를 제공합니다. 약을 머뭇거리다가 타라는 통증이 사라지는 것에 충격을 받는다.
+───
 
-Tara는 학교로 돌아와 새로운 룸메이트인 Robin, Megan, Jenni와 함께 이사합니다. Robin은 Tara가 이전에 이해하지 못했던 사회적 규범에 대해 배우도록 도와줍니다. Tara는 대수학 수업에 어려움을 겪고 있으며 스트레스로 인해 위궤양이 발생합니다. 고통에도 불구하고 Tara는 의사를 만나기를 거부하고 청소부로 추가 작업을 수행합니다. 그녀는 추수 감사절을 위해 Buck's Peak에 집에 갈 예정이며 Charles에게 이 기간 동안 대수학 공부를 도와줄 수 있는지 물어봅니다.
+When the semester ended I returned to Buck’s Peak. In a few weeks BYU would post grades; then I’d know if I could return in the fall.
+30 September, 2021 11:00 PM
 
+───
 
-### 22장
+MY MEMORIES OF THE UNIVERSITY faded quickly.
+30 September, 2021 11:00 PM
 
-Tara는 집으로 돌아가고 Charles가 저녁 식사에 와야 하는 것에 대해 긴장합니다. Shawn이 그녀를 조롱하자 둘은 육체적인 싸움을 하게 됩니다. Charles가 도착하자 Shawn은 Tara를 다시 공격합니다. 그녀는 당황하고 찰스가 자신의 학대를 목격하지 못하도록 필사적입니다. 찰스는 서둘러 집을 나가지만 그와 타라는 그날 밤 늦게 만난다. 그녀는 그에게 모든 것이 괜찮다고 말합니다. 수치심에 이끌려 타라와 찰스는 결국 헤어진다.
+───
 
-대학으로 돌아온 타라의 신체적 증상은 룸메이트 로빈의 관심을 끈다. Tara는 여전히 의사를 만나기를 거부하고, 상담사와 만나자는 Robin의 제안도 무시합니다. Tara는 대수학 결승에서 만점을 받았고, 이 결과는 그녀가 무적임을 확신합니다. Tara는 크리스마스에 집으로 돌아와 동생 Richard를 관찰하고 그의 지능에 주목합니다. Tara는 Tyler가 Gene이 Richard가 대학에 가는 것을 지지한다고 말하자 충격을 받았고, 결국 그녀의 아버지가 Richard의 지능을 사용하여 현재의 문화적 가치를 훼손할 것이라고 믿기 때문에 Richard가 대학에 가기를 원한다는 사실을 알게 됩니다.
+ON THURSDAY, AFTER I’D finished scrapping, I drove forty miles to the nearest Walmart and bought a pair of women’s jeans and two shirts, both blue. 
+30 September, 2021 11:00 PM
 
-Tara가 집에 있는 동안 Shawn은 그녀가 더러운 작업복을 입고 있는 동안 Charles가 일하는 가게로 그녀를 강제로 가도록 합니다. Tara가 저항하자 Shawn은 주차장에서 그녀를 물리적으로 공격합니다. 그날 밤 Shawn은 사과하고 Tara는 자신이 사건을 잘못 이해했을 수 있는지에 대해 혼란스러워 합니다.
+───
 
-### 23장
+Charles was my first friend from that other world, the one my father had tried to protect me from.
+30 September, 2021 11:01 PM
 
-Tara는 교회의 여러 남자로부터 데이트 신청을 받지만 거절합니다. 그 결과 그녀는 감독과의 모임에 부름을 받았습니다. 뭔가 잘못되었다는 것을 알아차린 감독은 타라에게 계속 만나자고 합니다. 놀랍게도 그녀는 그와 자신의 삶과 가족에 대해 공개적으로 이야기하기 시작합니다.
+───
 
-학기가 끝나면 Tara는 집에 가서 일해야 합니다. 감독은 그녀에게 집세를 내겠다고 제안하면서 그녀에게 떠나라고 권하지만, 타라는 집으로 돌아오겠다고 고집합니다. 감독은 그녀가 그녀의 아버지를 위해 일하지 않겠다고 약속하게 했고, 그래서 Tara는 대신 식료품점에서 일하기로 돌아갑니다. 그 결과 그녀는 필요한 것보다 훨씬 적은 돈으로 학교로 돌아갑니다. 학기가 시작되고 2주 후, 그녀는 값비싼 치과 치료가 필요한 심한 치아 통증을 호소합니다. 그녀의 부모는 그녀가 내년 여름에 일한다는 조건으로 돈을 빌려주겠다고 제안했지만 그녀는 이를 거부합니다. Tara는 고통을 무시하려고 합니다.
+THE SUMMER SHAWN AND I had worked the Shear, there’d been an afternoon when I’d wiped the sweat from my face so many times that, by the time we quit for supper, my nose and cheeks had been black. That was the first time Shawn called me “Nigger.”
+30 September, 2021 11:01 PM
 
-타라가 겪는 고통에 대해 알게 된 감독은 그녀에게 보조금을 신청하거나 교회에서 돈을 받을 것을 제안하지만 그녀는 어느 쪽도 거부합니다. Tara는 간신히 긁어 모은 절망적 인 한 학기를 보내고 크리스마스 방학까지 돈이 없습니다. 그녀는 동생 토니와 함께 살기 위해 라스베이거스로 이사할 계획이다. 그런 다음 Shawn은 Tara에게 1월에 학교로 돌아갈 수 있을 만큼의 돈을 주면서 놀라게 합니다. 그러나 Tara는 부업을 하고도 겨우 생활비를 낼 수 없었고, 감독님은 계속해서 Tara에게 보조금을 신청하라고 재촉합니다. 마지막으로 Tara가 신청서를 제출합니다. 그녀는 보조금을 받고 처음으로 재정적으로 안전함을 느낍니다. 그녀는 또한 그녀가 다시는 아버지를 위해 일할 필요가 없다는 것을 알고 있습니다.
+───
 
-### 24장
+“OUR NIGGER’S BACK!”
 
-재정 문제가 해결된 Tara는 다시 학업에 집중합니다. 그녀는 심리학 수업에서 한 강의를 바탕으로 그녀의 아버지가 정신병을 앓고 있다고 의심하기 시작합니다. 이 아이디어로 인해 그녀는 Ruby Ridge에서 Weaver 가족의 총격 사건을 조사하게 되었습니다. 그녀의 아버지는 자녀를 학교에 보내기를 거부한 후 연방 요원에 의해 무자비하게 살해된 가족의 맥락에서 그녀에게 항상 이 이야기를 해왔습니다. 타라는 아이들을 포함한 가족들이 살해당하는 동안 위버가 백인 민족주의 운동에 연루되면서 갈등이 촉발되었다는 것을 알게 됩니다. 그녀의 아버지는 편집증적인 망상으로 인해 사건을 완전히 잘못 해석했습니다.
+I don’t know what Shawn saw on my face
+30 September, 2021 11:01 PM
 
-Tara는 양극성 장애에 대해 연구하고 글을 쓰기 시작합니다. 그녀는 훨씬 더 화를 내고 결국 아버지의 행동이 그녀의 삶에 어떤 영향을 미쳤는지에 대해 아버지와 대면하게 됩니다. 그녀는 여름 동안 유타에 머문다. 그녀는 아파트로 이사하고 로펌에서 인턴을 하고 닉이라는 남자와 데이트를 시작합니다. 그녀가 아프면 닉은 의사에게 진찰을 받으라고 주장합니다. Tara는 항생제를 처방받고 과학 의학으로 눈을 돌린 그녀에게 실망한 그녀의 어머니에게 말합니다. 다음 날 아침, Audrey는 Tara에게 아버지가 심각한 사고를 당했다고 전화를 겁니다.
+───
 
-### 25장
+Dad paid me the day before I returned to BYU. He didn’t have the money to give what he’d promised, but it was enough to cover the half tuition I owed. I spent my last day in Idaho with Charles.
+30 September, 2021 11:01 PM
 
-Tara는 가족 이야기를 회상합니다. 외할아버지가 산에서 혼자 일하다가 크게 다쳤을 때 천사들이 와서 그를 구해주었다. 그녀의 아버지는 연료 유조선이 폭발하는 사고로 부상을 입었고 얼굴과 손가락에 심한 화상을 입었습니다. 타라는 아버지의 상태에 충격을 받아 아이다호로 간다. 모든 역경에도 불구하고 Gene은 천천히 회복하기 시작합니다.
+───
 
-### 26장
+MOTHER WAS SUPPOSED TO drive me to BYU the next morning, but during the night, she was called to deliver a baby. There was a car sitting in the driveway—a Kia Sephia Dad had bought from Tony a few weeks before. The keys were in the ignition. I loaded my stuff into it and drove it to Utah, figuring the car would just about make up for the money Dad owed me. I guess he figured that, too, because he never said a word about it.
+30 September, 2021 11:02 PM
 
-Gene은 Tara와 그녀의 어머니, 그리고 그녀의 형제 자매들의 간호를 받으며 침대에서 두 달을 보냅니다. 그의 약화 된 상태는 Tara가 관계의 새로운 단계에 들어갈 수 있기를 희망하면서 Tara가 그녀의 삶에 대해 이야기하기 시작한다는 것을 의미합니다. 한편 숀은 에밀리라는 여성과 약혼했다고 발표한다. Tara는 Shawn이 이미 자신을 학대하고 있으며 더 나빠질 것이라고 확신하고 Emily와 단둘이 이야기할 기회를 찾습니다. 놀랍게도 에밀리는 숀과 그의 학대가 두렵지만 그가 영적인 사명을 갖고 있다고 믿고 있다고 털어놓습니다.
+───
 
-Tara가 유타로 돌아왔을 때 그녀는 Nick에게 모든 것에 대해 진실을 말할 것을 고려하지만 여전히 너무 부끄럽습니다. 그녀는 그에게 가족에 대한 진실을 숨깁니다. 9월에 Emily와 Shawn은 결혼하고, Tara는 Nick에게 정직할 수 없을 것이라고 믿기 때문에 닉과 헤어집니다.
+When I arrived at the peak, Mother was making the Thanksgiving meal. The large oak table was covered with jars of tincture and vials of essential oil, which I cleared away. Charles was coming for dinner.
+30 September, 2021 11:02 PM
 
-### 27장
+───
 
-3학년 때 Tara는 음악 공부에서 역사로 전환합니다. Tara는 역사 교수에게 자신의 독특한 학교 교육에 대해 털어놓습니다. 그는 그녀에게 영국 케임브리지 대학의 해외 유학 프로그램에 지원하는 것을 고려해볼 것을 제안합니다.
+WINTER COVERED CAMPUS IN thick snow.
+30 September, 2021 11:02 PM
 
-Tara가 크리스마스를 위해 Buck's Peak로 돌아갔을 때, 그녀의 아버지는 그의 끔찍한 사고에서 살아남은 영웅이자 예언자로 대우받습니다. 한편, 힘든 임신으로 고군분투합니다. 겨울 학기에 Tara는 그녀의 Cambridge 지원이 거부되었지만 Tara의 교수가 그녀를 대신하여 중재했다는 것을 알게 됩니다. 2월에 Emily는 눈보라 속에서 집에서 작고 미숙한 아기를 낳고 병원으로 급히 가야 합니다. 기적적으로 Emily와 아기는 둘 다 살아남지만 Tara는 사건으로 인해 가족이 하나님을 신뢰하는 것에 대해 더 의문을 갖게 됩니다.
+───
 
-### 28장 
+BUCK’S PEAK LOOKED THE way it always did at Christmas—a snowy spire, adorned with evergreens—and my eyes, increasingly accustomed to brick and concrete, were nearly blinded by the scale and clarity of it.
+30 September, 2021 11:03 PM
 
-Tara는 케임브리지에 도착했을 때 자신이 마주한 세계에 놀랐습니다. 그녀는 자신의 독특한 교육 배경에 대한 Tara의 이야기에 매료된 Steinberg 교수와 함께 연구 프로젝트를 수행할 계획입니다. 그의 지도 아래 Tara는 새로운 수준의 비판적 분석과 글쓰기에 도달합니다. Steinberg 교수는 Tara의 대학원 계획에 대해 빠르게 논의하기 시작하여 그녀가 캠브리지에서 공부할 수 있다고 제안하고 재정 세부 사항은 그가 처리할 것이라고 확신합니다. 그녀의 불편함을 알아차린 그는 그녀에게 자신을 믿으라고 촉구하지만, Tara는 여전히 그녀의 수치심에 집착합니다.
+───
 
-### 29장
+THE SHOP IN FRANKLIN was ready to roof, so two days after Christmas I forced my toe, still crooked and black, into a steel-toed boot, then spent the morning on a roof driving threading screws into galvanized tin.
+30 September, 2021 11:03 PM
 
-Tara가 BYU로 돌아온 후 그녀는 Cambridge에 대해 잊어버릴 계획이지만 Steinberg 교수는 그녀에게 잠재적으로 그녀의 대학원 연구에 자금을 지원할 수 있는 Gates Cambridge 장학금에 지원하라고 촉구합니다. 2월까지 Tara는 Gates Scholarship을 받았습니다. 언론에서 그녀는 홈스쿨링에 대해 언급한 적이 없으며, 그녀의 아버지는 그녀의 양육을 숨긴 그녀에게 실망했다고 말합니다. 그럼에도 불구하고 그녀의 부모님은 그녀의 졸업식에 참석하고 그녀가 영국으로 날아가는 날 밤 그녀를 공항으로 데려다 줍니다.
+───
 
-### 30장
+“I DON’T KNOW WHAT you’ve done to your wrist,” Dad told me the next morning, “but you’re no good on the crew like that. You might as well head back to Utah.”
+30 September, 2021 11:03 PM
 
-Tara는 캠브리지의 새 기숙사로 이사하여 수업을 듣습니다. Tara는 마침내 자신이 선택한 현대적이고 교육적인 세상에서 살기 위해 완전히 헌신하지 않았다는 계시를 받고 조치를 취하기 시작합니다. 그녀가 하는 한 가지는 예방 접종을 받는 것입니다. Tara는 또한 페미니즘에 관심을 갖게 되었고 여성 복종의 교리에 의문을 제기하는 것은 그녀 혼자만이 아님을 깨닫습니다. Tara는 크리스마스를 위해 미국으로 돌아갔을 때 화학을 공부하고 있는 동생 Richard가 아내와 어린 아들과 함께 있는 것을 보고 기뻐합니다.
+───
 
-어느 추운 밤, Emily가 가족의 집으로 서둘러 올 때까지 휴가는 충분히 평화로워 보입니다. Shawn은 그녀를 눈밭에 던져 넣고 가벼운 옷만 입고 맨발로 그녀를 밖에 가뒀습니다. Tara는 Richard와 그의 아내에게 간섭하지 말고 상황을 그녀의 아버지에게 맡기라고 촉구합니다. Gene은 결국 Shawn을 집으로 데려오고 그의 행동에 대해 아들에게 강의합니다. Shawn은 Emily와 함께 떠나고 Tara는 시누이를 지지하지 않은 것을 후회합니다.
+On Sunday, a week later, a man at church asked me to dinner. I said no. It happened a second time a few days later with a different man. Again I said no. I couldn’t say yes. I didn’t want either of them anywhere near me.
+29 September, 2021 03:12 PM
 
-### 31장
+───
 
-Tara는 영국으로 돌아가기 전에 Audrey를 방문합니다. Audrey는 홈스쿨링을 하고 있고 Tara는 조카와 조카들의 운명을 걱정합니다. 케임브리지로 돌아온 Tara는 다시 열정적으로 몸을 담그고 있습니다. 그녀는 학업에 탁월하며 박사 과정을 고려하는 것이 좋습니다. 봄 방학 동안 그녀는 급우들과 함께 로마로 여행을 떠난다. 도시는 Tara가 과거와 역사가로서의 그녀의 일을 연결하는 데 도움이 됩니다.
+I STOOD OUTSIDE THE bishop’s office on a cold night in February. I didn’t know what had taken me there.
+30 September, 2021 11:03 PM
 
-Tara는 로마에서 돌아오자 Audrey로부터 이메일을 받습니다. Audrey는 Shawn도 자신을 학대했으며 Audrey는 항상 Tara를 돕지 않은 것에 대해 자신을 비난했다고 말합니다. 이제 Audrey는 Shawn과 그들의 부모와 대면할 예정이며 그녀는 Tara가 그녀를 돕고 그녀의 이야기를 공유하기를 원합니다. Tara는 Audrey의 의견에 동의하지만 Audrey에게 조치를 취하기 전에 아이다호로 돌아올 때까지 기다려달라고 요청합니다. 그러나 Audrey는 Shawn의 행동을 확인하는 Tara의 이메일을 Faye에게 보여주고, Faye는 온라인으로 Tara에게 연락하여 그녀가 딸을 믿으며 그렇게 오랫동안 무지한 삶을 살았다고 자책한다는 것을 나타냅니다. Faye는 또한 Gene이 양극성 장애를 앓고 있음을 인정합니다. Tara는 안심하고 지원을 받은 느낌으로 대화를 떠납니다.
+───
 
-일주일 후, Tara는 Gene이 Shawn이 한 일에 대해 알고 있으며 도움을 받을 것이라고 어머니로부터 듣습니다. Tara는 가족의 미래에 대해 희망을 느끼며 캠브리지에서 새로운 친구 및 동료와 함께 과거에 대해 훨씬 더 투명해지기 시작합니다.
+“I can help,” he said, “but you’ll need to tell me what’s bothering you.” 
+29 September, 2021 03:27 PM
 
-### 32장
+───
 
-타라는 죽어가는 할머니를 보기 위해 벅스 피크로 돌아갑니다. 그녀의 부모 사업은 번창하지만 진은 어머니의 죽음 이후 우울증에 빠진다. Tara는 그녀의 어머니가 더 독단적이지만 부모님 사이의 관계가 악화되는 것 같다는 것을 알아차립니다.
+ Dad said that to accept one was to indebt yourself to the Illuminati. “That’s how they get you,” he’d said. “They give you free money, then the next thing you know, they own you.”
+29 September, 2021 03:33 PM
 
-### 33장
+───
 
-Tara가 떠나기 전에 Audrey는 그녀에게 남아서 Shawn과 대면하도록 도와달라고 요청하지만 Tara는 거절합니다. 지금까지 Tara는 케임브리지에서 공부하고 있는 Drew라는 남자와 관계를 맺고 있습니다. 그녀는 몰몬 신학과 다른 지적 전통 사이의 연결에 초점을 맞춘 박사 과정 연구에 몰두하고 있으며 가까운 친구들과도 행복합니다. 아이다호와의 관계가 부족하다는 사실에 부끄러움을 느낀 타라는 가족과 함께 크리스마스를 보내야 합니다. 아이다호에 있는 동안 Shawn은 Tara와 마주하고 Audrey가 거짓말을 퍼뜨리고 있다고 말합니다.
+I HAD A JOB at the campus creamery, flipping burgers and scooping ice cream. I got by between paydays by neglecting overdue bills and borrowing money from Robin, so twice a month, when a few hundred dollars went into my account, it was gone within hours. 
+29 September, 2021 03:57 PM
 
-### 34장
+───
 
-집에 돌아온 타라는 아버지에게 Shawn이 Audrey를 위협했으며 Audrey가 Shawn의 학대적인 과거에 대해 대면한 것으로 의심된다고 말합니다. Gene은 증거 없이 Shawn에 대한 Tara의 진술을 받아들이지 않습니다. Tara는 그녀의 어머니가 그녀의 편을 들어주기를 기대하지만 Faye가 그녀를 지지하지 않을 것이라는 사실을 깨닫고 겁에 질립니다. Tara는 눈물을 흘리며 달아나다가 아버지가 Shawn에게 집으로 오라고 했다는 사실을 알고 돌아옵니다.
+I HAD A JOB at the campus creamery, flipping burgers and scooping ice cream.
+30 September, 2021 11:05 PM
 
-Shawn이 도착했을 때 그는 Tara를 위협하고 그녀에게 피 묻은 칼을 건네줍니다. Tara는 Shawn을 고발한 적이 없다고 주장하면서 자신의 주장을 포기한 육체를 벗은 경험이 있습니다. Gene의 droning 강의는 여성의 순종의 필요성에 초점을 맞추고 Shawn은 정당하다고 느끼며 침착하게 자리를 떠납니다. Shawn이 떠난 후 Tara는 Drew에게 전화를 걸어 나가라고 재촉합니다. 깨지기 쉬운 고요함을 방해하지 않기 위해 Tara는 아침까지 기다렸다가 차를 몰고 갑니다. 그녀는 오빠의 트레일러를 지나쳐 밖에 있는 눈 속에서 피를 봅니다. 그녀는 나중에 Shawn이 아버지로부터 전화를 받은 후 그가 그의 애완견을 칼로 죽였다는 것을 알게 될 것입니다.
+───
 
-충격적인 사건을 돌이켜보면, Tara는 어머니와의 온라인 대화에도 불구하고 Faye가 Gene과 이야기하거나 Shawn과 대면한 적이 없다는 것을 이해합니다.
+I was an incurious student that semester.
+29 September, 2021 03:58 PM
 
-### 35장
+───
 
-Tara는 케임브리지로 돌아와 Shawn이 자신에게 한 일에 대해 부모에게 고의적으로 말했다는 사실을 알게 될 때 대결을 두려워하며 기다립니다. 3월 초, Shawn은 그녀에게 손을 뻗어 그녀의 생명을 위협합니다. Tara는 그녀의 부모에게 무슨 일이 일어나고 있는지 말하지만 그들은 그녀를 거의 도와주지 않습니다. 결국 Shawn은 Tara를 그의 삶에서 완전히 잘라냅니다. 그녀의 어머니도 대결 당일 밤에 일어난 일에 대한 설명에 동의하지 않습니다.
+That was it, then. There was nothing left to sell, no more childhood friends or Christmas presents.
+29 September, 2021 04:01 PM
 
-그해 여름, 타라는 드류와 함께 파리로 간다. 그곳에 있는 동안 그녀는 Audrey로부터 이메일을 받습니다. 오드리는 그녀에게 아버지가 타라와 오드리에게 숀을 용서하라고 주장하고 있다고 말합니다. Audrey는 Shawn을 용서하기로 결정했고, 이제 그녀는 Tara가 그녀를 타락시키고 그녀에게 사악한 생각을 준 것에 대해 비난합니다. 그녀는 또한 Tara와 관계를 끊고 있습니다. Tara는 가족과의 관계가 회복할 수 없을 정도로 손상될 수 있음을 깨닫습니다. 그러나 그녀는 또한 자신의 기억과 자신의 제정신에 의문을 갖기 시작합니다. 절망에 빠진 타라는 숀이 예전에 사귀던 여자인 에린에게 연락을 취한다. Erin은 Tara가 주장하는 모든 것이 그녀에게도 일어났음을 확인합니다.
+───
 
-Tara는 몇 년 후 유타에서 자신의 성을 알아보고 Shawn을 언급하는 남자를 만나기 전까지는 자신의 기억을 완전히 확신하지 못합니다. 그는 Shawn이 젊은 여성을 폭행하는 것을 목격했다고 말했고, Tara는 이것을 Shawn에 대해 기억하는 모든 것이 사실이라는 확인으로 받아들입니다.
+I BELIEVED THAT HUNDRED dollars was a sign from God. 
+29 September, 2021 04:03 PM
 
-### 36장
+───
 
-Tara는 Harvard에 도착하여 그곳에서 학업을 시작합니다. 그녀는 부모님이 보스턴에 있는 자신을 방문할 것이라는 사실을 알고 충격을 받습니다. 방문 직전에 Tara는 Charles와 접촉하고 Tara는 가족과의 관계를 끊어야 한다고 제안합니다. Tara의 부모는 그녀를 신앙으로 되돌리기 위해 필사적이며 그녀는 그녀가 예전 믿음으로 돌아갈 수 있기를 바랍니다.
+THE FORMS SAT ON my desk for a week before Robin walked with me to the post office and watched me hand them to the postal worker. It didn’t take long, a week, maybe two. I was cleaning houses in Draper when the mail came, so Robin left the letter on my bed with a note that I was a Commie now.
+30 September, 2021 11:06 PM
 
-Tara는 부모님과 함께 여러 중요한 몰몬 유적지를 방문하고, 그녀의 아버지는 그녀에게 그녀가 사탄의 먹이가 되었다고 말합니다. Tara는 부모님과 함께 나이아가라 폭포로 가서 부모님과 함께 행복한 시간을 보냅니다. 그녀의 부모가 떠나기 전에 그녀의 아버지는 그녀에게 축복을 주겠다고 제안합니다. 타라는 거절한다. 그녀의 아버지는 그녀가 고통을 겪을 것이며 하나님과 그녀의 가족의 지원이 필요할 것이라고 예측합니다. 그래도 타라는 자신의 입장을 고수합니다. 그녀의 부모는 거의 즉시 떠난다.
+───
 
-### 37장
+I had a thousand dollars in my bank account. It felt strange just to think that, let alone say it. A thousand dollars. Extra. That I did not immediately need. It took weeks for me to come to terms with this fact, but as I did, I began to experience the most powerful advantage of money: the ability to think of things besides money.
+30 September, 2021 11:06 PM
 
-부모님의 방문으로 타라는 우울증에 빠진다. 그녀는 가족과 화해하기 위해 필사적으로 벅스 피크행 비행기표를 예매한다. 우연히 Tara는 Shawn이 구원받았고 Tara는 악마의 영향을 받고 있다고 어머니가 Erin에게 보낸 이메일을 봅니다. Faye는 또한 Emily의 두 번째 아기를 출산한 것에 대해 씁니다. 그리고 그녀가 위험한 출산을 도와주신 하나님께 감사하는 방법을 씁니다. Tara는 엄마가 아기가 얼마나 위험한지 알면서도 집에서 아기를 분만한 것에 분노합니다. 그녀는 이메일을 닫고 집을 나갑니다.
+───
 
-Tara는 Tyler에게서 전화가 오면 비행기를 타고 보스턴으로 돌아갈 계획입니다. 그들의 어머니가 그에게 손을 내밀었습니다. 타일러는 왜 타라가 자신을 더 일찍 털어놓지 않았는지 궁금해합니다. Tara는 그가 그녀를 믿지 않을 것이라고 생각하지만 Tyler는 즉시 그녀의 편을 듭니다. 그는 Shawn의 폭력에 대한 자신의 경험이 있으며 Tara를 불신할 이유가 없습니다.
+I BECAME OBSESSED WITH bipolar disorder. We were required to write a research paper for Psychology and I chose it as my subject, then used the paper as an excuse to interrogate every neuroscientist and cognitive specialist at the university. I described Dad’s symptoms, attributing them not to my father but to a fictive uncle. Some of the symptoms fit perfectly; others did not. The professors told me that every case is different.
+30 September, 2021 11:07 PM
 
-교제를 마친 타라는 드류와 함께 중동으로 여행을 떠난다. 그녀는 집을 떠난 후 겪은 경험에 대해 경외하면서도 가족과의 관계에 대해 슬퍼합니다. 그녀는 치유를 위해 1년 동안 가족과의 관계를 끊기로 결정합니다.
+───
 
-### 38장
+I DECIDED TO EXPERIMENT with normality. For nineteen years I’d lived the way my father wanted. Now I would try something else.
+29 September, 2021 04:17 PM
 
-Tara는 정서적 고통으로 인해 학업을 크게 뒤로 미루고 박사 학위를 마치지 못할까봐 두려워합니다. 그녀는 여전히 타일러와 연락을 취하고 있는데, 타일러는 부모를 설득하여 타라에게 더 동정심을 나타내려 하지만 성공하지 못합니다. 결국 Shawn은 타일러가 계속 고집을 피우면 가족에서 추방하겠다고 위협합니다. Tara는 그녀가 Tyler와도 관계를 맺는 것보다 가족의 "안정"을 선택할 것이라고 확신하며 그녀도 타일러를 잃을까 두려워합니다. 놀란 그녀는 타일러로부터 그가 타라를 지지하고 가족을 학대한다고 선언하는 편지를 받습니다.
+───
 
-Tara는 상담에 참석하기 시작합니다. 결국 Tara는 다시 학업에 집중하고 연구로 돌아갑니다. 그녀는 27세 생일에 논문을 제출하고 몇 달 후 그녀의 논문을 변호합니다.
+I BEGAN TO FEEL poorly toward the end of May. A week passed in which I could hardly drag myself to my job, an internship at a law firm. I slept from early evening until late morning, then yawned through the day. My throat began to ache and my voice dropped, roughening into a deep crackle, as if my vocal cords had turned to sandpaper.
+30 September, 2021 11:08 PM
 
-### 39장
+───
 
-봄에 박사 학위를 마친 Tara는 아이다호로 돌아갑니다. 그녀는 조부모님을 방문하여 어머니에게 마을에 와서 그녀를 만나자고 요청합니다. 타라의 어머니는 남편의 뜻에 어긋나지 않을 것이며 집에 오면 타라를 볼 수 있을 뿐이라며 거절한다.
+I AWOKE THE NEXT MORNING to my phone ringing. It was Audrey.
 
-타라의 할머니가 돌아가셨을 때, 그녀는 장례식에 참석하기 위해 아이다호로 가고 싶지만 어디에 머무를지 모릅니다. 그녀는 어머니의 여동생 앤지에게 손을 뻗어 그녀와 함께 지냅니다. 장례식에서 Tara는 형제들이 모이는 것을 지켜봅니다. Tara, Tyler, Richard는 현재 모두 박사 학위를 취득하고 독립적인 삶을 살고 있지만 그녀의 다른 4남매와 배우자는 부모님을 위해 일하고 있습니다. 그들은 또한 자녀를 홈스쿨링하고 있습니다.
+“There’s been an accident,” she said.
+29 September, 2021 04:21 PM
 
-### 40장
+───
 
-Tara는 자신의 상황에 대한 업데이트로 회고록을 마무리합니다. 그녀가 글을 끝낼 때, 그녀는 몇 년 동안 부모님을 보지 못했습니다. 그녀는 타일러, 리처드, 토니와 계속 연락합니다. 그녀는 가족과의 관계에서 어느 정도 평화를 얻었지만 아버지와 다시 연락할 수 있을지는 알 수 없습니다. 독립을 향한 이 여정은 그녀에게 큰 대가를 줬지만 그녀를 영원히 변화시켰습니다.
+There’s a story I was told when I was young, told so many times and from such an early age, I can’t remember who told it to me first. It was about Grandpa-down-the-hill and how he got the dent above his right temple.
+30 September, 2021 11:08 PM
+
+───
+
+When Grandpa was a younger man, he had spent a hot summer on the mountain, riding the white mare he used for cowboy work.
+29 September, 2021 04:23 PM
+
+───
+
+I DON’T KNOW WHY Dad was alone on the mountain that day.
+29 September, 2021 04:24 PM
+
+───
+
+MOTHER’S BUSINESS CAME TO a halt. The women who worked for her stopped concocting tinctures and bottling oils and instead made vats of salve—a new recipe, of comfrey, lobelia and plantain, that Mother had concocted specifically for my father.
+29 September, 2021 04:40 PM
+
+───
+
+Dad didn’t leave his bed for two months unless one of my brothers was carrying him. He peed in a bottle, and the enemas continued. Even after it became clear that he would live, we had no idea what kind of life it would be.
+29 September, 2021 04:41 PM
+
+───
+
+DAD WAS STILL BEDRIDDEN when Shawn and Emily announced their engagement.
+29 September, 2021 04:42 PM
+
+───
+
+I RETURNED TO BYU a few days before the fall semester. 
+29 September, 2021 04:44 PM
+
+───
+
+I RETURNED TO BYU a few days before the fall semester. I drove directly to Nick’s apartment. We’d hardly spoken. Whenever he called, I always seemed to be needed somewhere to change a bandage or make salve. Nick knew my father had been burned, but he didn’t know the severity of it. I’d withheld more information than I’d given, never saying that there had been an explosion, or that when I “visited” my father it wasn’t in a hospital but in our living room. I hadn’t told Nick about his heart stopping. I hadn’t described the gnarled hands, or the enemas, or the pounds of liquefied tissue we’d scraped off his body.
+30 September, 2021 11:09 PM
+
+───
+
+THE WEDDING WAS IN SEPTEMBER.
+29 September, 2021 04:45 PM
+
+───
+
+I’d come to BYU to study music, so that one day I could direct a church choir. But that semester—the fall of my junior year—I didn’t enroll in a single music course. I couldn’t have explained why I dropped advanced music theory in favor of geography and comparative politics, or gave up sight-singing to take History of the Jews.
+29 September, 2021 06:31 PM
+
+───
+
+EMILY WAS PREGNANT. THE pregnancy was not going well.
+29 September, 2021 06:49 PM
+
+───
+
+A FEW WEEKS AFTER CHRISTMAS, the University of Cambridge wrote to Dr. Kerry, rejecting my application.
+29 September, 2021 06:50 PM
+
+───
+
+IN FEBRUARY, EMILY GAVE BIRTH. The baby weighed one pound, four ounces.
+29 September, 2021 06:50 PM
+
+───
+
+The first time I saw King’s College, Cambridge, I didn’t think I was dreaming, but only because my imagination had never produced anything so grand.
+29 September, 2021 06:51 PM
+
+───
+
+I WANTED THE MIND of a scholar, but it seemed that Dr. Kerry saw in me the mind of a roofer. 
+29 September, 2021 07:06 PM
+
+───
+
+“I grew up in Idaho,” I said.
+
+“And you attended school there?”
+
+It occurs to me in retrospect that someone might have told Professor Steinberg about me, 
+29 September, 2021 07:16 PM
+
+───
+
+“How marvelous,” he said, smiling. “It’s as if I’ve stepped into Shaw’s Pygmalion.”
+29 September, 2021 07:16 PM
+
+───
+
+A poorly written sentence was a poorly conceived idea, and in his view the grammatical logic was as much in need of correction. “Tell me,” he would say
+29 September, 2021 07:17 PM
+
+───
+
+To write my essay I had to read books differently, without giving myself over to either fear or adoration. Because Burke had defended the British monarchy, Dad would have said he was an agent of tyranny.
+29 September, 2021 07:21 PM
+
+───
+
+“I have been teaching in Cambridge for thirty years,” he said. “And this is one of the best essays I’ve read.”
+
+I was prepared for insults but not for this.
+29 September, 2021 07:23 PM
+
+───
+
+“This is a magical place,” I said. “Everything shines here.”
+
+“You must stop yourself from thinking like that,” Dr. Kerry said, his voice raised. “You are not fool’s gold, shining only under a particular light. Whomever you become, whatever you make yourself into, that is who you always were. It was always in you. Not in Cambridge. In you. You are gold. And returning to BYU, or even to that mountain you came from, will not change who you are. It may change how others see you, it may even change how you see yourself—even gold appears dull in some lighting—but that is the illusion. And it always was.”
+29 September, 2021 07:26 PM
+
+───
+
+I couldn’t tell Dr. Kerry about that girl. I couldn’t tell him that the reason I couldn’t return to Cambridge was that being here threw into great relief every violent and degrading moment of my life. At BYU I could almost forget, allow what had been to blend into what was. But the contrast here was too great, the world before my eyes too fantastical. The memories were more real—more believable—than the stone spires.
+
+To myself I pretended there were other reasons I couldn’t belong at Cambridge, reasons having to do with class and status: that it was because I was poor, had grown up poor. Because I could stand in the wind on the chapel roof and not tilt. That was the person who didn’t belong in Cambridge: the roofer, not the whore. I can go to school, I had written in my journal that very afternoon. And I can buy new clothes. But I am still Tara Westover. I have done jobs no Cambridge student would do. Dress us any way you like, we are not the same. Clothes could not fix what was wrong with me. Something had rotted on the inside, and the stench was too powerful, the core too rancid, to be covered up by mere dressings.
+
+Whether Dr. Kerry suspected any part of this, I’m not sure. But he understood that I had fixated on clothes as the symbol of why I didn’t, and couldn’t, belong. It was the last thing he said to me before he walked away, leaving me rooted, astonished, beside that grand chapel.
+
+“The most powerful determinant of who you are is inside you,” he said. “Professor Steinberg says this is Pygmalion. Think of the story, Tara.” He paused, his eyes fierce, his voice piercing. “She was just a cockney in a nice dress. Until she believed in herself. Then it didn’t matter what dress she wore.”
+29 September, 2021 07:30 PM
+
+───
+
+The program ended and I returned to BYU.
+29 September, 2021 07:30 PM
+
+───
+
+that he knew polygamy was a principle from God.
+29 September, 2021 07:34 PM
+
+───
+
+I WAS PUT ON A SHORT LIST for the Gates scholarship. 
+29 September, 2021 07:35 PM
+
+───
+
+Two weeks before the interview my parents came to BYU.
+29 September, 2021 07:35 PM
+
+───
+
+“Is that Martin Luther King?” Dad said. “Don’t you know he had ties to communism?” He chewed the waxy tissue where his lips had been.
+29 September, 2021 07:37 PM
+
+───
+
+MY INTERVIEW FOR THE Gates scholarship took place at St. John’s College in Annapolis.
+29 September, 2021 07:38 PM
+
+───
+
+I received confirmation the next day: I’d won the scholarship.
+
+The phone calls began—from BYU’s student paper and the local news. 
+29 September, 2021 07:38 PM
+
+───
+
+A MONTH BEFORE MY graduation, I visited Buck’s Peak. 
+29 September, 2021 07:38 PM
+
+───
+
+There was a dinner the night before my graduation where I was to receive the “most outstanding undergraduate” award from the history department.
+29 September, 2021 07:43 PM
+
+───
+
+### Part Three
+
+A stone gate barred the entrance to Trinity College. Cut into the gate was a small wooden door. I stepped through it. 
+30 September, 2021 09:38 PM
+
+───
+
+I STUDIED MOST MORNINGS in the college library, near a small window.
+30 September, 2021 09:39 PM
+
+───
+
+I ATTENDED A SEMINAR on Wednesday afternoons, where I noticed two women, Katrina and Sophie, who nearly always sat together.
+30 September, 2021 09:40 PM
+
+───
+
+IN DECEMBER, AFTER I had submitted my last essay, I took a train to London and boarded a plane. Mother, Audrey and Emily picked me up at the airport in Salt Lake City, and together we skidded onto the interstate.
+30 September, 2021 09:55 PM
+
+───
+
+MOTHER WAS OVERWHELMED WITH holiday orders, so I passed my days on Buck’s Peak just as I had as a child: in the kitchen, making homeopathics.
+30 September, 2021 09:55 PM
+
+───
+
+The day before I returned to England, I drove seven miles along the mountain range, then turned onto a narrow dirt road and stopped in front of a powder-blue house. I parked behind an RV that was nearly as large as the house itself. I knocked; my sister answered.
+30 September, 2021 09:56 PM
+
+───
+
+THAT TERM, I PRESENTED myself to the university like resin to a sculptor. I believed I could be remade, my mind recast. I forced myself to befriend other students, clumsily introducing myself again and again until I had a small circle of friends.
+30 September, 2021 09:58 PM
+
+───
+
+I OPENED AUDREY’S MESSAGE. It was written in one long paragraph, with little punctuation and many spelling errors, and at first I fixated on these grammatical irregularities as a way to mute the text. But the words would not be hushed; they shouted at me from the screen.
+30 September, 2021 09:59 PM
+
+───
+
+MOTHER AND I SPOKE only once about that conversation, on the phone, a week later. “It’s being dealt with,” she said. “I told your father what you and your sister said. Shawn will get help.”
+30 September, 2021 09:59 PM
+
+───
+
+When I next returned to Buck’s Peak, it was autumn and Grandma-down-the-hill was dying. For nine years she had battled the cancer in her bone marrow; now the contest was ending.
+30 September, 2021 10:00 PM
+
+───
+
+I didn’t stay long on Buck’s Peak, maybe a week. On the day I left the mountain, Audrey asked me not to go.
+30 September, 2021 10:01 PM
+
+───
+
+DREW HAD COME WITH me to Cambridge, having been admitted to a master’s program in Middle Eastern studies.
+30 September, 2021 10:02 PM
+
+───
+
+BUCK’S PEAK WAS UNCHANGED. The Princess was buried in snow but I could see the deep contours of her legs.
+30 September, 2021 10:03 PM
+
+───
+
+I didn’t feel particularly brave as I approached my father in the Chapel that night. I saw my role as reconnaissance: I was there to relay information, to tell Dad that Shawn had threatened Audrey, because Dad would know what to do.
+30 September, 2021 10:05 PM
+
+───
+
+I WENT TO MY ROOM and shut the door, quietly sliding the bolt, and called Drew. I was nearly incoherent with panic but eventually he understood. He said I should leave, right now, and he’d meet me halfway. I can’t, I said. At this moment things are calm. If I try to run off in the middle of the night, I don’t know what will happen.
+30 September, 2021 10:05 PM
+
+───
+
+I DON’T KNOW WHAT happened in the days that followed. Even now, as I scrutinize the components of the confrontation—the threat, the denial, the lecture, the apology—it is difficult to relate them.
+30 September, 2021 10:05 PM
+
+───
+
+I fled the mountain with my bags half packed and did not retrieve anything that was left behind. I went to Salt Lake and spent the rest of the holidays with Drew.
+30 September, 2021 10:05 PM
+
+───
+
+I HAD A GRANT to study that summer in Paris. Drew came with me. Our flat was in the sixth arrondissement, near the Luxembourg Gardens. 
+30 September, 2021 10:06 PM
+
+───
+
+WHEN I LOST MY SISTER, I lost my family.
+
+I knew my father would pay my brothers the same visit he’d paid her. Would they believe him? I thought they would. After all, Audrey would confirm it. My denials would be meaningless, the rantings of a stranger. I’d wandered too far, changed too much, bore too little resemblance to the scabby-kneed girl they remembered as their sister.
+30 September, 2021 10:07 PM
+
+───
+
+It was a sunny September afternoon when I heaved my suitcase through Harvard Yard. The colonial architecture felt foreign but also crisp and unimposing compared to the Gothic pinnacles of Cambridge. The central library, called the Widener, was the largest I had ever seen, and for a few minutes I forgot the past year and stared up at it, wonderstruck.
+30 September, 2021 10:08 PM
+
+───
+
+MY PARENTS ARRIVED AS the leaves began to turn, when campus was at its most beautiful, the reds and yellows of autumn mingling with the burgundy of colonial brick. With his hayseed grammar, denim shirt and lifetime-member NRA cap,
+30 September, 2021 10:09 PM
+
+───
+
+WHEN WE RETURNED TO HARVARD, I offered to pay for a hotel. They refused to go. For a week we stumbled over one another in my dorm room. Every morning my father trudged up a flight of stairs to the communal shower in nothing but a small white towel. This would have humiliated me at BYU, but at Harvard I shrugged. I had transcended embarrassment. What did it matter who saw him, or what he said to them, or how shocked they were? It was his opinion I cared about; he was the one I was losing.
+30 September, 2021 10:11 PM
+
+───
+
+Someone was screaming, a long, steady holler, so loud it woke me up. It was dark. There were streetlights, pavement, the rumble of distant cars. I was standing in the middle of Oxford Street, half a block from my dorm room. 
+30 September, 2021 10:12 PM
+
+───
+
+I STOPPED GOING TO my French group, then to my sketching class. Instead of reading in the library or attending lectures, I watched TV in my room, working my way through every popular series from the past two decades.
+30 September, 2021 10:14 PM
+
+───
+
+IT WAS A BRIGHT WINTER morning when I arrived on Buck’s Peak. I remember the crisp smell of frozen earth as I approached the house and the feel of ice and gravel crunching beneath my boots. The sky was a shocking blue. I breathed in the welcome scent of pine.
+30 September, 2021 10:14 PM
+
+───
+
+I DROVE SOUTH; I didn’t know where I was going. It was nearly Christmas. I had decided to go to the airport and board the next flight to Boston when Tyler called.
+30 September, 2021 10:14 PM
+
+───
+
+MY FELLOWSHIP AT HARVARD finished in the spring. I flew to the Middle East, where Drew was completing a Fulbright. It took some effort, but I managed to hide from Drew how poorly I was doing, or at least I thought I did. I probably didn’t. He was, after all, the one chasing me through his flat when I awoke in the middle of the night, screaming and sprinting, with no idea where I was but a desperate need to escape it.
+30 September, 2021 10:15 PM
+
+───
+
+I RETURNED TO ENGLAND, where I continued to unravel. My first week back in Cambridge, I awoke nearly every night in the street, having run there, shouting, asleep. I developed headaches that lasted for days. My dentist said I was grinding my teeth. My skin broke out so severely that twice perfect strangers stopped me in the street and asked if I was having an allergic reaction. No, I said. I always look like this.
+30 September, 2021 10:15 PM
+
+───
+
+I was failing my PhD.
+
+If I had explained to my supervisor, Dr. Runciman, why I was unable to work, he would have helped me, would have secured additional funding, petitioned the department for more time. 
+30 September, 2021 10:16 PM
+
+───
+
+THAT AUTUMN, TYLER CONFRONTED my father. He talked to Mother first, on the phone. He called me after and related their conversation. He said Mother was “on our side,” that she thought the situation with Shawn was unacceptable and had convinced Dad to do something. “Dad is taking care of it,” Tyler said. “Everything is going to be fine. You can come home.”
+30 September, 2021 10:17 PM
+
+───
+
+WINTER WAS LONG THAT YEAR, the dreariness punctuated only by my weekly counseling sessions and the odd sense of loss, almost bereavement, I felt whenever I finished one TV series and had to find another.
+30 September, 2021 10:17 PM
+
+───
+
+ON MY TWENTY-SEVENTH BIRTHDAY, the birthday I had chosen, I submitted my PhD dissertation. The defense took place in December, in a small, simply furnished room. I passed and returned to London, where Drew had a job and we’d rented a flat.
+30 September, 2021 10:17 PM
+
+───
+
+It was spring when I arrived in the valley. I drove along the highway to the edge of town, then pulled over at the drop-off overlooking the Bear River. From there I could look out over the basin, a patchwork of expectant fields stretching to Buck’s Peak. The mountain was crisp with evergreens, which were luminous set against the browns and grays of shale and limestone. 
+30 September, 2021 10:18 PM
+
+───
+
+I BACKTRACKED A QUARTER mile into town and parked beside Grandma-over-in-town’s white picket fence. In my mind it was still her fence, even though she didn’t live here anymore: she had been moved to a hospice facility near Main Street.
+30 September, 2021 10:20 PM
+
+───
+
+TYLER AND STEFANIE LIVED a hundred miles north of Buck’s Peak, in Idaho Falls. It was there I planned to go next, but before leaving the valley, I wrote my mother. It was a short message. I said I was nearby and wanted her to meet me in town. I wasn’t ready to see Dad, I said, but it had been years since I’d seen her face. Would she come?
+30 September, 2021 10:20 PM
+
+───
+
+THE PARKING LOT HAD filled while I was reading. I let her words settle, then started the engine and pulled onto Main Street. At the intersection I turned west, toward the mountain. Before I left the valley, I would set eyes on my home.
+30 September, 2021 10:20 PM
+
+───
+
+GRANDMA-OVER-IN-TOWN DIED ON MOTHER’S Day.
+
+I was doing research in Colorado when I heard the news. I left immediately for Idaho, but while traveling realized I had nowhere to stay. It was then that I remembered my aunt Angie, and that my father was telling anyone who would listen that she had put his name on a terrorist watch list. Mother had cast her aside; I hoped I could reclaim her.
+30 September, 2021 10:20 PM
+
+───
+
+A YEAR WOULD PASS before I would return to Idaho.
+
+A few hours before my flight from London, I wrote to my mother—as I always did, as I always will do—to ask if she would see me. Again, her response was swift. She would not, she would never, unless I would see my father. To see me without him, she said, would be to disrespect her husband.
+30 September, 2021 10:21 PM
+
+───
+
+When I was a child, I waited for my mind to grow, for my experiences to accumulate and my choices to solidify, taking shape into the likeness of a person. That person, or that likeness of one, had belonged. I was of that mountain, the mountain that had made me.
+30 September, 2021 10:21 PM
+
+───
