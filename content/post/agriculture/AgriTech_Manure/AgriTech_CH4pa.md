@@ -1,5 +1,5 @@
 ---
-title: AgriTech - Reduce Ammonia 70%
+title: AgriTech - CH4pa NGV multi vehicle
 description: This is documents of Future Technology
 featuredImage: 
 toc: true
@@ -11,8 +11,6 @@ date: '2021-09-26'
 lastmod: '2021-09-26'
 draft: false
 ---
-
-배출가스의 규제문제는 해를 거듭할 수록 규제가 더해지면서 축산농가의 큰 리스크가 되고 있다. 이번 AgriTech 시간에서는 암모니아문제를 절감할 Delta X의 이야기이다. Delta X는 자사의 설비로 암모니아배출의 70%, 이산화탄소의 25%를 저감할 수 있는 장치를 개발했으며 기존 축사에 설치할 수 있는 설비라고 주장한다. 배출가스에 의한 질병발병율을 절반으로 줄이기 때문이 질병감소에 의한 수익이 연간 사육두수당 40만원에 상응하며 설비투자비는 3.3년에 회수할 수준이라고 한다. 
 
 이 차량의 핵심은 일반트랙터에 부착된 3점 허치와 기계식 PTO가 달려 있고, 목적에 따라 변형가능한 모듈식 장비가 있으며, 바이오가스를 사용할 수 있다는 점이다. 이 차량은 CNG차량이다. 
 
