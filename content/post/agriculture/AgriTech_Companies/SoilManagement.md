@@ -1,5 +1,5 @@
 ---
-title: 수확 후 토양검사로 내년 비료량계산
+title: (Food/Farming)수확 후 토양검사로 내년 비료량계산
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

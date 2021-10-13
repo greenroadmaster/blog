@@ -1,5 +1,5 @@
 ---
-title: 말레이시아 신농업기술 스타트업을 통해 보는 농업기술의 현주소와 향방
+title: (Food/Farming)인구100억명을 먹여살릴 말레이시아 농업 스타트업
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

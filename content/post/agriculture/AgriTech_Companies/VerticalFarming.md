@@ -1,5 +1,5 @@
 ---
-title: Vertical Farming의 최강자들
+title: (Food/Farming)인구100억명을 먹여살릴 Top 10 농업회사들 - Vertical Farming의 최강자들
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: 코로나시대 이후 농업 노동력 부족문제와 전망
+title: (Food/Farming)코로나시대 이후 농업 노동력 부족문제와 전망
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

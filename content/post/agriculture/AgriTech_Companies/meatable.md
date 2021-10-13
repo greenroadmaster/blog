@@ -1,5 +1,5 @@
 ---
-title: 드디어 네델란드도 미래 단백질 공급망 대열에 들어오다
+title: (Food/Farming)인구100억명을 먹여살릴 Top 10 농업회사들 - 네델란드 배양육 회사
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

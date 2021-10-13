@@ -1,5 +1,5 @@
 ---
-title: Top 6 Categories of Agriculture
+title: (Food/Farming)Top 6 Categories of Agriculture
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

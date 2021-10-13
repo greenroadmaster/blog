@@ -1,5 +1,5 @@
 ---
-title: 물가상승문제를 농민에게 뒤집어 씌우다
+title: (Food/Farming)물가상승문제를 농민에게 뒤집어 씌우다
 description: This is documents of Future Technology
 featuredImage: 
 toc: true
