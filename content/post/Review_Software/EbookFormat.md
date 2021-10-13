@@ -1,5 +1,5 @@
 ---
-title: (Computer)최고의 eBook 형식찾기 - 2021년
+title: (SoftwareReview)최고의 eBook 형식 - 2021년
 description: This is documents of Computer Tools
 featuredImage: 
 toc: true

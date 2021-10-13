@@ -1,5 +1,5 @@
 ---
-title: CPI 소비자 물가 지수
+title: (Food/Farming)CPI 소비자 물가 지수
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

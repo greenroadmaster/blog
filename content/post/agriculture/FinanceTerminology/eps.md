@@ -1,5 +1,5 @@
 ---
-title: EPS(주당수익율)로 회사의 가치평가를 한번에
+title: (Food/Farming)EPS(주당수익율)로 회사의 가치평가를 한번에
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

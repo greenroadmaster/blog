@@ -1,5 +1,5 @@
 ---
-title: Marginal Cost 한계비용
+title: (Food/Farming)Marginal Cost 한계비용
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

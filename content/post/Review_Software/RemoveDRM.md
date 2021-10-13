@@ -1,5 +1,5 @@
 ---
-title: (Computer)소유한 전자책에서 DRM을 제거하는 방법-2021년
+title: (SoftwareReview)소유한 전자책에서 DRM을 제거하는 방법-2021년
 description: This is documents of Computer Tools
 featuredImage: 
 toc: true

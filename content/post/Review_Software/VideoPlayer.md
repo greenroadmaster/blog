@@ -1,5 +1,5 @@
 ---
-title: (Computer)동영상 플레이어 추천 Top 10-2021년
+title: (SoftwareReview)동영상 플레이어 추천 - 2021년
 description: This is documents of Computer Tools
 featuredImage: 
 toc: true

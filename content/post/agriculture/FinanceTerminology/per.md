@@ -1,5 +1,5 @@
 ---
-title: PER(주가수익비율)로 주가를 한번에
+title: (Food/Farming)PER(주가수익비율)로 주가를 한번에
 description: This is documents of Future Technology
 featuredImage: 
 toc: true
@@ -12,7 +12,7 @@ lastmod: '2021-09-17'
 draft: false
 ---
 
-야후파이낸스에서 농업기술회사를 알아보던 중 PER에 대해 알아보았습니다. 
+야후파이낸스에서 농업기술회사를 알아보던 중 PER에 대해 알아보았다. 
 
 ## PER
 
