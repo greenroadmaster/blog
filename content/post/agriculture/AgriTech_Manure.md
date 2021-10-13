@@ -1,5 +1,5 @@
 ---
-title: 영어농업뉴스 - 축산퇴비활용
+title: (Food/Farming)축산퇴비활용
 description: This is documents of Future Technology
 featuredImage: 
 toc: true
