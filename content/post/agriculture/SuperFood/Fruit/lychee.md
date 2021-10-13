@@ -1,5 +1,5 @@
 ---
-title: 열대과일-리치(Lychee)
+title: (Food/Farming)열대과일-리치(Lychee)
 description: This is documents of superfood of fruit
 featuredImage: ""
 toc: true

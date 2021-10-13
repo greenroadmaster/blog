@@ -1,5 +1,5 @@
 ---
-title: 수퍼푸드-노랑식품은 활성산소 제거 Yellow Food 
+title: (Food/Farming)수퍼푸드-노랑식품은 활성산소 제거 Yellow Food 
 description: This is documents of superfood
 featuredImage: "https://beetoq.com/wp-content/uploads/2019/08/mengenali-madu-asli.jpg"
 toc: true

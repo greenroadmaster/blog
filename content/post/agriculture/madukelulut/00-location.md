@@ -1,5 +1,5 @@
 ---
-title: STINGLESS BEE KEEPING
+title: (Food/Farming)STINGLESS BEE KEEPING
 description: This is documents of stingless bee keeping as madu kelulut
 featuredImage: "https://5.imimg.com/data5/LY/PU/PH/SELLER-33992785/natural-honey-500x500.jpg"
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: 열대과일-람부탄(Rambutan)
+title: (Food/Farming)열대과일 람부탄(Rambutan)
 description: This is documents of superfood of fruit
 featuredImage: ""
 toc: true

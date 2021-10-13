@@ -1,5 +1,5 @@
 ---
-title: LEGISLATION OF BEE KEEPING
+title: (Food/Farming)LEGISLATION OF BEE KEEPING
 description: This is documents of stingless bee keeping as madu kelulut
 featuredImage: "https://518925-1650217-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/07/buy-organic-raw-honey.jpg"
 toc: true

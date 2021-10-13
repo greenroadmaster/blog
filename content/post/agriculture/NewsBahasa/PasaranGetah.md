@@ -1,5 +1,5 @@
 ---
-title: 바하사뉴스-고무가격은 팜유상승세로 고점
+title: (Malaysia)고무가격은 팜유상승세로 고점
 description: This is documents of Bahasa Malaysia
 featuredImage: ""
 toc: true

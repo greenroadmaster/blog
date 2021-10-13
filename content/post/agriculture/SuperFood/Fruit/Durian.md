@@ -1,5 +1,5 @@
 ---
-title: 열대과일-두리안(Durian)
+title: (Food/Farming)열대과일-두리안(Durian)
 description: This is documents of superfood of fruit
 featuredImage: ""
 toc: true

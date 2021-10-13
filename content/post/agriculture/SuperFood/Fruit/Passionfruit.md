@@ -1,5 +1,5 @@
 ---
-title: 열대과일-패션푸룻(Passion Fruit)
+title: (Food/Farming)열대과일-패션푸룻(Passion Fruit)
 description: This is documents of superfood of fruit
 featuredImage: ""
 toc: true

@@ -1,6 +1,6 @@
 
 ---
-title: WHAT RACE OF BEES TO CHOOSE
+title: (Food/Farming)WHAT RACE OF BEES TO CHOOSE
 description: This is documents of stingless bee keeping as madu kelulut
 featuredImage: "https://s.kaskus.id/r480x480//images/fjb/2017/02/16/tmp_phprhzdqb_9598671_1487210923.jpg"
 toc: true

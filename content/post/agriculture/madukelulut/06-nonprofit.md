@@ -1,5 +1,5 @@
 ---
-title: ECONOMICAL PLANTATION FOR BEE KEEPING 
+title: (Food/Farming)ECONOMICAL PLANTATION FOR BEE KEEPING 
 description: This is documents of stingless bee keeping as madu kelulut
 featuredImage: "http://1.bp.blogspot.com/-ocAYSX5DLeI/VhZJNWKjv0I/AAAAAAAAAD4/XqGI_frHY_I/s1600/Scattered-Hexagon-Honey-Bottles-of-Clover-Wildflower-and-Buckwheat-by-Pavel-Gubin-and-Maksim-Arbuzov.jpg"
 toc: true

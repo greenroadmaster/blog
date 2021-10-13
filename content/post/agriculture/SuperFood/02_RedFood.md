@@ -1,5 +1,5 @@
 ---
-title: 수퍼푸드-빨강식품은 항암 효과 Red Food 
+title: (Food/Farming)수퍼푸드-빨강식품은 항암 효과 Red Food 
 description: This is documents of superfood
 featuredImage: "https://images.indianexpress.com/2017/11/redwine-filephoto-759.jpg"
 toc: true

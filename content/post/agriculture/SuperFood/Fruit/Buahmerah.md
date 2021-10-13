@@ -1,5 +1,5 @@
 ---
-title: 열대과일-부아메라(Buah Merah)
+title: (Food/Farming)열대과일-부아메라(Buah Merah)
 description: This is documents of superfood of fruit
 featuredImage: ""
 toc: true

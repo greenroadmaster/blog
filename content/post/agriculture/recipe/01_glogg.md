@@ -1,5 +1,5 @@
 ---
-title: 레시피-그뢰기(Glogg)
+title: (Food/Farming)Glogg
 description: This is documents of Recipe 
 featuredImage: "https://www.wsetglobal.com/media/9312/1608x900_mulled-wine.jpg"
 toc: true

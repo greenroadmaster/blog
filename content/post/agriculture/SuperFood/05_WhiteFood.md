@@ -1,5 +1,5 @@
 ---
-title: 수퍼푸드-하얀식품은 저항력 White Food 
+title: (Food/Farming)수퍼푸드-하얀식품은 저항력 White Food 
 description: This is documents of superfood
 featuredImage: "https://cdn.mainichi.jp/vol1/2020/07/11/20200711p2a00m0na011000p/6.jpg"
 toc: true

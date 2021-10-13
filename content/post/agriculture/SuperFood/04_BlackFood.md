@@ -1,5 +1,5 @@
 ---
-title: 수퍼푸드-검은식품은 암 예방 Black Food 
+title: (Food/Farming)수퍼푸드-검은식품은 암 예방 Black Food 
 description: This is documents of superfood
 featuredImage: "https://i.ndtvimg.com/i/2017-05/black-rice_625x350_51493702736.jpg"
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: 수퍼푸드-수퍼푸드란 무엇인가 
+title: (Food/Farming)수퍼푸드-수퍼푸드란 무엇인가 
 description: This is documents of superfood
 featuredImage: "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2019/9/%40shutterstock_563494552.jpg"
 toc: true

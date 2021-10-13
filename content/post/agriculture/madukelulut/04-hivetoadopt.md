@@ -1,6 +1,6 @@
 
 ---
-title: WHAT HIVE TO ADOPT
+title: (Food/Farming)WHAT HIVE TO ADOPT
 description: This is documents of stingless bee keeping as madu kelulut
 featuredImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDsc5bsaqCPtYR7DzirrvkKalS1woLF8GS2w&usqp=CAU"
 toc: true

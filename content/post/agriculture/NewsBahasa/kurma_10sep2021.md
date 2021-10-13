@@ -1,5 +1,5 @@
 ---
-title: 바하사뉴스-대추야자
+title: (Malaysia)대추야자
 description: This is documents of Bahasa Malaysia
 featuredImage: ""
 toc: true

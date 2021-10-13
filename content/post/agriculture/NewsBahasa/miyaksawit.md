@@ -1,5 +1,5 @@
 ---
-title: 바하사뉴스-말레이시아 팜유를 인도가 구매하다
+title: (Malaysia)말레이시아 팜유를 인도가 구매하다
 description: This is documents of Bahasa Malaysia
 featuredImage: ""
 toc: true
