@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-말과 그의 소년(Horse and His Boy) by C.S. Lewis
+title: (Book)Horse and His Boy by C.S. Lewis
 description: This is book review
 featuredImage: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1362934706l/7806746.jpg"
 toc: true

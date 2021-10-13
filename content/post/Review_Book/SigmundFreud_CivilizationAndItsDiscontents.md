@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-문명과 그 불만(Civilization and its Discontents) by Sigmund Freud
+title: (Book)Civilization and its Discontents by Sigmund Freud
 description: This is book review
 featuredImage: "https://www.coursehero.com/net-assets/lit/infographic_fb/843.jpg"
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-마법사의 조카(The Magician's Nephew) by C.S. Lewis
+title: (Book)The Magician's Nephew by C.S. Lewis
 description: This is book review
 featuredImage: "https://toppsta.com/images/covers/3/1/3/5/9780007323135.jpg"
 toc: true

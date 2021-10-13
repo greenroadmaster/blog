@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-마지막 전투(The Last Battle) by C.S. Lewis
+title: (Book)The Last Battle by C.S. Lewis
 description: This is book review
 featuredImage: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448777527l/587318._SY475_.jpg"
 toc: true

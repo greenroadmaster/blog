@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-은 의자(The Silver Chair) by C.S. Lewis
+title: (Book)The Silver Chair by C.S. Lewis
 description: This is book review
 featuredImage: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1336139237l/65641.jpg"
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-매직핑거(Magic Finger) by Roald Dahl
+title: (Book)Magic Finger by Roald Dahl
 description: This is book review of Roald Dahl Series
 featuredImage: "https://miahoywsc.files.wordpress.com/2017/03/the-magic-finger-quentin-blake.jpg"
 toc: true

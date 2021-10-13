@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-멋진 여우씨(Fantastic Mr. Fox) by Roald Dahl
+title: (Book)Fantastic Mr. Fox by Roald Dahl
 description: This is book review of Roald Dahl Series
 featuredImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAGkx6CZC3IIynQF0MXKlvj6jFc9DE7vmmABHhGC4OD6Bem3gliKy9whyreLR_sraDsNk&usqp=CAU"
 toc: true

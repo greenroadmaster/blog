@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-Leviathan by Thomas Hobbs
+title: (Book)Leviathan by Thomas Hobbs
 description: This is book review 
 featuredImage: ""
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-조지 마법의 약을 만들다(George's Marvelous Medicine) by Roald Dahl
+title: (Book)George's Marvelous Medicine by Roald Dahl
 description: This is book review of Roald Dahl Series
 featuredImage: "https://cdn.arstechnica.net/wp-content/uploads/2020/12/george4.jpg"
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-성화의 신비(THE GOSPEL MYSTERY OF SANCTIFICATION) by Walter Marshall
+title: (Book)THE GOSPEL MYSTERY OF SANCTIFICATION by Walter Marshall
 description: This is book review
 featuredImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2IW5mxqqQJacJ8W94Fx9jeFnSHnIYM9dGCQ&usqp=CAU"
 toc: true

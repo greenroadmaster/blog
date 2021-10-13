@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-사자, 마녀, 그리고 옷장(The Lion, Witch and Wardrobe) by C.S. Lewis
+title: (Book)The Lion, Witch and Wardrobe by C.S. Lewis
 description: This is book review
 featuredImage: "https://toppsta.com/images/covers/3/1/3/5/9780007323135.jpg"
 toc: true

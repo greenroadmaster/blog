@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-새벽 출정호의 모험(The Voyage of Dawn Treader) by C.S. Lewis
+title: (Book)The Voyage of Dawn Treader by C.S. Lewis
 description: This is book review
 featuredImage: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432178568l/65646._SX318_.jpg"
 toc: true

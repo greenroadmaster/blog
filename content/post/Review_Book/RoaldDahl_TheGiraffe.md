@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-기린과 펠리와 나(The Giraffe and The Pelly And Me) by Roald Dahl
+title: (Book)The Giraffe and The Pelly And Me by Roald Dahl
 description: This is book review of Roald Dahl Series
 featuredImage: "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/8575/9780857551207.jpg"
 toc: true

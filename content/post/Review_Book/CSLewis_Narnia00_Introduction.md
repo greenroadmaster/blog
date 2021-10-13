@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-나니아연대기 개요
+title: (Book)나니아연대기 개요
 description: This is book review
 featuredImage: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449868701i/11127._UY500_SS500_.jpg"
 toc: true

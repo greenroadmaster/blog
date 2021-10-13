@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-캐스피언 왕자(The Prince Caspian) by C.S. Lewis
+title: (Book)The Prince Caspian by C.S. Lewis
 description: This is book review
 featuredImage: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484830929l/836888._SY475_.jpg"
 toc: true

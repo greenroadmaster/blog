@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-질서너머(Beyond Order) by Jordan Peterson
+title: (Book)Beyond Order by Jordan Peterson
 description: This is book review
 featuredImage: "https://i.ytimg.com/vi/grhlTFPaMaw/maxresdefault.jpg"
 toc: true

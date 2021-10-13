@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-Going Solo(단독비행) by Roald Dahl
+title: (Book)Going Solo by Roald Dahl
 description: This is book review of Roald Dahl Series
 featuredImage: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Hawker_Hurricane%2C_Battle_of_Britain_Memorial_Flight_Members%27_day_2018.jpg"
 toc: true

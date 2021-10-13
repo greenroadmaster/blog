@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-미스터트윗(Mr. Twit) by Roald Dahl
+title: (Book)Mr. Twit by Roald Dahl
 description: This is book review of Roald Dahl Series
 featuredImage: "https://www.yayomg.com/wp-content/uploads/2015/07/yayomg-twit-or-miss.png"
 toc: true
