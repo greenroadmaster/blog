@@ -1,5 +1,5 @@
 ---
-title: 
+title: (Food/Farming)미래농기계를 대신할 전기차의 시작(업데이트중)
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

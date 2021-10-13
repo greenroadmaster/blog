@@ -1,5 +1,5 @@
 ---
-title: Dream by The Cranberries
+title: (music)Dream by The Cranberries
 description: This is documents of Music
 featuredImage: 
 toc: true

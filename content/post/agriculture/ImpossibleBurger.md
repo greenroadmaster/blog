@@ -1,5 +1,5 @@
 ---
-title: Impossible Burger
+title: (Food/Farming)Impossible Burger
 description: This is documents of Foods
 featuredImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQN5egGJAdWphBFhBi4wKmPpadabReQErCY1NTqISDEAmffCBGnWDeOlBiCryaNYcBGLI&usqp=CAU"
 toc: true

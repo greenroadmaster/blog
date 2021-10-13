@@ -1,5 +1,5 @@
 ---
-title: You can't always get what you want - 롤링스톤즈 Rolling Stones
+title: (music)You can't always get what you want by Rolling Stones
 description: This is documents of music for afternoon
 featuredImage: "https://i.pinimg.com/originals/5e/05/49/5e0549faa4f89b9ef2d7320bcb812d04.jpg"
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: 인공육의 영양
+title: (Food/Farming)인공육의 영양
 description: This is documents of Foods
 featuredImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1uu6Gvgr917wFr_CynC916KciGAux4tSOfbLNEYVWab4uBW281OiE3zgOyhFX_ZTAJ1Y&usqp=CAU"
 toc: true

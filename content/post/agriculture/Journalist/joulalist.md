@@ -1,5 +1,5 @@
 ---
-title: Agritech 글을 재미나게 쓰시는 분들은 누구?
+title: (Food/Farming)저명한 Agritech 저널리스트
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

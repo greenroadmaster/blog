@@ -1,5 +1,5 @@
 ---
-title: 인공육과 과학
+title: (Food/Farming)인공육과 과학
 description: This is documents of Foods
 featuredImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGLizj3XHdLckTssZMSoTuH8VHpnr804k4yNL1Gh1mm73tFqN_ex49pZo_GYldO3z2kB8&usqp=CAU"
 toc: true

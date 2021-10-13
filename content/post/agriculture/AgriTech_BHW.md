@@ -1,5 +1,5 @@
 ---
-title: 미래농업은 어떤방향으로 갈까?
+title: (Food/Farming)미래농업은 어떤방향으로 갈까?
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

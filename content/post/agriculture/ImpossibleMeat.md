@@ -1,5 +1,5 @@
 ---
-title: Impossible Meat
+title: (Food/Farming)Impossible Meat
 description: This is documents of Foods
 featuredImage: "https://res.cloudinary.com/dlvhhibcv/image/fetch/q_auto,w_960/https://images.ctfassets.net/hhv516v5f7sj/2IEainhKeLr81E5pHsGrjx/eba77704302a9816323bf7111fb376af/Values_Sticker_Blastahead.png?width=960"
 toc: true

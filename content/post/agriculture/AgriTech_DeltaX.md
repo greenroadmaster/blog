@@ -1,5 +1,5 @@
 ---
-title: AgriTech - Reduce Ammonia 70%
+title: (Food/Farming)Reduce Ammonia 70%
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

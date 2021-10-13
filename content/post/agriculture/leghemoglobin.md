@@ -1,5 +1,5 @@
 ---
-title: 레게모글로빈과 인공육
+title: (AgriTech)레게모글로빈과 인공육
 description: This is documents of Foods
 featuredImage: "https://thumbor.forbes.com/thumbor/trim/93x0:5524x3621/fit-in/711x474/smart/https://specials-images.forbesimg.com/imageserve/1183778224/0x0.jpg"
 toc: true
@@ -35,3 +35,9 @@ draft: false
 ## 인공육의 현재
 
 콩 단백질을 이용하여 제조된 완성도 높은 대체 인조육으로 만드는 버거에 대해 많은 첨가물로 인해 싫어하는 사람도 있고, 레그헤모글로빈을 생산하기 위해 유전자 조작된 효모 발효를 이용하는 것도 싫어하는 사람이 있지만, 그럼에도 불구하고 도축을 하지 않고, 고기를 먹지 않는 비건들에게 인조육은 최첨단의 식품가공 기술을 이용하여 제조되었으며 대체적으로 인기가 높습니다.
+
+## 구조 
+
+Leghemoglobin(leghaemoglobin 또는 legoglobin)은 oxygen-carrying phytoglobin으로 콩과 식물의 질소 고정 뿌리혹에서 발견되었습니다. 질소고정 뿌리혹은 식물과 공생하는 세균으로, 질소 고정 박테리아인 rhizobia의 일부입니다. 
+
+레그헤모글로빈은 질량이 약 16kDa인 단량체성 단백질이며 구조적으로 미오글로빈과 유사합니다. 한 leghemoglobin 단백질은 철이 결합된 heme과 하나의 폴리펩티드 체인으로 구성되어 있으며, 미오글로빈 및 헤모글로빈과 약 80 % 정도 단백질과 아미노산 서열의 유사성이 밝혀졌습니다. 
