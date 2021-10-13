@@ -1,5 +1,5 @@
 ---
-title: 미래는 개인맞춤형 영양과 요리의 시대
+title: (Food/Farming)미래는 개인맞춤형 영양과 요리의 시대
 description: This is documents of food of future
 featuredImage: "http://t1.daumcdn.net/brunch/service/user/338L/image/auT4ynbxk_P9KwcTT18i4TJB6lo.jpg"
 toc: true

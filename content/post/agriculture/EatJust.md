@@ -1,5 +1,5 @@
 ---
-title: 베간푸드-EastJust 
+title: (Food/Farming)베간푸드-EastJust 
 description: This is documents of superfood
 featuredImage: "https://cdn.foodnews.co.kr/news/photo/202108/93560_54015_656.jpg"
 toc: true

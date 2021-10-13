@@ -1,5 +1,5 @@
 ---
-title: 흑찹쌀막걸리 레시피(Black Glutinious Rice-wine Recipe)
+title: (Food/Farming)흑찹쌀막걸리 레시피(Black Glutinious Rice-wine Recipe)
 description: This is documents of Homebrew Makgeolli as rice-wine Stories 
 featuredImage: "http://timing-design.com/jfwl/LookSeeEat/chineseredricewine1.jpg"
 toc: true

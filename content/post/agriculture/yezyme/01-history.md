@@ -1,5 +1,5 @@
 ---
-title: Rice-wine의 역사
+title: (Food/Farming)Rice-wine의 역사
 description: This is documents of Homebrew Makgeolli as rice-wine Stories 
 featuredImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3CmlYVilIpRh3_YnTDBxsLi__3VyVfF2y7w&usqp=CAU"
 toc: true
