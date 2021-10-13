@@ -1,5 +1,5 @@
 ---
-title: 추천 10 클래식북 시리즈 3
+title: (Book)추천 클래식북 시리즈 세번째
 description: This is book review 
 featuredImage: ""
 toc: true

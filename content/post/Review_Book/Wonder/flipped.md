@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-Flipped(플립) by Wendelin Van Draanen
+title: (Book)Flipped by Wendelin Van Draanen
 description: This is book review 
 featuredImage: ""
 toc: true

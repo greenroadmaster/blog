@@ -1,5 +1,5 @@
 ---
-title: Book Review - Confession by St. Augustin
+title: (Book)Confession by St. Augustin
 description: This is book review 
 featuredImage: ""
 toc: true

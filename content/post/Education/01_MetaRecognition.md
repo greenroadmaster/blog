@@ -1,5 +1,5 @@
 ---
-title: 메타인지 Meta Recognition
+title: (Education)메타인지 Meta Recognition
 description: This is documents of education
 featuredImage: "https://nayan.co/blog/AI/Meta-Learning-Learning-to-learn-fast/meta-learning.png"
 toc: true

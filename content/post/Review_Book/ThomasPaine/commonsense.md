@@ -1,5 +1,5 @@
 ---
-title: 북리뷰- Common sense by Thomas Paine
+title: (Book)Common sense by Thomas Paine
 description: This is book review 
 featuredImage: ""
 toc: true

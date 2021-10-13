@@ -1,5 +1,5 @@
 ---
-title: 말레이시아뉴스 - 페낭해변 악어체포
+title: (English)페낭해변 악어체포
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

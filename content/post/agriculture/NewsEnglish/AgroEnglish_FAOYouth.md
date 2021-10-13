@@ -1,5 +1,5 @@
 ---
-title: 농업영어 - 뉴욕에서 로마로
+title: (English)뉴욕에서 로마로
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

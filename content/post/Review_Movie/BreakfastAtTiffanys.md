@@ -1,5 +1,5 @@
 ---
-title: (MovieReview) Breakfast at Tiffany's
+title: (MovieReview)Breakfast at Tiffany's
 description: This is book review
 featuredImage: ""
 toc: true

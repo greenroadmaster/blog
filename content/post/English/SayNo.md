@@ -1,5 +1,5 @@
 ---
-title: 정중하게 "아니오"라고 거절하는 방법
+title: (English)정중하게 "아니오"라고 거절하는 방법
 description: This is documents of English
 featuredImage: 
 toc: true

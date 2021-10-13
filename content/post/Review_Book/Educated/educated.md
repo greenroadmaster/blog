@@ -1,5 +1,5 @@
 ---
-title: Educated by Tara Westover
+title: (Book)Educated by Tara Westover
 description: This is book review
 featuredImage: "https://kidsbookswithoutborders.files.wordpress.com/2016/04/img_0249.jpg"
 toc: true

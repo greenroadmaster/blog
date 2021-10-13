@@ -1,6 +1,5 @@
 ---
 title: (English)눈을 표현하는 단어모음
-Adverb 유형별 모음
 description: This is documents of English
 featuredImage: 
 toc: true

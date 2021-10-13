@@ -1,5 +1,5 @@
 ---
-title: Book Review - Theistic Evoulution by JP Moreland 외
+title: (Book)Theistic Evoulution by JP Moreland 외
 description: This is book review 
 featuredImage: ""
 toc: true

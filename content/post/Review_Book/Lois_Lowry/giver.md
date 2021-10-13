@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-기버(Giver) by Lois Lowry
+title: (Book)Giver by Lois Lowry
 description: This is book review
 featuredImage: "https://is5-ssl.mzstatic.com/image/thumb/Publication/v4/4a/7e/9f/4a7e9ffa-f41f-4eb3-1182-133a555044ba/asset.jpg/1200x600wz.png"
 toc: true

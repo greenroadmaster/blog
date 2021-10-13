@@ -1,5 +1,5 @@
 ---
-title: 영어공부 - G20 농업장관회의 결의안 21가지 
+title: (English)G20 농업장관회의 결의안 21가지 
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: 유비쿼터스 학습 Ubiquitous Learning
+title: (Education)유비쿼터스 학습 Ubiquitous Learning
 description: This is documents of education
 featuredImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2esEPb_0AzxpwEBmV-arcmO6PdzPTxjC-Ow&usqp=CAU"
 toc: true

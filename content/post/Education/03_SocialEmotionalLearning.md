@@ -1,5 +1,5 @@
 ---
-title: 사회정서학습 Social and Emotional Learning
+title: (Education)사회정서학습 Social and Emotional Learning
 description: This is documents of education
 featuredImage: "https://epe.brightspotcdn.com/af/8f/d5645feb4b99b971573bf16a6860/opinion-05112021-34bridgeland-1049201624.jpg"
 toc: true

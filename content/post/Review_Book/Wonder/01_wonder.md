@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-원더(Wonder)
+title: (Book)Wonder by P.J. Palacio
 description: This is book review
 featuredImage: "https://kidsbookswithoutborders.files.wordpress.com/2016/04/img_0249.jpg"
 toc: true

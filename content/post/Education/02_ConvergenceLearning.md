@@ -1,5 +1,5 @@
 ---
-title: 융합교육 Convergence Learning
+title: (Education)융합교육 Convergence Learning
 description: This is documents of education
 featuredImage: "https://tactilelearning.files.wordpress.com/2020/12/divergent-and-convergent-thinking-1.png"
 toc: true

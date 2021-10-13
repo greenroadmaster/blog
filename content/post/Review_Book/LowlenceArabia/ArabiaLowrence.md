@@ -1,5 +1,5 @@
 ---
-title: 북리뷰-Seven Pillars of Wisdom by T.E. Lawrence(아라비아의 로렌스)
+title: (Book)Seven Pillars of Wisdom by T.E. Lawrence
 description: This is book review 
 featuredImage: ""
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: Book Review - Everything Happens for a Reason by Kate Bowler
+title: (Book)Everything Happens for a Reason by Kate Bowler
 description: This is book review 
 featuredImage: ""
 toc: true
