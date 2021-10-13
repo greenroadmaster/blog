@@ -1,5 +1,5 @@
 ---
-title: 한말국제결혼-레지던스패스(RegidencePass)발급받기
+title: (Malaysia)한말국제결혼-레지던스패스(RegidencePass)발급받기
 description: This is documents of International Marriage
 featuredImage: ""
 toc: true

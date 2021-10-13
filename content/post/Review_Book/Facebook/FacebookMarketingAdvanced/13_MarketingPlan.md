@@ -1,5 +1,5 @@
 ---
-title: 마케팅
+title: (Marketing)마케팅
 description: This is book review 
 featuredImage: ""
 toc: true

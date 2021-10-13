@@ -1,5 +1,5 @@
 ---
-title: 경영의 구성요소 4가지
+title: (Marketing)경영의 구성요소 4가지
 description: This is book review 
 featuredImage: ""
 toc: true

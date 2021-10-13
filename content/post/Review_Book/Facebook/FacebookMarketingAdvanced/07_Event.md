@@ -1,5 +1,5 @@
 ---
-title: 이벤트 및 콘테스트
+title: (Marketing)이벤트 및 콘테스트
 description: This is book review 
 featuredImage: ""
 toc: true

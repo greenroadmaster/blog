@@ -1,5 +1,5 @@
 ---
-title: 한말국제결혼-말레이시아 미혼증명서(Malaysia Single Status Certificate)발급받기
+title: (Malaysia)한말국제결혼-미혼증명서발급
 description: This is documents of International Marriage
 featuredImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKSICZjBJ6933szDU1vI0rYRkGSp9CmLQX2A&usqp=CAU"
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: 법인통장 개설절차
+title: (Malaysia)법인통장 개설절차
 description: This is documents of Malaysia
 featuredImage: "https://www.pbebank.com/images/Current-Account-Banner/Open-Current.aspx?maxsidesize=1024"
 toc: true

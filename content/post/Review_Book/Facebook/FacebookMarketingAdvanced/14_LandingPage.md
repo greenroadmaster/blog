@@ -1,5 +1,5 @@
 ---
-title: 비즈니스 준비
+title: (Marketing)비즈니스 준비
 description: This is book review 
 featuredImage: ""
 toc: true

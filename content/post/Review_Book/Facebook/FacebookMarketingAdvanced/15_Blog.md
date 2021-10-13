@@ -1,5 +1,5 @@
 ---
-title: 블로그
+title: (Marketing)블로그
 description: This is book review 
 featuredImage: ""
 toc: true

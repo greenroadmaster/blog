@@ -1,5 +1,5 @@
 ---
-title: 제6장 페이스북 마케팅 목표와 달성
+title: (Marketing)제6장 페이스북 마케팅 목표와 달성
 description: This is book review 
 featuredImage: ""
 toc: true

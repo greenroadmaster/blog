@@ -1,5 +1,5 @@
 ---
-title: 제3장 페이스북 마케팅 도구들
+title: (Marketing)제3장 페이스북 마케팅 도구들
 description: This is book review 
 featuredImage: ""
 toc: true

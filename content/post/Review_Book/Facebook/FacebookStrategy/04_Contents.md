@@ -1,5 +1,5 @@
 ---
-title: 제4장 페이스북의 콘텐츠 마케팅
+title: (Marketing)제4장 페이스북의 콘텐츠 마케팅
 description: This is book review 
 featuredImage: ""
 toc: true

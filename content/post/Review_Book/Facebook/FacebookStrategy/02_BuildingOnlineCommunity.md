@@ -1,5 +1,5 @@
 ---
-title: 제2장 Facebook으로 온라인 커뮤니티 구축
+title: (Marketing)제2장 Facebook으로 온라인 커뮤니티 구축
 description: This is book review 
 featuredImage: ""
 toc: true

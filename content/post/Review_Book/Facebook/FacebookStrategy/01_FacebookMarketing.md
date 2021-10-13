@@ -1,5 +1,5 @@
 ---
-title: 제1장 페이스북 마케팅 이해하기
+title: (Marketing)제1장 페이스북 마케팅 이해하기
 description: This is book review 
 featuredImage: ""
 toc: true

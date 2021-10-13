@@ -1,5 +1,5 @@
 ---
-title: 말레이시아 쿠안탄 정보
+title: (Malaysia)쿠안탄(Kuantan) 정보
 description: This is documents of Kuantan, Malaysia
 featuredImage: "https://images.contentstack.io/v3/assets/blt1306150c2c4003bc/blt8c4c9d4ae075baaf/60498bf25aedc043351b78f6/00-kuantan-river-malaysia-getty-cropped.jpg"
 toc: true

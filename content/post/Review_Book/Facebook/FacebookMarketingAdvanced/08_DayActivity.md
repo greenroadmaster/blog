@@ -1,5 +1,5 @@
 ---
-title: Day-to-Day Activity
+title: (Marketing)Day-to-Day Activity
 description: This is book review 
 featuredImage: ""
 toc: true

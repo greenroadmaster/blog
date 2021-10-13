@@ -1,5 +1,5 @@
 ---
-title: 소셜 미디어 마케팅 이해의 중요성
+title: (Marketing)소셜 미디어 마케팅 이해의 중요성
 description: This is book review 
 featuredImage: ""
 toc: true

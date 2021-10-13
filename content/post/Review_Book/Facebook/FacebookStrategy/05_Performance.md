@@ -1,5 +1,5 @@
 ---
-title: 제5장 Facebook의 틈새 커뮤니티 활용 극대화
+title: (Marketing)제5장 Facebook의 틈새 커뮤니티 활용 극대화
 description: This is book review 
 featuredImage: ""
 toc: true

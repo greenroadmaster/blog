@@ -1,5 +1,5 @@
 ---
-title: 브랜드 구축하기
+title: (Marketing)브랜드 구축하기
 description: This is book review 
 featuredImage: ""
 toc: true

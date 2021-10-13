@@ -1,5 +1,5 @@
 ---
-title: 페이스북 알고리즘
+title: (Marketing)페이스북 알고리즘
 description: This is book review 
 featuredImage: ""
 toc: true

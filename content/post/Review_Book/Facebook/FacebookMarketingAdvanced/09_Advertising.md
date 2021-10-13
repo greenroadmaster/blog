@@ -1,5 +1,5 @@
 ---
-title: 페이스북 광고와 리마케팅
+title: (Marketing)페이스북 광고와 리마케팅
 description: This is book review 
 featuredImage: ""
 toc: true

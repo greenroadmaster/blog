@@ -1,5 +1,5 @@
 ---
-title: 노동법과 근로환경
+title: (Malaysia)노동법과 근로환경
 description: This is documents of Malaysia
 featuredImage: "https://www.venturehaven.com.my/wp-content/uploads/2019/11/MALAYSIAN-LABOUR-LAWS-THE-EMPLOYMENT-ACT-1955-e1574664725687.png"
 toc: true
