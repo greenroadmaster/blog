@@ -1,5 +1,5 @@
 ---
-title: 영어 형용사 모음 - 유형별로
+title: (English)Adjectives 유형별 모음
 description: This is documents of English
 featuredImage: 
 toc: true
