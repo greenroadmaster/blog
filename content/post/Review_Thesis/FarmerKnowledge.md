@@ -1,5 +1,5 @@
 ---
-title: 논문리뷰 - farmers' knowledge enhances agriculture
+title: (ReviewThesis) Resielence 
 description: This is documents of Future Technology
 featuredImage: 
 toc: true
