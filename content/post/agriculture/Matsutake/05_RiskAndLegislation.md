@@ -1,5 +1,5 @@
 ---
-title: 5장 관련법규와 주의사항
+title: (Food/Farming)송이버섯 관련법규
 description: This is documents of Korea' Matsutake
 featuredImage: "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F2516E4335255EE0329"
 toc: true

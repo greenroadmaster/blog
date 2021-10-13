@@ -1,5 +1,5 @@
 ---
-title: (AgriTech)레게모글로빈과 인공육
+title: (Food/Farming)레게모글로빈과 인공육
 description: This is documents of Foods
 featuredImage: "https://thumbor.forbes.com/thumbor/trim/93x0:5524x3621/fit-in/711x474/smart/https://specials-images.forbesimg.com/imageserve/1183778224/0x0.jpg"
 toc: true

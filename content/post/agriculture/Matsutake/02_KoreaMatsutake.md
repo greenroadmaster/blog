@@ -1,5 +1,5 @@
 ---
-title: 2장 국산 송이버섯
+title: (Food/Farming)송이버섯 종류
 description: This is documents of Korea' Matsutake
 featuredImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRexutelbw96kdHcu39KQcnsxkldcZrkfR3ilvZLCLWwObjUZOO-4qFk-CqlYRH8SDlf0M&usqp=CAU"
 toc: true

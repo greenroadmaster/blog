@@ -1,5 +1,5 @@
 ---
-title: 3장 송이 수확과 관리
+title: (Food/Farming)송이버섯 생산
 description: This is documents of Korea' Matsutake
 featuredImage: "https://grapee.jp/en/wp-content/uploads/16040_0.jpg"
 toc: true

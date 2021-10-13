@@ -1,5 +1,5 @@
 ---
-title: 1장 송이의 역사
+title: (Food/Farming)송이버섯 역사
 description: This is documents of Korea' Matsutake
 featuredImage: "https://t1.daumcdn.net/blogfile/fs13/19_blog_2008_09_07_09_28_48c3201c3bb2c?x-content-disposition=inline&filename=cocochoi200809052027170.jpg"
 toc: true
