@@ -1,5 +1,5 @@
 ---
-title: Wuthering Height by Emily Bronte
+title: (Book)Wuthering Height by Emily Bronte
 description: This is book review 
 featuredImage: ""
 toc: true
@@ -65,3 +65,44 @@ Linton이 죽으면 Cathy는 Wuthering Heights에 혼자 남을 수 밖에 없�
 ## 마지막 이야기
 
 1802년 친구의 초대를 받아서 가던 Lockwoon는 전세문제를 이야기위해 Wuthering Height에 다시 온다. 그는 Wuthering Heights의 가정부인 Nelly를 다시 만다 Heathcliff의 죽음을 듣는다. 비가 몰아치는 날, 눈도 못 감고 죽었다고 한다. Nelly는 지역 주민들이 Catherine Earnshaw와 Heathcliff의 유령이 함께 떠돌아다니는 것을 보았다고 한다. 그녀는 Cathy가 아직 교육을 받지 못한 Hareton Earnshaw에게 읽기를 가르치고 있다고 한다. Wuthering Height의 Hereton Earhshaw과 Thrushcross의 Cathy Linton 사이에서 사랑의 감정이 싹트고 결혼을 앞두고 있여므 Thrushcross로 갈 것이고 Wuthering Height는 무뚝뚝한 하인 Joseph에게 맡겨질 것이라고 한다. 불행한 역사는 끝나고 새로운 역사가 시작된다.
+
+
+## 단어장
+
+| Word         | 단어               |
+|--------------|--------------------|
+| hale         | 건장한             |
+| sinewy       | 힘찬               |
+| peevish      | 소름끼치는         |
+| conjecture   | 어림짐작           |
+| bracing      | 버팀대             |
+| intersperse  | 산재하다           |
+| sundry       | 잡다한             |
+| repose       | 휴식               |
+| homely       | 검소한             |
+| countenance  | 표정               |
+| stalwart     | 매우 충실한        |
+| slovenly     | 게으른             |
+| morose       | 침울한             |
+| impertinence | 부적절             |
+| actuate      | 작동시키다         |
+| intimation   | 통고               |
+| tacit        | 말로 나타내지 않은 |
+| physiognomy  | 지형               |
+| parry        | 패리               |
+| cur          | 똥개               |
+| laconic      | 간결한             |
+| heath        | 히스               |
+| churlish     | 야비한             |
+| deign        | 하다               |
+| evince       | 증거하다           |
+| bearing      | 베어링             |
+| assiduity    | 부지런함           |
+| moor         | 황무지             |
+| sagacity     | 현명               |
+| austere      | 남풍               |
+| taciturn     | 말없는             |
+| perverse     | 변태               |
+| providential | 신의               |
+| reprobate    | 사악한             |
+| ensconce     | 감추다             |

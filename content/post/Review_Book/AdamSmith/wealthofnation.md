@@ -1,5 +1,5 @@
 ---
-title: 북리뷰- Wealth of Nation by Adam Smith
+title: (Book)Wealth of Nation by Adam Smith
 description: This is book review 
 featuredImage: ""
 toc: true

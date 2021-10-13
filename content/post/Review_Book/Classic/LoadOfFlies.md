@@ -1,5 +1,5 @@
 ---
-title: (Book Review)Lord of the Flies By William Golding
+title: (Book)Lord of the Flies By William Golding
 description: This is book review 
 featuredImage: ""
 toc: true
