@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 생명보험 이야기
+title: (Ruralife Essay)생명보험 이야기
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

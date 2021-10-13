@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 커맨더! 본부를 넘긴다!
+title: (Ruralife Essay)커맨더! 본부를 넘긴다!
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

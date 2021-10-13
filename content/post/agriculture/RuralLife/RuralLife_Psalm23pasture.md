@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 부의 이전
+title: (Ruralife Essay)부의 이전
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

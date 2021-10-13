@@ -1,5 +1,5 @@
 ---
-title: Rural Life - 두루치기의 선행에 보답
+title: (Ruralife Essay)두루치기의 선행에 보답
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

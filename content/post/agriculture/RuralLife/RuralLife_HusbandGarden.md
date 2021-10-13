@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 홈가든의 케세라세라
+title: (Ruralife Essay)홈가든의 케세라세라
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

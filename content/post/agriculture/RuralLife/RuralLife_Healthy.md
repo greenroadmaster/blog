@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 건강의 회복
+title: (Ruralife Essay)건강의 회복
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

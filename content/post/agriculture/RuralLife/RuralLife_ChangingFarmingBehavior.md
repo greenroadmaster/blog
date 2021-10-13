@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 행동 바꾸기
+title: (Ruralife Essay)행동 바꾸기
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

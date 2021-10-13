@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 누군가 몰래 몰디브한잔 할 수 있겠지만
+title: (Ruralife Essay)누군가 몰래 몰디브한잔 할 수 있겠지만
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

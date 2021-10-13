@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 농민은 전문경영인
+title: (Ruralife Essay)농민은 전문경영인
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 보르네오 더트카 레이싱
+title: (Ruralife Essay)보르네오 더트카 레이싱
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

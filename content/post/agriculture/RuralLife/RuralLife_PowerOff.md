@@ -1,5 +1,5 @@
 ---
-title: Rural Life - 전원없는 전원주택
+title: (Ruralife Essay)전원없는 전원주택
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

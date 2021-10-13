@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 도랑마스터에게 재물 바치기
+title: (Ruralife Essay)도랑마스터에게 재물 바치기
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

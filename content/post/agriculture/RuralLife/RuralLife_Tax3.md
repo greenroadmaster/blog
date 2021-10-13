@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 상속세와 양도소득세
+title: (Ruralife Essay)상속세와 양도소득세
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

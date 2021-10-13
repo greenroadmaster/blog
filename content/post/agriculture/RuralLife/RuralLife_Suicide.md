@@ -1,5 +1,5 @@
 ---
-title: RuralLife - 농부의 자살문제
+title: (Ruralife Essay)농부의 자살문제
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: 논문리뷰 - Ethnoveterinary medicine used for poultry
+title: (Food/Farming)양계에 적합한 천연살충제
 description: This is documents of Future Technology
 featuredImage: 
 toc: true

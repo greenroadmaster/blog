@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 머리부터 발끗까지 핫!이!슈!
+title: (Ruralife Essay)머리부터 발끗까지 핫!이!슈!
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

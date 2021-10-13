@@ -1,5 +1,5 @@
 ---
-title: 원자력 분야 혁신 6대 스타트업
+title: (Food/Farming)미래농장에는 소형원자로 하나씩
 description: This is documents of Future Technology
 featuredImage: 
 toc: true
@@ -23,6 +23,7 @@ draft: false
 여기에서는 미래에 원자력을 더 나은 선택으로 만들기 위해 자석, 용융염 및 기타 기술을 사용하여 솔루션을 개발하면서 이 산업을 파괴하려는 6개의 신생 기업을 살펴봅니다.
 
 ## Commonwealth Fusion Systems
+
 Commonwealth Fusion Systems 는 2018년에 설립되었으며 CEO Bob Mumgaard가 이끄는 MIT 플라즈마 과학 및 융합 센터(PSFC) 스핀아웃입니다.
 
 이 신생 기업은 종종 설명되는 것처럼 핵융합 또는 에너지원의 "성배" 개발에 중점을 두고 있습니다. 동일한 목표를 달성하기 위해 노력하는 수많은 회사가 있지만 Commonwealth Fusion은 더 큰 건물을 짓기보다 "스마트"하게 구축하여 더 빠르고 저렴한 비용으로 목표를 달성하고자 합니다.

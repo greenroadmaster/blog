@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 낭만낚시와 정신건강
+title: (Ruralife Essay)낭만낚시와 정신건강
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

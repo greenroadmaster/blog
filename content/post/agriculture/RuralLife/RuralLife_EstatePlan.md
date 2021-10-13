@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 상속에 관한 이야기
+title: (Ruralife Essay)상속에 관한 이야기
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

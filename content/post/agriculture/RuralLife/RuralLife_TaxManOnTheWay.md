@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 세무사가 들이 닦친다
+title: (Ruralife Essay)세무사가 들이 닦친다
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true

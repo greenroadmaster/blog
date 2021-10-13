@@ -1,5 +1,5 @@
 ---
-title: 시골생활 - 은퇴후 농부가 아닌 농부로 은퇴하기
+title: (Ruralife Essay)은퇴후 농부가 아닌 농부로 은퇴하기
 description: This is documents of Agriculture
 featuredImage: ""
 toc: true
