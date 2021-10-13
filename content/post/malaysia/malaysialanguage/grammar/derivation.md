@@ -7,7 +7,7 @@ draft: false
 lastmod: "2020-10-16"
 series: bahasa
 tags: null
-title: 파생법
+title: (Malaysia)말레이어-파생법
 toc: true
 ---
 

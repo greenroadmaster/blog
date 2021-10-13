@@ -7,7 +7,7 @@ draft: false
 lastmod: "2020-10-16"
 series: bahasa
 tags: null
-title: 비교급, 최상급, 원급
+title: (Malaysia)말레이어-비교급, 최상급, 원급
 toc: true
 ---
 

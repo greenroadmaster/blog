@@ -7,7 +7,7 @@ draft: false
 lastmod: "2020-10-16"
 series: bahasa
 tags: null
-title: 수량사 유제문 배타문
+title: (Malaysia)말레이어-수량사 유제문 배타문
 toc: true
 ---
 ### 수량사 

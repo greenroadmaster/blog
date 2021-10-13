@@ -7,7 +7,7 @@ draft: false
 lastmod: "2020-10-16"
 series: bahasa
 tags: null
-title: 명사 형용사
+title: (Malaysia)말레이어-명사 형용사
 toc: true
 ---
 

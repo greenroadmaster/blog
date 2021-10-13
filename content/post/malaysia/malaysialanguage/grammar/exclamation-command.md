@@ -7,7 +7,7 @@ draft: false
 lastmod: "2020-10-16"
 series: bahasa
 tags: null
-title: 감탄문과 명령문
+title: (Malaysia)말레이어-감탄문과 명령문
 toc: true
 ---
 ### 감탄문
