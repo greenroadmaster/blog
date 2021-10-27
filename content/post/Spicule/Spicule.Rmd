@@ -1,0 +1,40 @@
+---
+title: "마타하리기업과 스피큘"
+author: "Byeonghui-Won"
+date: "10/22/2021"
+output: html_document
+---
+
+
+## 1. 마타하리 기업의 규모와 여성임원 문의사항
+
+- 63년된 백화점 기반 기업으로 마켓캡은 2021년 10월 현재기준 7트릴리언루피아(미화 4억5천달러)의 업체입니다. 코로나 이전에는 지금보다 3배 정도의 규모였으나 코로나 이후 20여 점포를 문 닫는 등 경영악화를 겪었습니다. 하지만 인도네시아도 위드코로나가 준비되면서 자카르타를 비롯 닫았던 점포를 새로 문을 열고 있습니다. 
+
+- 기업지배구조는 회장단으로 회장 Monish Mansukhani, 부회장 Roy N. Mandey 외 Andy Ashiwana, Adrian Suherman, Bianca Cheo Hui Hsin, David Fernando Audy가 있으며 전문경영인으로 마케팅 메니저 출신의 Terry O'conner가 CEO로 취임했으며 이하 상품개발부, 전자상거래부, 백화점부 등 각 치프를 두고 관리하고 있습니다.
+
+- Chief나 각 Manager 레벨에 여성은 많습니다만 회장단에 여성이 있었다면 전무이사의 Bianca Cheo Hui Hsin 이라는 싱가폴 국적의 45세 여성입니다. 회사 사이트에 따르면 마타하리 입사전에는 영국 킹스칼리지를 졸업하고 싱가폴에서 법률가로 근무했으며 브랜드 구축 및 프리미엄 사업분야에 제품 개발에 주력하는 것으로 나타났습니다.  
+
+
+## 2. Spicules 에 대해
+
+- 수중 5-20미터에서 서식하는 Sea Spenge(바다해면동물)의 골격입니다. 이 해면동물은 외형은 보편적으로 열대지방 수중생물 영상에서 접할 수 있는 산호의 한 종류로 인식하고 있습니다. 
+
+- 한국에서는 이미 따꼼크림으로 천연 마이크로니들 이라는 부제목으로 화장품화 되어 팔리고 있습니다. 
+
+- 화장품의 원료는 이해면동물의 골격을 가수분해하여 분말로 처리한 것으로 정제원료의 단가가 수율에 따라 고가이기 때문에 이미 국제원료시장에서 판매되고 있습니다. 
+
+## 3. 수중작업
+
+- 개인적으로 수중로봇사업단과 컨소시엄이 있으며 다이버팀을 모집해 작업하는 것은 어려운 일은 아닙니다. 
+
+
+## 참고자료
+
+1. 구글파이낸스 마타하리 https://www.google.com/finance/
+2. 마타하리 회사홈페이지 http://www.matahari.co.id/
+3. Micromechanical properties of biological silica in skeletons of deep-sea sponges
+4. A comparison of vertebrate assemblages at gopher tortoise burrows and stump holes in the longleaf pine ecosystem
+Chris M. Murphy
+5. Bio-based polymer nanofiber with siliceous sponge spicules prepared by electrospinning: Preparation, characterisation, and functionalisation Chin-San Wua et al
+6. Spicules and microspheres in the heliolitid tabulates from the Silurian strata of Gorny Altai, Siberia, Raliya A. Khabibulina et al
+7. Rapid Evolution of Type II Spicules Observed in Goode Solar Telescope On-disk H Images, Vasyl Yurchyshyn
