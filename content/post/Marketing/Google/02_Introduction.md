@@ -1,5 +1,5 @@
 ---
-title: (Marketing) 구글 마케팅
+title: (Marketing) 구글 마케팅 구글 애즈 소개
 description: This is documents of Future Technology
 featuredImage: 
 toc: true
