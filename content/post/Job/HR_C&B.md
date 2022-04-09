@@ -62,7 +62,11 @@ draft: false
 
 ## 보상 및 혜택 전문가 요건
 
-+ (x)년 동안 보상 및 혜택 전문가로 이전에 근무한 경험
++ 최소 경영학 또는 이와 동등한 학위
+
++ 최소 3년 이상 해당지역 내 보상 및 혜택 전문가로 근무한 경험
+
++ 최신 HR 소프트웨어에 대한 실무 경험: HRIS, HRMS 나 Excel, VBA, R, Python 등 경험
 
 + HR 운영에 대한 사전 경험 및 모범 사례에 대한 지식
 
@@ -85,4 +89,16 @@ draft: false
 + 양적 및 질적 연구 경험
 
 + 인적 자원, 경영학 또는 이와 유사한 관련 분야 경험
+
+## 관련 자격증
+
++ 공인노무사: 한국산업인력공단에서 주관하는 자격으로 노동관계 근로기준법 등 노동관계 관련법률 노무관리 보상 HRM, 노동조합 다룸 [https://www.q-net.or.kr/man001.do?gSite=L&gId=05](https://www.q-net.or.kr/man001.do?gSite=L&gId=05)
+
++ PHR (SPHR/GPHR): 미국인사관리협회SHRM에서 주관하는 자격으로 해외인사관리 인사전반을 다룸 [https://www.shrm.org/certification/Pages/default.aspx](https://www.shrm.org/certification/Pages/default.aspx)
+
++ 경영지도사: 한국산업인력공단에서 주관하는 자격으로 인적자원관리 재무관리 생산관리 마케팅 중소기업의 경영 문제에 대한 종합진단 경영컨설팅 등을 다룸 [https://www.q-net.or.kr/man001.do?gSite=L&gId=49](https://www.q-net.or.kr/man001.do?gSite=L&gId=49)
+
++ ERP정보관리사: 한국생산성본부에서 주관하며 ERP모듈을 다루는 HRM부문 인력계획 보상 인력운영 경리 등 다룸 [https://license.kpc.or.kr/nasec/qlfint/qlfint/selectErpinfomg.do](https://license.kpc.or.kr/nasec/qlfint/qlfint/selectErpinfomg.do)
+
++ 4대보험관리사: (주)한국경영원에서 민관주관하며 4대보험관련 업무전반 보상 급여 연말정산 경리 C&B (Compensation&Benefit)를 다룸 [http://www.4ins.co.kr/Main/Index.nm](http://www.4ins.co.kr/Main/Index.nm)
 
