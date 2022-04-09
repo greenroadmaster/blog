@@ -1,14 +1,14 @@
 ---
 title: (직업의세계) 인사부서 보상 및 복리후생(C&B)
 description: This is documents of Job Descrption
-featuredImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1uu6Gvgr917wFr_CynC916KciGAux4tSOfbLNEYVWab4uBW281OiE3zgOyhFX_ZTAJ1Y&usqp=CAU"
+featuredImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8bwhcUmW-JBFKQF46ZgQQ7GIK8AoVypEWeNdlfKNrp3fDvgHrgCRiMD3dQehCwfet1I&usqp=CAU"
 toc: true
 authors: Byeonghui-Won
 tags:
 categories: Job Description
 series: HR
-date: '2021-07-17'
-lastmod: '2020-11-20'
+date: '2022-04-09'
+lastmod: '2022-04-09'
 draft: false
 ---
 
