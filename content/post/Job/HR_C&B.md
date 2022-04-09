@@ -1,5 +1,5 @@
 ---
-title: (직업의세계) 인사부서 보상 및 복리후생(C&B)
+title: (직업)보상 및 복리후생(C&B)전문가
 description: This is documents of Job Descrption
 featuredImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8bwhcUmW-JBFKQF46ZgQQ7GIK8AoVypEWeNdlfKNrp3fDvgHrgCRiMD3dQehCwfet1I&usqp=CAU"
 toc: true
