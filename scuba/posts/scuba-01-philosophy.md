@@ -14,8 +14,8 @@ At the end, she cried. Not from fear. From joy.
 
 That's when I understood what being a diving instructor really means. It's not about fancy techniques or deep dives. **It's about giving people permission to experience something they thought was impossible.**
 
+![01-Philosophy](https://source.unsplash.com/1200x800/?scuba,diving,instructor)
 
-![Scuba Diving Instructor](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%8A%A4%EC%BF%A0%EB%B2%84-%EC%9E%A5%EB%B9%84%EB%A5%BC-%EB%93%A4%EA%B3%A0-%EB%AC%BC-%EC%86%8D%EC%97%90-%EC%9E%88%EB%8A%94-%EC%82%AC%EB%9E%8C-ue5ACfRPekQ)
 ---
 
 ## The Philosophy
